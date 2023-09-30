@@ -1,0 +1,73 @@
+/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+/// @DnDVersion : 1
+/// @DnDHash : 67790F6A
+/// @DnDArgument : "obj" "obj_dpad"
+/// @DnDArgument : "not" "1"
+/// @DnDSaveInfo : "obj" "obj_dpad"
+var l67790F6A_0 = false;
+l67790F6A_0 = instance_exists(obj_dpad);
+if(!l67790F6A_0)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 7347CBE0
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 67790F6A
+	/// @DnDArgument : "expr" "obj_teleporter"
+	/// @DnDArgument : "var" "target"
+	with(obj_cube) {
+	target = obj_teleporter;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 53DEE6C3
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 67790F6A
+	/// @DnDArgument : "code" "if point_distance(x, y, target.x, target.y) > 15$(13_10){$(13_10)    move_towards_point(target.x, target.y, 15);$(13_10)}$(13_10)else speed = 0;$(13_10)"
+	with(obj_cube) {
+	if point_distance(x, y, target.x, target.y) > 15
+	{
+	    move_towards_point(target.x, target.y, 15);
+	}
+	else speed = 0;
+	
+	}
+}
+
+/// @DnDAction : YoYo Games.Instance Variables.If_Score
+/// @DnDVersion : 1
+/// @DnDHash : 2DF74425
+/// @DnDArgument : "op" "4"
+/// @DnDArgument : "value" "260"
+if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
+if(__dnd_score >= 260)
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 4F47204A
+	/// @DnDParent : 2DF74425
+	/// @DnDArgument : "var" "sprite_index"
+	/// @DnDArgument : "not" "1"
+	/// @DnDArgument : "value" "spr_teleporter_win"
+	if(!(sprite_index == spr_teleporter_win))
+	{
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 3E1FC631
+		/// @DnDParent : 4F47204A
+		/// @DnDArgument : "soundid" "sou_bwoop"
+		/// @DnDSaveInfo : "soundid" "sou_bwoop"
+		audio_play_sound(sou_bwoop, 0, 0, 1.0, undefined, 1.0);
+	
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 6A8B4192
+		/// @DnDParent : 4F47204A
+		/// @DnDArgument : "spriteind" "spr_teleporter_win"
+		/// @DnDSaveInfo : "spriteind" "spr_teleporter_win"
+		sprite_index = spr_teleporter_win;
+		image_index = 0;
+	}
+}
