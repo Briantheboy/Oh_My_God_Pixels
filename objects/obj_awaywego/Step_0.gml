@@ -200,12 +200,12 @@ if(AmIbig == "very yes")
 			/// @DnDVersion : 1
 			/// @DnDHash : 76D0C09D
 			/// @DnDParent : 09E5EBA7
-			/// @DnDArgument : "xscale" "-0.08"
+			/// @DnDArgument : "xscale" "-0.16"
 			/// @DnDArgument : "xscale_relative" "1"
-			/// @DnDArgument : "yscale" "-0.08"
+			/// @DnDArgument : "yscale" "-0.16"
 			/// @DnDArgument : "yscale_relative" "1"
-			image_xscale += -0.08;
-			image_yscale += -0.08;
+			image_xscale += -0.16;
+			image_yscale += -0.16;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable

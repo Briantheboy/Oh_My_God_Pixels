@@ -39,3 +39,20 @@ if(room == SPILL)
 	/// @DnDArgument : "y_relative" "1"
 	x += -6.9;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 145F11D8
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "COLLECT"
+if(room == COLLECT)
+{
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 6D26A6F0
+	/// @DnDParent : 145F11D8
+	/// @DnDArgument : "x" "-13.8"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y_relative" "1"
+	x += -13.8;
+}

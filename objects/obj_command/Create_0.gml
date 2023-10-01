@@ -36,6 +36,25 @@ if(l40F88F0B_0)
 	y = 721;
 }
 
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3686DB3A
+/// @DnDApplyTo : {obj_awaywego}
+/// @DnDArgument : "var" "AmIbig"
+/// @DnDArgument : "value" ""very yes""
+with(obj_awaywego) var l3686DB3A_0 = AmIbig == "very yes";
+if(l3686DB3A_0)
+{
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 6EFC719E
+	/// @DnDParent : 3686DB3A
+	/// @DnDArgument : "x" "2562"
+	/// @DnDArgument : "y" "1442"
+	x = 2562;
+	y = 1442;
+}
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 /// @DnDVersion : 1
 /// @DnDHash : 4751DABE
