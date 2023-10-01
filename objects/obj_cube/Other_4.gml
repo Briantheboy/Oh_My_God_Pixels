@@ -39,19 +39,19 @@ if(room == LIGHT)
 /// @DnDVersion : 1
 /// @DnDHash : 67552943
 /// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "COFEEPC"
-if(room == COFEEPC)
+/// @DnDArgument : "value" "SPILL"
+if(room == SPILL)
 {
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1
 	/// @DnDHash : 2AC9FADC
 	/// @DnDParent : 67552943
-	/// @DnDArgument : "x" "264"
+	/// @DnDArgument : "x" "641"
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "176"
+	/// @DnDArgument : "y" "565"
 	/// @DnDArgument : "y_relative" "1"
-	x += 264;
-	y += 176;
+	x += 641;
+	y += 565;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -115,19 +115,19 @@ if(room == BOOM)
 /// @DnDVersion : 1
 /// @DnDHash : 0D6DD47C
 /// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "GraphicTest"
-if(room == GraphicTest)
+/// @DnDArgument : "value" "COLLECT"
+if(room == COLLECT)
 {
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1
 	/// @DnDHash : 7B6EE082
 	/// @DnDParent : 0D6DD47C
-	/// @DnDArgument : "x" "0"
+	/// @DnDArgument : "x" "2081"
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "-74"
+	/// @DnDArgument : "y" "981"
 	/// @DnDArgument : "y_relative" "1"
-	x += 0;
-	y += -74;
+	x += 2081;
+	y += 981;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

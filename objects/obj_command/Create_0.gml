@@ -1,18 +1,40 @@
-/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 442A75DE
-/// @DnDDisabled : 1
-/// @DnDArgument : "xscale" ".125"
-/// @DnDArgument : "yscale" ".125"
+/// @DnDHash : 1BD4774D
+/// @DnDApplyTo : {obj_awaywego}
+/// @DnDArgument : "var" "AmIbig"
+/// @DnDArgument : "value" ""no""
+with(obj_awaywego) var l1BD4774D_0 = AmIbig == "no";
+if(l1BD4774D_0)
+{
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 019CC46A
+	/// @DnDParent : 1BD4774D
+	/// @DnDArgument : "x" "640.5"
+	/// @DnDArgument : "y" "360.5"
+	x = 640.5;
+	y = 360.5;
+}
 
-
-/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 019CC46A
-/// @DnDArgument : "x" "640.5"
-/// @DnDArgument : "y" "360.5"
-x = 640.5;
-y = 360.5;
+/// @DnDHash : 40F88F0B
+/// @DnDApplyTo : {obj_awaywego}
+/// @DnDArgument : "var" "AmIbig"
+/// @DnDArgument : "value" ""yes""
+with(obj_awaywego) var l40F88F0B_0 = AmIbig == "yes";
+if(l40F88F0B_0)
+{
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 28FBBA80
+	/// @DnDParent : 40F88F0B
+	/// @DnDArgument : "x" "1281"
+	/// @DnDArgument : "y" "721"
+	x = 1281;
+	y = 721;
+}
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 /// @DnDVersion : 1
@@ -83,8 +105,8 @@ if(room == BOOM)
 /// @DnDVersion : 1
 /// @DnDHash : 20F00331
 /// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "COFEEPC"
-if(room == COFEEPC)
+/// @DnDArgument : "value" "SPILL"
+if(room == SPILL)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
@@ -144,5 +166,22 @@ if(room == FLIRT)
 	/// @DnDArgument : "spriteind" "spr_flirt"
 	/// @DnDSaveInfo : "spriteind" "spr_flirt"
 	sprite_index = spr_flirt;
+	image_index = 0;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 32993A39
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "COLLECT"
+if(room == COLLECT)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 283FE443
+	/// @DnDParent : 32993A39
+	/// @DnDArgument : "spriteind" "spr_collect"
+	/// @DnDSaveInfo : "spriteind" "spr_collect"
+	sprite_index = spr_collect;
 	image_index = 0;
 }

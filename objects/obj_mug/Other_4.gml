@@ -1,9 +1,8 @@
 /// @DnDAction : YoYo Games.Paths.Start_Path
 /// @DnDVersion : 1.1
-/// @DnDHash : 31260586
-/// @DnDArgument : "path" "mugmovement"
-/// @DnDArgument : "speed" "30"
+/// @DnDHash : 7AF9645A
+/// @DnDArgument : "path" "pth_mugmovement"
+/// @DnDArgument : "speed" "60"
 /// @DnDArgument : "atend" "path_action_reverse"
-/// @DnDArgument : "relative" "true"
-/// @DnDSaveInfo : "path" "mugmovement"
-path_start(mugmovement, 30, path_action_reverse, true);
+/// @DnDSaveInfo : "path" "pth_mugmovement"
+path_start(pth_mugmovement, 60, path_action_reverse, false);

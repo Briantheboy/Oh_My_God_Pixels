@@ -22,3 +22,20 @@ if(room == FLIRT)
 	/// @DnDArgument : "y_relative" "1"
 	x += +1.5;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 64B46336
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "SPILL"
+if(room == SPILL)
+{
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 58890BFF
+	/// @DnDParent : 64B46336
+	/// @DnDArgument : "x" "-6.9"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y_relative" "1"
+	x += -6.9;
+}

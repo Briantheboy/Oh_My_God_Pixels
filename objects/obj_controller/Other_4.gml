@@ -80,10 +80,50 @@ if(room == TELEPORT)
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 3DA292E1
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "SPILL"
+if(room == SPILL)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 170AD474
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 3DA292E1
+	/// @DnDArgument : "expr" "frontCOLOR"
+	/// @DnDArgument : "var" "sprite_index"
+	with(obj_cube) {
+	sprite_index = frontCOLOR;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 01809C78
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 3DA292E1
+	/// @DnDArgument : "expr" "frontALPHA"
+	/// @DnDArgument : "var" "image_alpha"
+	with(obj_cube) {
+	image_alpha = frontALPHA;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 3CF33641
+	/// @DnDParent : 3DA292E1
+	/// @DnDArgument : "expr" ""Stuck""
+	/// @DnDArgument : "var" "ControlAccess"
+	ControlAccess = "Stuck";
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 4E43DF4F
 /// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "GraphicTest"
-if(room == GraphicTest)
+/// @DnDArgument : "value" "COLLECT"
+if(room == COLLECT)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -153,46 +193,6 @@ if(room == FIREWORK)
 	/// @DnDVersion : 1
 	/// @DnDHash : 46190A3D
 	/// @DnDParent : 7FB7FE9A
-	/// @DnDArgument : "expr" ""Stuck""
-	/// @DnDArgument : "var" "ControlAccess"
-	ControlAccess = "Stuck";
-}
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 5D00EB5D
-/// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "COFEEPC"
-if(room == COFEEPC)
-{
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 55D92A4C
-	/// @DnDApplyTo : {obj_cube}
-	/// @DnDParent : 5D00EB5D
-	/// @DnDArgument : "expr" "frontCOLOR"
-	/// @DnDArgument : "var" "sprite_index"
-	with(obj_cube) {
-	sprite_index = frontCOLOR;
-	
-	}
-
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 1BCF4148
-	/// @DnDApplyTo : {obj_cube}
-	/// @DnDParent : 5D00EB5D
-	/// @DnDArgument : "expr" "frontALPHA"
-	/// @DnDArgument : "var" "image_alpha"
-	with(obj_cube) {
-	image_alpha = frontALPHA;
-	
-	}
-
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 36EA4028
-	/// @DnDParent : 5D00EB5D
 	/// @DnDArgument : "expr" ""Stuck""
 	/// @DnDArgument : "var" "ControlAccess"
 	ControlAccess = "Stuck";
