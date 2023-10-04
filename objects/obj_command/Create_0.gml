@@ -204,3 +204,20 @@ if(room == COLLECT)
 	sprite_index = spr_collect;
 	image_index = 0;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2BB44CFE
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "COVER"
+if(room == COVER)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 0A1B23CF
+	/// @DnDParent : 2BB44CFE
+	/// @DnDArgument : "spriteind" "spr_cover"
+	/// @DnDSaveInfo : "spriteind" "spr_cover"
+	sprite_index = spr_cover;
+	image_index = 0;
+}

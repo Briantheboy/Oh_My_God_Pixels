@@ -65,11 +65,11 @@ if(room == TELEPORT)
 	/// @DnDVersion : 1
 	/// @DnDHash : 3EEA4910
 	/// @DnDParent : 0568F640
-	/// @DnDArgument : "x" "-319"
+	/// @DnDArgument : "x" "-390"
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "46"
 	/// @DnDArgument : "y_relative" "1"
-	x += -319;
+	x += -390;
 	y += 46;
 }
 

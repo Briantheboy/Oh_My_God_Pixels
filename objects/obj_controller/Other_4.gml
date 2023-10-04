@@ -160,6 +160,46 @@ if(room == COLLECT)
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 61BBDD5B
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "COVER"
+if(room == COVER)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2751EACD
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 61BBDD5B
+	/// @DnDArgument : "expr" "frontCOLOR"
+	/// @DnDArgument : "var" "sprite_index"
+	with(obj_cube) {
+	sprite_index = frontCOLOR;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 0858874A
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 61BBDD5B
+	/// @DnDArgument : "expr" "frontALPHA"
+	/// @DnDArgument : "var" "image_alpha"
+	with(obj_cube) {
+	image_alpha = frontALPHA;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 388B5295
+	/// @DnDParent : 61BBDD5B
+	/// @DnDArgument : "expr" ""Free""
+	/// @DnDArgument : "var" "ControlAccess"
+	ControlAccess = "Free";
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 7FB7FE9A
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "FIREWORK"

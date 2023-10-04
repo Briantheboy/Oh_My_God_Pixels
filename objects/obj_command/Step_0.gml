@@ -10,6 +10,22 @@ if(image_alpha <= 0)
 	/// @DnDHash : 4FC87ECD
 	/// @DnDParent : 38B9814D
 	instance_destroy();
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 62E48B9E
+	/// @DnDParent : 38B9814D
+	/// @DnDArgument : "var" "room"
+	/// @DnDArgument : "value" "COVER"
+	if(room == COVER)
+	{
+		/// @DnDAction : YoYo Games.Common.Execute_Code
+		/// @DnDVersion : 1
+		/// @DnDHash : 5ECB94D9
+		/// @DnDParent : 62E48B9E
+		/// @DnDArgument : "code" "layer_set_visible("IllusionBackground", false);"
+		layer_set_visible("IllusionBackground", false);
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

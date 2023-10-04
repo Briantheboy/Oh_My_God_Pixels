@@ -56,3 +56,20 @@ if(room == COLLECT)
 	/// @DnDArgument : "y_relative" "1"
 	x += -13.8;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 781324B1
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "COVER"
+if(room == COVER)
+{
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 3DFDBFFE
+	/// @DnDParent : 781324B1
+	/// @DnDArgument : "x" "3.45"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y_relative" "1"
+	x += 3.45;
+}

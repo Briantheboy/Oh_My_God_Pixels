@@ -14,3 +14,9 @@ with(obj_teleporter) {
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 __dnd_score += real(1);
 }
+
+/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+/// @DnDVersion : 1
+/// @DnDHash : 068C48A5
+/// @DnDArgument : "x" "-10000"
+x = -10000;
