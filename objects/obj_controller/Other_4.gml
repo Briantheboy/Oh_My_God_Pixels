@@ -193,9 +193,9 @@ if(room == COVER)
 	/// @DnDVersion : 1
 	/// @DnDHash : 388B5295
 	/// @DnDParent : 61BBDD5B
-	/// @DnDArgument : "expr" ""Free""
+	/// @DnDArgument : "expr" ""Stuck""
 	/// @DnDArgument : "var" "ControlAccess"
-	ControlAccess = "Free";
+	ControlAccess = "Stuck";
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

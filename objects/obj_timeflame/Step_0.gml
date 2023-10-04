@@ -68,8 +68,8 @@ if(room == COVER)
 	/// @DnDVersion : 1
 	/// @DnDHash : 3DFDBFFE
 	/// @DnDParent : 781324B1
-	/// @DnDArgument : "x" "3.45"
+	/// @DnDArgument : "x" "2"
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
-	x += 3.45;
+	x += 2;
 }

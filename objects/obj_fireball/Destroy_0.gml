@@ -27,6 +27,17 @@ with(obj_cube) {
 y += -472;
 }
 
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 3E8285B7
+/// @DnDApplyTo : {obj_cube}
+/// @DnDArgument : "spriteind" "spr_sparkles"
+/// @DnDSaveInfo : "spriteind" "spr_sparkles"
+with(obj_cube) {
+sprite_index = spr_sparkles;
+image_index = 0;
+}
+
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
 /// @DnDVersion : 1.1
 /// @DnDHash : 1CE975E4
@@ -40,8 +51,8 @@ direction = 90;
 /// @DnDVersion : 1
 /// @DnDHash : 513C7B70
 /// @DnDApplyTo : {obj_cube}
-/// @DnDArgument : "speed" "3"
-with(obj_cube) speed = 3;
+/// @DnDArgument : "speed" "5"
+with(obj_cube) speed = 5;
 
 /// @DnDAction : YoYo Games.Movement.Set_Gravity_Direction
 /// @DnDVersion : 1
