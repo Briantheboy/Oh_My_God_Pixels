@@ -58,3 +58,36 @@ if(room == FLIRT)
 	/// @DnDParent : 100B324B
 	with(obj_badAnswer3) instance_destroy();
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 17092C6C
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "COLLECT"
+if(room == COLLECT)
+{
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 7BD460E4
+	/// @DnDParent : 17092C6C
+	/// @DnDArgument : "xpos" "10000"
+	/// @DnDArgument : "objectid" "obj_Coin"
+	/// @DnDArgument : "layer" ""Command""
+	/// @DnDSaveInfo : "objectid" "obj_Coin"
+	instance_create_layer(10000, 0, "Command", obj_Coin);
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5B95B4BA
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "COVER"
+if(room == COVER)
+{
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 3257E7C5
+	/// @DnDParent : 5B95B4BA
+	/// @DnDArgument : "code" "layer_set_visible("IllusionBackground_1", true);"
+	layer_set_visible("IllusionBackground_1", true);
+}

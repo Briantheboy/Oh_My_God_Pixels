@@ -18,13 +18,13 @@ if(image_alpha == 0)
 	/// @DnDHash : 4FC60ABE
 	/// @DnDApplyTo : {obj_cube}
 	/// @DnDParent : 445331E6
-	/// @DnDArgument : "xscale" "0.05"
+	/// @DnDArgument : "xscale" "0.08"
 	/// @DnDArgument : "xscale_relative" "1"
-	/// @DnDArgument : "yscale" "0.05"
+	/// @DnDArgument : "yscale" "0.08"
 	/// @DnDArgument : "yscale_relative" "1"
 	with(obj_cube) {
-	image_xscale += 0.05;
-	image_yscale += 0.05;
+	image_xscale += 0.08;
+	image_yscale += 0.08;
 	}
 
 	/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
@@ -32,9 +32,9 @@ if(image_alpha == 0)
 	/// @DnDHash : 74D24D2D
 	/// @DnDApplyTo : {obj_cube}
 	/// @DnDParent : 445331E6
-	/// @DnDArgument : "angle" "15"
+	/// @DnDArgument : "angle" "25"
 	/// @DnDArgument : "angle_relative" "1"
-	with(obj_cube) image_angle += 15;
+	with(obj_cube) image_angle += 25;
 
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1

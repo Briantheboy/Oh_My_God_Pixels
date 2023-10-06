@@ -10,7 +10,6 @@
     {"name":"inst_C2C38AF_1_1","path":"rooms/COLLECT/COLLECT.yy",},
     {"name":"inst_3078D54_1_1","path":"rooms/COLLECT/COLLECT.yy",},
     {"name":"inst_773ADF80_1_1","path":"rooms/COLLECT/COLLECT.yy",},
-    {"name":"inst_658770B9_1_1","path":"rooms/COLLECT/COLLECT.yy",},
     {"name":"inst_49CABBBA_1_1","path":"rooms/COLLECT/COLLECT.yy",},
     {"name":"inst_52875F7D","path":"rooms/COLLECT/COLLECT.yy",},
     {"name":"inst_61EA012E","path":"rooms/COLLECT/COLLECT.yy",},
@@ -125,7 +124,6 @@
   "isDnd": true,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Command1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_658770B9_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_referenceimage","path":"objects/obj_referenceimage/obj_referenceimage.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2080.0,"y":1312.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5B9A547","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_fakecollider","path":"objects/obj_fakecollider/obj_fakecollider.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2720.0,"y":1440.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C2C38AF_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_awaywego","path":"objects/obj_awaywego/obj_awaywego.yy",},"properties":[],"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"x":2560.0,"y":1439.5002,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},

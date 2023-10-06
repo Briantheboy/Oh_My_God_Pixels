@@ -113,12 +113,12 @@ if(AmIbig == "yes")
 			/// @DnDVersion : 1
 			/// @DnDHash : 07FF997D
 			/// @DnDParent : 0293D94B
-			/// @DnDArgument : "xscale" "-0.04"
+			/// @DnDArgument : "xscale" "-0.08"
 			/// @DnDArgument : "xscale_relative" "1"
-			/// @DnDArgument : "yscale" "-0.04"
+			/// @DnDArgument : "yscale" "-0.08"
 			/// @DnDArgument : "yscale_relative" "1"
-			image_xscale += -0.04;
-			image_yscale += -0.04;
+			image_xscale += -0.08;
+			image_yscale += -0.08;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
