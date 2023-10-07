@@ -1,52 +1,32 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 5ADD22AE
-/// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "TELEPORT"
-if(room == TELEPORT)
+/// @DnDHash : 6F6B3BD2
+/// @DnDArgument : "var" "ControlAccess"
+/// @DnDArgument : "not" "1"
+/// @DnDArgument : "value" ""Stuck""
+if(!(ControlAccess == "Stuck"))
 {
-	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 612165DC
-	/// @DnDParent : 5ADD22AE
-	/// @DnDArgument : "key" "ord("D")"
-	/// @DnDArgument : "not" "1"
-	var l612165DC_0;
-	l612165DC_0 = keyboard_check(ord("D"));
-	if (!l612165DC_0)
-	{
-		/// @DnDAction : YoYo Games.Common.If_Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 6F6B3BD2
-		/// @DnDParent : 612165DC
-		/// @DnDArgument : "var" "ControlAccess"
-		/// @DnDArgument : "not" "1"
-		/// @DnDArgument : "value" ""Stuck""
-		if(!(ControlAccess == "Stuck"))
-		{
-			/// @DnDAction : YoYo Games.Common.Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 19398B5C
-			/// @DnDApplyTo : {obj_cube}
-			/// @DnDParent : 6F6B3BD2
-			/// @DnDArgument : "expr" "rightCOLOR"
-			/// @DnDArgument : "var" "sprite_index"
-			with(obj_cube) {
-			sprite_index = rightCOLOR;
-			
-			}
-		
-			/// @DnDAction : YoYo Games.Common.Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 42F647CB
-			/// @DnDApplyTo : {obj_cube}
-			/// @DnDParent : 6F6B3BD2
-			/// @DnDArgument : "expr" "rightALPHA"
-			/// @DnDArgument : "var" "image_alpha"
-			with(obj_cube) {
-			image_alpha = rightALPHA;
-			
-			}
-		}
+	/// @DnDHash : 19398B5C
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 6F6B3BD2
+	/// @DnDArgument : "expr" "rightCOLOR"
+	/// @DnDArgument : "var" "sprite_index"
+	with(obj_cube) {
+	sprite_index = rightCOLOR;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 42F647CB
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 6F6B3BD2
+	/// @DnDArgument : "expr" "rightALPHA"
+	/// @DnDArgument : "var" "image_alpha"
+	with(obj_cube) {
+	image_alpha = rightALPHA;
+	
 	}
 }

@@ -137,13 +137,6 @@ if(room == COLLECT)
 /// @DnDArgument : "value" "DoorTest"
 if(room == DoorTest)
 {
-	/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
-	/// @DnDVersion : 1
-	/// @DnDHash : 3BA2BCAE
-	/// @DnDParent : 0A96B31C
-	/// @DnDArgument : "alpha" "0"
-	image_alpha = 0;
-
 	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 	/// @DnDVersion : 1
 	/// @DnDHash : 6FE06F8A
@@ -175,6 +168,21 @@ if(room == DoorTest)
 	/// @DnDParent : 0A96B31C
 	image_xscale = 1;
 	image_yscale = 1;
+
+	/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+	/// @DnDVersion : 1
+	/// @DnDHash : 0369D91C
+	/// @DnDParent : 0A96B31C
+	/// @DnDArgument : "state" "3"
+	timeline_running = false;
+	timeline_position = 0;
+
+	/// @DnDAction : YoYo Games.Instances.Color_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 514C7777
+	/// @DnDParent : 0A96B31C
+	image_blend = $FFFFFFFF & $ffffff;
+	image_alpha = ($FFFFFFFF >> 24) / $ff;
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
