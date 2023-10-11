@@ -1,13 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_car",
-  "eventList": [],
+  "name": "obj_Sample_Right",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_cube","path":"objects/obj_cube/obj_cube.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "CM_SAMPLES",
+    "path": "folders/Objects/CM_SAMPLES.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_racecar",
-    "path": "sprites/spr_racecar/spr_racecar.yy",
+    "name": "spr_DUMMYcolor_right",
+    "path": "sprites/spr_DUMMYcolor_right/spr_DUMMYcolor_right.yy",
   },
   "spriteMaskId": null,
   "visible": true,
