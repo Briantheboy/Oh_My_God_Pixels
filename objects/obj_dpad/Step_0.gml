@@ -19,9 +19,9 @@ if(l2A063EC5_0)
 /// @DnDAction : YoYo Games.Instance Variables.If_Score
 /// @DnDVersion : 1
 /// @DnDHash : 2DC38E2A
-/// @DnDArgument : "value" "12"
+/// @DnDArgument : "value" "8"
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-if(__dnd_score == 12)
+if(__dnd_score == 8)
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

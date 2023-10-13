@@ -51,10 +51,10 @@ if(room == COLLECT)
 	/// @DnDVersion : 1
 	/// @DnDHash : 6D26A6F0
 	/// @DnDParent : 145F11D8
-	/// @DnDArgument : "x" "-13.8"
+	/// @DnDArgument : "x" "-12"
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
-	x += -13.8;
+	x += -12;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

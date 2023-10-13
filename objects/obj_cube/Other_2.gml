@@ -1,13 +1,15 @@
 /// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 /// @DnDVersion : 1
 /// @DnDHash : 61DD009B
+/// @DnDDisabled : 1
 /// @DnDArgument : "alpha" "0.01"
-image_alpha = 0.01;
+
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 39F05A51
 /// @DnDInput : 8
+/// @DnDDisabled : 1
 /// @DnDArgument : "expr" "spr_emptycube"
 /// @DnDArgument : "expr_1" "0.01"
 /// @DnDArgument : "expr_2" "spr_emptycube"
@@ -24,11 +26,3 @@ image_alpha = 0.01;
 /// @DnDArgument : "var_5" "backALPHA"
 /// @DnDArgument : "var_6" "rightCOLOR"
 /// @DnDArgument : "var_7" "rightALPHA"
-frontCOLOR = spr_emptycube;
-frontALPHA = 0.01;
-leftCOLOR = spr_emptycube;
-leftALPHA = 0.01;
-backCOLOR = spr_emptycube;
-backALPHA = 0.01;
-rightCOLOR = spr_emptycube;
-rightALPHA = 0.01;
