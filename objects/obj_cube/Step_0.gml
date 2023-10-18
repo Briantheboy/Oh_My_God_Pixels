@@ -15,6 +15,49 @@ if(room == DoorTest)
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 0A624F7B
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "COLLECT"
+if(room == COLLECT)
+{
+	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+	/// @DnDVersion : 1
+	/// @DnDHash : 08FCF863
+	/// @DnDParent : 0A624F7B
+	/// @DnDArgument : "obj" "obj_FALLcollision"
+	/// @DnDSaveInfo : "obj" "obj_FALLcollision"
+	var l08FCF863_0 = false;
+	l08FCF863_0 = instance_exists(obj_FALLcollision);
+	if(l08FCF863_0)
+	{
+		/// @DnDAction : YoYo Games.Collisions.If_Object_At
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 64AFC01D
+		/// @DnDParent : 08FCF863
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y" "15"
+		/// @DnDArgument : "y_relative" "1"
+		/// @DnDArgument : "object" "obj_FALLcollision"
+		/// @DnDArgument : "not" "1"
+		/// @DnDSaveInfo : "object" "obj_FALLcollision"
+		var l64AFC01D_0 = instance_place(x + 0, y + 15, obj_FALLcollision);
+		if (!(l64AFC01D_0 > 0))
+		{
+			/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+			/// @DnDVersion : 1
+			/// @DnDHash : 2326D96E
+			/// @DnDParent : 64AFC01D
+			/// @DnDArgument : "x_relative" "1"
+			/// @DnDArgument : "y" "15"
+			/// @DnDArgument : "y_relative" "1"
+			
+			y += 15;
+		}
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 3D6828EA
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "FIREWORK"

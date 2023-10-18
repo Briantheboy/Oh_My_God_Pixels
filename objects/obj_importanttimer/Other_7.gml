@@ -21,9 +21,9 @@ if(l0CBABB52_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 5E26A375
 		/// @DnDParent : 5832BAAC
-		/// @DnDArgument : "room" "FLIRT"
-		/// @DnDSaveInfo : "room" "FLIRT"
-		room_goto(FLIRT);
+		/// @DnDArgument : "room" "COLLECT"
+		/// @DnDSaveInfo : "room" "COLLECT"
+		room_goto(COLLECT);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -40,9 +40,9 @@ if(l0CBABB52_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 631BD8C9
 		/// @DnDParent : 6B27F015
-		/// @DnDArgument : "room" "FLIRT"
-		/// @DnDSaveInfo : "room" "FLIRT"
-		room_goto(FLIRT);
+		/// @DnDArgument : "room" "COLLECT"
+		/// @DnDSaveInfo : "room" "COLLECT"
+		room_goto(COLLECT);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -59,9 +59,9 @@ if(l0CBABB52_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 2C32F6E8
 		/// @DnDParent : 3BD583F3
-		/// @DnDArgument : "room" "FLIRT"
-		/// @DnDSaveInfo : "room" "FLIRT"
-		room_goto(FLIRT);
+		/// @DnDArgument : "room" "COLLECT"
+		/// @DnDSaveInfo : "room" "COLLECT"
+		room_goto(COLLECT);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -78,9 +78,9 @@ if(l0CBABB52_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 112274FC
 		/// @DnDParent : 6A06BF79
-		/// @DnDArgument : "room" "FLIRT"
-		/// @DnDSaveInfo : "room" "FLIRT"
-		room_goto(FLIRT);
+		/// @DnDArgument : "room" "COLLECT"
+		/// @DnDSaveInfo : "room" "COLLECT"
+		room_goto(COLLECT);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -97,9 +97,9 @@ if(l0CBABB52_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 418C83C6
 		/// @DnDParent : 074FC1E7
-		/// @DnDArgument : "room" "FLIRT"
-		/// @DnDSaveInfo : "room" "FLIRT"
-		room_goto(FLIRT);
+		/// @DnDArgument : "room" "COLLECT"
+		/// @DnDSaveInfo : "room" "COLLECT"
+		room_goto(COLLECT);
 	}
 }
 
