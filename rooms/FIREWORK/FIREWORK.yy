@@ -49,10 +49,12 @@
     {"name":"inst_5B4020D8","path":"rooms/FIREWORK/FIREWORK.yy",},
     {"name":"inst_4DD1662D","path":"rooms/FIREWORK/FIREWORK.yy",},
     {"name":"inst_2D181F01","path":"rooms/FIREWORK/FIREWORK.yy",},
+    {"name":"inst_2FDED88","path":"rooms/FIREWORK/FIREWORK.yy",},
   ],
   "isDnd": true,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Command1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2FDED88","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_flashbang","path":"objects/obj_flashbang/obj_flashbang.yy",},"properties":[],"rotation":0.0,"scaleX":52.2,"scaleY":30.44,"x":665.60004,"y":382.70547,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2D181F01","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_awaywego","path":"objects/obj_awaywego/obj_awaywego.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":360.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Command","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

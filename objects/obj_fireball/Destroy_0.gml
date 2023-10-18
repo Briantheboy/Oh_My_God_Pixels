@@ -4,6 +4,27 @@
 /// @DnDApplyTo : {obj_igniter}
 with(obj_igniter) instance_destroy();
 
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 02E4C35C
+/// @DnDArgument : "xpos" "665"
+/// @DnDArgument : "ypos" "383"
+/// @DnDArgument : "objectid" "obj_flashbang"
+/// @DnDArgument : "layer" ""Command""
+/// @DnDSaveInfo : "objectid" "obj_flashbang"
+instance_create_layer(665, 383, "Command", obj_flashbang);
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+/// @DnDVersion : 1
+/// @DnDHash : 227F1F33
+/// @DnDApplyTo : {obj_flashbang}
+/// @DnDArgument : "xscale" "52"
+/// @DnDArgument : "yscale" "30"
+with(obj_flashbang) {
+image_xscale = 52;
+image_yscale = 30;
+}
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
 /// @DnDHash : 0A4A40CC

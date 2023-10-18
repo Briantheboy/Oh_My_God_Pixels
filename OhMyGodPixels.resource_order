@@ -257,6 +257,7 @@
     {"name":"spr_treeforeground","order":6,"path":"sprites/spr_treeforeground/spr_treeforeground.yy",},
     {"name":"spr_ddlcback","order":4,"path":"sprites/spr_ddlcback/spr_ddlcback.yy",},
     {"name":"obj_Examplebutton_2","order":5,"path":"objects/obj_Examplebutton_2/obj_Examplebutton_2.yy",},
+    {"name":"obj_flashbang","order":4,"path":"objects/obj_flashbang/obj_flashbang.yy",},
     {"name":"spr_left_sel","order":8,"path":"sprites/spr_left_sel/spr_left_sel.yy",},
     {"name":"spr_right_open","order":9,"path":"sprites/spr_right_open/spr_right_open.yy",},
     {"name":"spr_endexplosion","order":3,"path":"sprites/spr_endexplosion/spr_endexplosion.yy",},

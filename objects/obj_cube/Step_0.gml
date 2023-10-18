@@ -80,6 +80,26 @@ if(room == FIREWORK)
 	timeline_index = tml_Fireworkcolors;
 	timeline_loop = 0;
 	timeline_running = 1;
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 19C93093
+	/// @DnDParent : 3D6828EA
+	/// @DnDArgument : "var" "frontALPHA"
+	/// @DnDArgument : "op" "2"
+	/// @DnDArgument : "value" "0.5"
+	if(frontALPHA > 0.5)
+	{
+		/// @DnDAction : YoYo Games.Particles.Part_Particles_Create
+		/// @DnDVersion : 1
+		/// @DnDHash : 262C5005
+		/// @DnDParent : 19C93093
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y_relative" "1"
+		/// @DnDArgument : "type" "DaSprinkles"
+		/// @DnDArgument : "number" "1"
+		part_particles_create(system, x + 0, y + 0, DaSprinkles, 1);
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
