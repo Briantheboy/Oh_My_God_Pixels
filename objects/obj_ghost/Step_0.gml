@@ -3,8 +3,8 @@
 /// @DnDHash : 600030D6
 /// @DnDArgument : "var" "image_alpha"
 /// @DnDArgument : "op" "3"
-/// @DnDArgument : "value" "0.05"
-if(image_alpha <= 0.05)
+/// @DnDArgument : "value" "0.09"
+if(image_alpha <= 0.09)
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

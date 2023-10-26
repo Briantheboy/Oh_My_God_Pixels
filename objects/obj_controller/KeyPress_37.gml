@@ -29,4 +29,25 @@ if(!(ControlAccess == "Stuck"))
 	image_alpha = leftALPHA;
 	
 	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 3EC48E43
+	/// @DnDParent : 2B282BCA
+	/// @DnDArgument : "var" "room"
+	/// @DnDArgument : "value" "FLASHLIGHT"
+	if(room == FLASHLIGHT)
+	{
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 075B5B48
+		/// @DnDApplyTo : {obj_flashlight}
+		/// @DnDParent : 3EC48E43
+		/// @DnDArgument : "spriteind" "spr_flashlight_left"
+		/// @DnDSaveInfo : "spriteind" "spr_flashlight_left"
+		with(obj_flashlight) {
+		sprite_index = spr_flashlight_left;
+		image_index = 0;
+		}
+	}
 }

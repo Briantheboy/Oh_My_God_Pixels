@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_BadAns5",
-  "bbox_bottom": 118,
+  "bbox_bottom": 125,
   "bbox_left": 0,
   "bbox_right": 635,
-  "bbox_top": 11,
+  "bbox_top": 4,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"92b46268-d04f-4f77-b793-7f03398eda42",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"075950ca-951d-42c7-a61e-066350019a58",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 130,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4dc5d11d-a2d0-4c50-955d-7f72ac85e669","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e586f84b-6b59-449c-81a5-9c4f7220be28","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"92b46268-d04f-4f77-b793-7f03398eda42","path":"sprites/spr_BadAns5/spr_BadAns5.yy",},},},"Disabled":false,"id":"b7c2d07b-e6ee-41d7-82ce-dd4e9b2c7a5d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"075950ca-951d-42c7-a61e-066350019a58","path":"sprites/spr_BadAns5/spr_BadAns5.yy",},},},"Disabled":false,"id":"fdb7ab61-d3e2-43d6-9023-71b0ce8bb359","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

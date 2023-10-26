@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_GoodAns1",
-  "bbox_bottom": 118,
+  "bbox_bottom": 125,
   "bbox_left": 0,
   "bbox_right": 635,
-  "bbox_top": 11,
+  "bbox_top": 4,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d1f54e2a-277f-4e59-a1e9-c2b2c63f34a5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c9c8cf9e-eb27-4c51-93e8-1de694a39929",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 130,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"21950164-4fb7-4815-b59b-74f97d6b7431","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a07bb21d-58d9-4899-a2be-0c515a04715c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d1f54e2a-277f-4e59-a1e9-c2b2c63f34a5","path":"sprites/spr_GoodAns1/spr_GoodAns1.yy",},},},"Disabled":false,"id":"de066ee0-2cdb-4ee4-a2f8-06f136894cbc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c9c8cf9e-eb27-4c51-93e8-1de694a39929","path":"sprites/spr_GoodAns1/spr_GoodAns1.yy",},},},"Disabled":false,"id":"92b90d77-be7b-4009-9475-3d0f1614d30a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

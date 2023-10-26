@@ -4,8 +4,8 @@
 /// @DnDApplyTo : {obj_cube}
 /// @DnDArgument : "var" "speed"
 /// @DnDArgument : "not" "1"
-/// @DnDArgument : "value" "3"
-with(obj_cube) var l62AC0EF9_0 = speed == 3;
+/// @DnDArgument : "value" "9"
+with(obj_cube) var l62AC0EF9_0 = speed == 9;
 if(!l62AC0EF9_0)
 {
 	/// @DnDAction : YoYo Games.Instances.Create_Instance

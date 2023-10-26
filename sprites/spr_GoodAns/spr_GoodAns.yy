@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_GoodAns",
-  "bbox_bottom": 118,
+  "bbox_bottom": 125,
   "bbox_left": 0,
   "bbox_right": 635,
-  "bbox_top": 11,
+  "bbox_top": 4,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"941f5923-ec3f-48c7-b74d-c455ce7fcb6d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bc587120-768f-464a-9b5c-b1795e584c36",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 130,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a7843210-7bab-45b9-9e98-64271aaed578","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"740629a9-92e8-4e68-a5e5-ec8accea9122","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"941f5923-ec3f-48c7-b74d-c455ce7fcb6d","path":"sprites/spr_GoodAns/spr_GoodAns.yy",},},},"Disabled":false,"id":"0ab8fb52-f127-4c96-999f-132a9c9428f6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"bc587120-768f-464a-9b5c-b1795e584c36","path":"sprites/spr_GoodAns/spr_GoodAns.yy",},},},"Disabled":false,"id":"39aa8d5b-8d45-4401-83ba-9cac57a3faf6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

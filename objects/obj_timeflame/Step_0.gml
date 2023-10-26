@@ -44,13 +44,30 @@ if(room == SPILL)
 /// @DnDVersion : 1
 /// @DnDHash : 145F11D8
 /// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "COLLECT"
-if(room == COLLECT)
+/// @DnDArgument : "value" "FLASHLIGHT"
+if(room == FLASHLIGHT)
 {
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1
 	/// @DnDHash : 6D26A6F0
 	/// @DnDParent : 145F11D8
+	/// @DnDArgument : "x" "-15"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y_relative" "1"
+	x += -15;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 539EB5E8
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "COLLECT"
+if(room == COLLECT)
+{
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 52E5B469
+	/// @DnDParent : 539EB5E8
 	/// @DnDArgument : "x" "-12"
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"

@@ -75,25 +75,6 @@ if(room == FIREWORK)
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 558FB313
-/// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "LIGHT"
-if(room == LIGHT)
-{
-	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
-	/// @DnDVersion : 1
-	/// @DnDHash : 48F5D59A
-	/// @DnDParent : 558FB313
-	/// @DnDArgument : "x" "272"
-	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "132"
-	/// @DnDArgument : "y_relative" "1"
-	x += 272;
-	y += 132;
-}
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
 /// @DnDHash : 67552943
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "SPILL"
@@ -162,28 +143,28 @@ if(room == BOOM)
 	/// @DnDParent : 606B7B84
 	/// @DnDArgument : "x" "-799"
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "-74"
+	/// @DnDArgument : "y" "25"
 	/// @DnDArgument : "y_relative" "1"
 	x += -799;
-	y += -74;
+	y += 25;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 0D6DD47C
+/// @DnDHash : 37AC111B
 /// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "COLLECT"
-if(room == COLLECT)
+/// @DnDArgument : "value" "FLASHLIGHT"
+if(room == FLASHLIGHT)
 {
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1
-	/// @DnDHash : 7B6EE082
-	/// @DnDParent : 0D6DD47C
-	/// @DnDArgument : "x" "-95"
+	/// @DnDHash : 4DBC589F
+	/// @DnDParent : 37AC111B
+	/// @DnDArgument : "x" "1921"
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "994"
 	/// @DnDArgument : "y_relative" "1"
-	x += -95;
+	x += 1921;
 	y += 994;
 }
 

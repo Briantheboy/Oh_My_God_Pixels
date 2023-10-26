@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
-/// @DnDHash : 6F3E4F79
-/// @DnDArgument : "spriteind" "LIGHTdown"
-/// @DnDSaveInfo : "spriteind" "LIGHTdown"
-sprite_index = LIGHTdown;
+/// @DnDHash : 3D04E6BE
+/// @DnDArgument : "spriteind" "spr_light_down"
+/// @DnDSaveInfo : "spriteind" "spr_light_down"
+sprite_index = spr_light_down;
 image_index = 0;

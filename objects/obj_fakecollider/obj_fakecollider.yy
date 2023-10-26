@@ -32,7 +32,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
     "name": "spr_collidersprite",
     "path": "sprites/spr_collidersprite/spr_collidersprite.yy",

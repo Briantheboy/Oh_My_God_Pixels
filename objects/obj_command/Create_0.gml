@@ -141,8 +141,8 @@ if(room == SPILL)
 /// @DnDVersion : 1
 /// @DnDHash : 29F87484
 /// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "LIGHT"
-if(room == LIGHT)
+/// @DnDArgument : "value" "FLASHLIGHT"
+if(room == FLASHLIGHT)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1

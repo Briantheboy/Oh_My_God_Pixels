@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "MG_Shine",
-    "path": "folders/Objects/MG_Shine.yy",
+    "name": "MG_Rip",
+    "path": "folders/Objects/MG_Rip.yy",
   },
   "parentObjectId": null,
   "persistent": false,

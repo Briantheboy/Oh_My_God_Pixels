@@ -10,12 +10,12 @@ if(isDead == "no")
 	/// @DnDHash : 089C5E32
 	/// @DnDParent : 2CE8C9C4
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "35"
+	/// @DnDArgument : "y" "45"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "obj_BaseTile"
 	/// @DnDArgument : "not" "1"
 	/// @DnDSaveInfo : "object" "obj_BaseTile"
-	var l089C5E32_0 = instance_place(x + 0, y + 35, obj_BaseTile);
+	var l089C5E32_0 = instance_place(x + 0, y + 45, obj_BaseTile);
 	if (!(l089C5E32_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -31,10 +31,10 @@ if(isDead == "no")
 			/// @DnDHash : 128A1D5D
 			/// @DnDParent : 3D54EE38
 			/// @DnDArgument : "x_relative" "1"
-			/// @DnDArgument : "y" "35"
+			/// @DnDArgument : "y" "45"
 			/// @DnDArgument : "y_relative" "1"
 			
-			y += 35;
+			y += 45;
 		
 			/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 			/// @DnDVersion : 1
@@ -42,11 +42,11 @@ if(isDead == "no")
 			/// @DnDApplyTo : {obj_cube}
 			/// @DnDParent : 3D54EE38
 			/// @DnDArgument : "x_relative" "1"
-			/// @DnDArgument : "y" "35"
+			/// @DnDArgument : "y" "45"
 			/// @DnDArgument : "y_relative" "1"
 			with(obj_cube) {
 			
-			y += 35;
+			y += 45;
 			}
 		}
 	}
