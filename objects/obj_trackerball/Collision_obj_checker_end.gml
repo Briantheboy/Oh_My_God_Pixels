@@ -46,6 +46,8 @@ with(obj_checker_rip) instance_destroy();
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 41130615
+/// @DnDBreak : 1
+
 /// @DnDArgument : "xpos" "640.5"
 /// @DnDArgument : "ypos" "360.5"
 /// @DnDArgument : "objectid" "obj_speeduptext"

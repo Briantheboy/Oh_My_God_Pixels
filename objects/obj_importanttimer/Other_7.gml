@@ -7,100 +7,93 @@
 with(obj_robot) var l0CBABB52_0 = sprite_index == spr_robo_still;
 if(l0CBABB52_0)
 {
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 73E905B5
+	/// @DnDApplyTo : {obj_trackerball}
+	/// @DnDParent : 0CBABB52
+	/// @DnDArgument : "room" "ds_list_find_value(minigame_lineup, TrackNumber)"
+	with(obj_trackerball) room_goto(ds_list_find_value(minigame_lineup, TrackNumber));
+
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 5832BAAC
+	/// @DnDDisabled : 1
 	/// @DnDApplyTo : {obj_trackerball}
 	/// @DnDParent : 0CBABB52
 	/// @DnDArgument : "var" "MinigameHolder"
 	/// @DnDArgument : "value" "FIREWORK"
-	with(obj_trackerball) var l5832BAAC_0 = MinigameHolder == FIREWORK;
-	if(l5832BAAC_0)
-	{
-		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
-		/// @DnDVersion : 1
-		/// @DnDHash : 5E26A375
-		/// @DnDParent : 5832BAAC
-		/// @DnDArgument : "room" "FLIRT"
-		/// @DnDSaveInfo : "room" "FLIRT"
-		room_goto(FLIRT);
-	}
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 5E26A375
+	/// @DnDDisabled : 1
+	/// @DnDParent : 5832BAAC
+	/// @DnDArgument : "room" "FLIRT"
+	/// @DnDSaveInfo : "room" "FLIRT"
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 6B27F015
+	/// @DnDDisabled : 1
 	/// @DnDApplyTo : {obj_trackerball}
 	/// @DnDParent : 0CBABB52
 	/// @DnDArgument : "var" "MinigameHolder"
 	/// @DnDArgument : "value" "FLIRT"
-	with(obj_trackerball) var l6B27F015_0 = MinigameHolder == FLIRT;
-	if(l6B27F015_0)
-	{
-		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
-		/// @DnDVersion : 1
-		/// @DnDHash : 631BD8C9
-		/// @DnDParent : 6B27F015
-		/// @DnDArgument : "room" "FLIRT"
-		/// @DnDSaveInfo : "room" "FLIRT"
-		room_goto(FLIRT);
-	}
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 631BD8C9
+	/// @DnDDisabled : 1
+	/// @DnDParent : 6B27F015
+	/// @DnDArgument : "room" "FLIRT"
+	/// @DnDSaveInfo : "room" "FLIRT"
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 3BD583F3
+	/// @DnDDisabled : 1
 	/// @DnDApplyTo : {obj_trackerball}
 	/// @DnDParent : 0CBABB52
 	/// @DnDArgument : "var" "MinigameHolder"
 	/// @DnDArgument : "value" "BOOM"
-	with(obj_trackerball) var l3BD583F3_0 = MinigameHolder == BOOM;
-	if(l3BD583F3_0)
-	{
-		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
-		/// @DnDVersion : 1
-		/// @DnDHash : 2C32F6E8
-		/// @DnDParent : 3BD583F3
-		/// @DnDArgument : "room" "FLIRT"
-		/// @DnDSaveInfo : "room" "FLIRT"
-		room_goto(FLIRT);
-	}
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 2C32F6E8
+	/// @DnDDisabled : 1
+	/// @DnDParent : 3BD583F3
+	/// @DnDArgument : "room" "FLIRT"
+	/// @DnDSaveInfo : "room" "FLIRT"
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 6A06BF79
+	/// @DnDDisabled : 1
 	/// @DnDApplyTo : {obj_trackerball}
 	/// @DnDParent : 0CBABB52
 	/// @DnDArgument : "var" "MinigameHolder"
 	/// @DnDArgument : "value" "TELEPORT"
-	with(obj_trackerball) var l6A06BF79_0 = MinigameHolder == TELEPORT;
-	if(l6A06BF79_0)
-	{
-		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
-		/// @DnDVersion : 1
-		/// @DnDHash : 112274FC
-		/// @DnDParent : 6A06BF79
-		/// @DnDArgument : "room" "FLIRT"
-		/// @DnDSaveInfo : "room" "FLIRT"
-		room_goto(FLIRT);
-	}
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 112274FC
+	/// @DnDDisabled : 1
+	/// @DnDParent : 6A06BF79
+	/// @DnDArgument : "room" "FLIRT"
+	/// @DnDSaveInfo : "room" "FLIRT"
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 074FC1E7
+	/// @DnDDisabled : 1
 	/// @DnDApplyTo : {obj_trackerball}
 	/// @DnDParent : 0CBABB52
 	/// @DnDArgument : "var" "MinigameHolder"
 	/// @DnDArgument : "value" "RIPHALF"
-	with(obj_trackerball) var l074FC1E7_0 = MinigameHolder == RIPHALF;
-	if(l074FC1E7_0)
-	{
-		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
-		/// @DnDVersion : 1
-		/// @DnDHash : 418C83C6
-		/// @DnDParent : 074FC1E7
-		/// @DnDArgument : "room" "FLIRT"
-		/// @DnDSaveInfo : "room" "FLIRT"
-		room_goto(FLIRT);
-	}
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 418C83C6
+	/// @DnDDisabled : 1
+	/// @DnDParent : 074FC1E7
+	/// @DnDArgument : "room" "FLIRT"
+	/// @DnDSaveInfo : "room" "FLIRT"
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

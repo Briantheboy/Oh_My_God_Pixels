@@ -28,8 +28,9 @@ if(l6BB5CA00_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 1F253E7A
 	/// @DnDParent : 6BB5CA00
-	/// @DnDArgument : "code" "game_set_speed(72, gamespeed_fps);"
+	/// @DnDArgument : "code" "game_set_speed(72, gamespeed_fps);$(13_10)//72"
 	game_set_speed(72, gamespeed_fps);
+	//72
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -116,8 +117,8 @@ if(l72702A7F_0)
 /// @DnDApplyTo : {obj_numberondoor}
 /// @DnDArgument : "var" "MinigamePoints"
 /// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "20"
-with(obj_numberondoor) var l4994F8F1_0 = MinigamePoints > 20;
+/// @DnDArgument : "value" "21"
+with(obj_numberondoor) var l4994F8F1_0 = MinigamePoints > 21;
 if(l4994F8F1_0)
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
