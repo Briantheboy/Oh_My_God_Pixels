@@ -90,3 +90,20 @@ if(room == COVER)
 	/// @DnDArgument : "y_relative" "1"
 	x += 2;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1CE828B9
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "CASINO"
+if(room == CASINO)
+{
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 453ED82B
+	/// @DnDParent : 1CE828B9
+	/// @DnDArgument : "x" "200"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y_relative" "1"
+	x += 200;
+}

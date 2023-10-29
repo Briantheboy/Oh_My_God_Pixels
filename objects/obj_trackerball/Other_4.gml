@@ -150,3 +150,20 @@ if(room == TELEPORT)
 	/// @DnDArgument : "var" "TrackNumber"
 	TrackNumber += 1;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0214809B
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "CASINO"
+if(room == CASINO)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 182EB3ED
+	/// @DnDParent : 0214809B
+	/// @DnDArgument : "expr" "1"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "TrackNumber"
+	TrackNumber += 1;
+}

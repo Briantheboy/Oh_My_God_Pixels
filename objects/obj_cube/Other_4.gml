@@ -94,6 +94,25 @@ if(room == SPILL)
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 20AE9115
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "CASINO"
+if(room == CASINO)
+{
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 1D1042CC
+	/// @DnDParent : 20AE9115
+	/// @DnDArgument : "x" "-183"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "-114"
+	/// @DnDArgument : "y_relative" "1"
+	x += -183;
+	y += -114;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 0568F640
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "TELEPORT"

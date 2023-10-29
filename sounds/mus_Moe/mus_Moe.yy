@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "mus_Moe.mp3",
   "type": 1,
-  "volume": 0.45,
+  "volume": 0.0,
 }

@@ -360,6 +360,46 @@ if(room == FLASHLIGHT)
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 0AFF11B4
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "CASINO"
+if(room == CASINO)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2C0D6AAE
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 0AFF11B4
+	/// @DnDArgument : "expr" "frontCOLOR"
+	/// @DnDArgument : "var" "sprite_index"
+	with(obj_cube) {
+	sprite_index = frontCOLOR;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2A70177D
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 0AFF11B4
+	/// @DnDArgument : "expr" "frontALPHA"
+	/// @DnDArgument : "var" "image_alpha"
+	with(obj_cube) {
+	image_alpha = frontALPHA;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 690D4446
+	/// @DnDParent : 0AFF11B4
+	/// @DnDArgument : "expr" ""Stuck""
+	/// @DnDArgument : "var" "ControlAccess"
+	ControlAccess = "Stuck";
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 4D99A94F
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "DoorTest"
