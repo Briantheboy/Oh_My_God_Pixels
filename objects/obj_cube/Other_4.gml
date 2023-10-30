@@ -109,6 +109,17 @@ if(room == CASINO)
 	/// @DnDArgument : "y_relative" "1"
 	x += -183;
 	y += -114;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 6147912B
+	/// @DnDInput : 2
+	/// @DnDParent : 20AE9115
+	/// @DnDArgument : "expr" ""no""
+	/// @DnDArgument : "var" "CasinoSet"
+	/// @DnDArgument : "var_1" "CasinoSlide"
+	CasinoSet = "no";
+	CasinoSlide = 0;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_casino",
-  "bbox_bottom": 387,
-  "bbox_left": 276,
-  "bbox_right": 1643,
+  "bbox_bottom": 388,
+  "bbox_left": 42,
+  "bbox_right": 1878,
   "bbox_top": 14,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"44b17b49-52ee-4f55-9569-d5ca3cf33db0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"10ae957f-b30e-4f1a-8f93-37eeb29b3998",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 389,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"150b0b0e-0bc4-4be8-bb55-32445f2a8ee5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c192d06b-8d40-4a34-ad8f-8b09706422ee","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"44b17b49-52ee-4f55-9569-d5ca3cf33db0","path":"sprites/spr_casino/spr_casino.yy",},},},"Disabled":false,"id":"d5c2f3d5-03ff-4df9-b57c-b0b5832b9e4e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"10ae957f-b30e-4f1a-8f93-37eeb29b3998","path":"sprites/spr_casino/spr_casino.yy",},},},"Disabled":false,"id":"b7ff6835-dcbf-41d2-b283-495f6c56555f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -1,5 +1,28 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 5C8737D1
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "CASINO"
+if(room == CASINO)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 4A04E20D
+	/// @DnDParent : 5C8737D1
+	/// @DnDArgument : "expr" ""Stop""
+	/// @DnDArgument : "var" "StopandGo"
+	StopandGo = "Stop";
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 74471343
+	/// @DnDParent : 5C8737D1
+	/// @DnDArgument : "steps" "10"
+	alarm_set(0, 10);
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 4BA1184F
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "FIREWORK"

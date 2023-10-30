@@ -18,7 +18,7 @@ image_alpha = 0.01;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 144B246B
-/// @DnDInput : 8
+/// @DnDInput : 10
 /// @DnDArgument : "expr" "spr_emptycube"
 /// @DnDArgument : "expr_1" "0.01"
 /// @DnDArgument : "expr_2" "spr_emptycube"
@@ -27,6 +27,7 @@ image_alpha = 0.01;
 /// @DnDArgument : "expr_5" "0.01"
 /// @DnDArgument : "expr_6" "spr_emptycube"
 /// @DnDArgument : "expr_7" "0.01"
+/// @DnDArgument : "expr_8" ""no""
 /// @DnDArgument : "var" "frontCOLOR"
 /// @DnDArgument : "var_1" "frontALPHA"
 /// @DnDArgument : "var_2" "leftCOLOR"
@@ -35,6 +36,8 @@ image_alpha = 0.01;
 /// @DnDArgument : "var_5" "backALPHA"
 /// @DnDArgument : "var_6" "rightCOLOR"
 /// @DnDArgument : "var_7" "rightALPHA"
+/// @DnDArgument : "var_8" "CasinoSet"
+/// @DnDArgument : "var_9" "CasinoSlide"
 frontCOLOR = spr_emptycube;
 frontALPHA = 0.01;
 leftCOLOR = spr_emptycube;
@@ -43,3 +46,5 @@ backCOLOR = spr_emptycube;
 backALPHA = 0.01;
 rightCOLOR = spr_emptycube;
 rightALPHA = 0.01;
+CasinoSet = "no";
+CasinoSlide = 0;
