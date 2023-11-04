@@ -86,10 +86,10 @@ if(room == SPILL)
 	/// @DnDParent : 67552943
 	/// @DnDArgument : "x" "641"
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "565"
+	/// @DnDArgument : "y" "265"
 	/// @DnDArgument : "y_relative" "1"
 	x += 641;
-	y += 565;
+	y += 265;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

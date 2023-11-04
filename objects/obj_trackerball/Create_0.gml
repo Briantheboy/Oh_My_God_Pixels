@@ -22,10 +22,10 @@ randomize();
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 065417B1
-/// @DnDArgument : "code" "minigame_lineup = ds_list_create();$(13_10)ds_list_add(minigame_lineup, CASINO);$(13_10)//ds_list_add(minigame_lineup, BOOM, COLLECT, COVER, FIREWORK, FLASHLIGHT, FLIRT, RIPHALF, SPILL, TELEPORT);$(13_10)ds_list_shuffle(minigame_lineup);"
+/// @DnDArgument : "code" "minigame_lineup = ds_list_create();$(13_10)//ds_list_add(minigame_lineup, CASINO);$(13_10)ds_list_add(minigame_lineup, BOOM, CASINO, COLLECT, COVER, FIREWORK, FLASHLIGHT, FLIRT, RIPHALF, SPILL, TELEPORT);$(13_10)ds_list_shuffle(minigame_lineup);"
 minigame_lineup = ds_list_create();
-ds_list_add(minigame_lineup, CASINO);
-//ds_list_add(minigame_lineup, BOOM, COLLECT, COVER, FIREWORK, FLASHLIGHT, FLIRT, RIPHALF, SPILL, TELEPORT);
+//ds_list_add(minigame_lineup, CASINO);
+ds_list_add(minigame_lineup, BOOM, CASINO, COLLECT, COVER, FIREWORK, FLASHLIGHT, FLIRT, RIPHALF, SPILL, TELEPORT);
 ds_list_shuffle(minigame_lineup);
 
 /// @DnDAction : YoYo Games.Random.Randomize

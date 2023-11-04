@@ -16,13 +16,6 @@ if(!l0494BE4E_0)
 	/// @DnDArgument : "value" "TELEPORT"
 	if(room == TELEPORT)
 	{
-		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-		/// @DnDVersion : 1
-		/// @DnDHash : 576827C8
-		/// @DnDApplyTo : {obj_teleporter}
-		/// @DnDParent : 19DE72F9
-		with(obj_teleporter) instance_destroy();
-	
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 14FD6931
@@ -33,6 +26,18 @@ if(!l0494BE4E_0)
 		/// @DnDArgument : "layer" ""Command""
 		/// @DnDSaveInfo : "objectid" "obj_teleexplosion"
 		instance_create_layer(16, 440, "Command", obj_teleexplosion);
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 4EA6D727
+		/// @DnDApplyTo : {obj_controller}
+		/// @DnDParent : 19DE72F9
+		/// @DnDArgument : "expr" ""no""
+		/// @DnDArgument : "var" "MinigameGoing"
+		with(obj_controller) {
+		MinigameGoing = "no";
+		
+		}
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable

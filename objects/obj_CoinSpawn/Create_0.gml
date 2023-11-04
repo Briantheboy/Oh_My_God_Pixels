@@ -23,9 +23,9 @@ part_type_sprite(DaSprinkles, spr_Coinfall, true, false, false);
 /// @DnDVersion : 1
 /// @DnDHash : 39E68E19
 /// @DnDArgument : "type" "DaSprinkles"
-/// @DnDArgument : "amount" "0.18"
+/// @DnDArgument : "amount" "0.58"
 /// @DnDArgument : "direction" "270"
-part_type_gravity(DaSprinkles, 0.18, 270);
+part_type_gravity(DaSprinkles, 0.58, 270);
 
 /// @DnDAction : YoYo Games.Particles.Part_Emit_Create
 /// @DnDVersion : 1
