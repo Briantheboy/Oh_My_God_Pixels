@@ -1917,8 +1917,8 @@ if(room == Make)
 			/// @DnDVersion : 1
 			/// @DnDHash : 7B899C63
 			/// @DnDParent : 2D70600C
-			/// @DnDArgument : "alpha" "0"
-			image_alpha = 0;
+			/// @DnDArgument : "alpha" "0.01"
+			image_alpha = 0.01;
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
@@ -1934,8 +1934,9 @@ if(room == Make)
 				/// @DnDVersion : 1
 				/// @DnDHash : 4863EE10
 				/// @DnDParent : 2A049750
+				/// @DnDArgument : "expr" "0.01"
 				/// @DnDArgument : "var" "frontALPHA"
-				frontALPHA = 0;
+				frontALPHA = 0.01;
 			}
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable
@@ -1952,8 +1953,9 @@ if(room == Make)
 				/// @DnDVersion : 1
 				/// @DnDHash : 2C9DDCE0
 				/// @DnDParent : 31CC06CE
+				/// @DnDArgument : "expr" "0.01"
 				/// @DnDArgument : "var" "leftALPHA"
-				leftALPHA = 0;
+				leftALPHA = 0.01;
 			}
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable
@@ -1970,8 +1972,9 @@ if(room == Make)
 				/// @DnDVersion : 1
 				/// @DnDHash : 11AD7B62
 				/// @DnDParent : 4CF96A22
+				/// @DnDArgument : "expr" "0.01"
 				/// @DnDArgument : "var" "rightALPHA"
-				rightALPHA = 0;
+				rightALPHA = 0.01;
 			}
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable
@@ -1988,8 +1991,9 @@ if(room == Make)
 				/// @DnDVersion : 1
 				/// @DnDHash : 6432641F
 				/// @DnDParent : 79C74024
+				/// @DnDArgument : "expr" "0.01"
 				/// @DnDArgument : "var" "backALPHA"
-				backALPHA = 0;
+				backALPHA = 0.01;
 			}
 		}
 	}

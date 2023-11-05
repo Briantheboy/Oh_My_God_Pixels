@@ -6,11 +6,10 @@ image_alpha = 0;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
-/// @DnDHash : 7B5E7D87
-/// @DnDArgument : "xscale" "4"
-/// @DnDArgument : "yscale" "10"
-image_xscale = 4;
-image_yscale = 10;
+/// @DnDHash : 391026C4
+/// @DnDArgument : "xscale" "65"
+image_xscale = 65;
+image_yscale = 1;
 
 /// @DnDAction : YoYo Games.Particles.Part_Syst_Create
 /// @DnDVersion : 1.2

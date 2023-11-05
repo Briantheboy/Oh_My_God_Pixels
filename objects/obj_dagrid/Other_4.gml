@@ -1,9 +1,8 @@
-/// @DnDAction : YoYo Games.Miscellaneous.Set_Window_State
+/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 /// @DnDVersion : 1
-/// @DnDHash : 2E61D316
-/// @DnDDisabled : 1
-/// @DnDArgument : "type" "2"
-
+/// @DnDHash : 466762CD
+/// @DnDArgument : "alpha" "0"
+image_alpha = 0;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

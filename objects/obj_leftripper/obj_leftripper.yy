@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_ripcolors",
-    "path": "sprites/spr_ripcolors/spr_ripcolors.yy",
+    "name": "spr_ripLeft",
+    "path": "sprites/spr_ripLeft/spr_ripLeft.yy",
   },
   "spriteMaskId": null,
   "visible": true,

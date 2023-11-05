@@ -18,7 +18,7 @@ image_alpha = 0.01;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 144B246B
-/// @DnDInput : 10
+/// @DnDInput : 15
 /// @DnDArgument : "expr" "spr_emptycube"
 /// @DnDArgument : "expr_1" "0.01"
 /// @DnDArgument : "expr_2" "spr_emptycube"
@@ -28,6 +28,11 @@ image_alpha = 0.01;
 /// @DnDArgument : "expr_6" "spr_emptycube"
 /// @DnDArgument : "expr_7" "0.01"
 /// @DnDArgument : "expr_8" ""no""
+/// @DnDArgument : "expr_10" ""no""
+/// @DnDArgument : "expr_11" ""no""
+/// @DnDArgument : "expr_12" ""no""
+/// @DnDArgument : "expr_13" ""no""
+/// @DnDArgument : "expr_14" ""no""
 /// @DnDArgument : "var" "frontCOLOR"
 /// @DnDArgument : "var_1" "frontALPHA"
 /// @DnDArgument : "var_2" "leftCOLOR"
@@ -38,6 +43,11 @@ image_alpha = 0.01;
 /// @DnDArgument : "var_7" "rightALPHA"
 /// @DnDArgument : "var_8" "CasinoSet"
 /// @DnDArgument : "var_9" "CasinoSlide"
+/// @DnDArgument : "var_10" "ShouldUp"
+/// @DnDArgument : "var_11" "ShouldRight"
+/// @DnDArgument : "var_12" "ShouldDown"
+/// @DnDArgument : "var_13" "ShouldLeft"
+/// @DnDArgument : "var_14" "Test"
 frontCOLOR = spr_emptycube;
 frontALPHA = 0.01;
 leftCOLOR = spr_emptycube;
@@ -48,3 +58,8 @@ rightCOLOR = spr_emptycube;
 rightALPHA = 0.01;
 CasinoSet = "no";
 CasinoSlide = 0;
+ShouldUp = "no";
+ShouldRight = "no";
+ShouldDown = "no";
+ShouldLeft = "no";
+Test = "no";

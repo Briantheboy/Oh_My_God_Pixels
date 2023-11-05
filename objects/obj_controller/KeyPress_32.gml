@@ -110,27 +110,22 @@ if(MinigameGoing == "yes")
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 136CBE07
+		/// @DnDDisabled : 1
 		/// @DnDApplyTo : {obj_leftfist}
 		/// @DnDParent : 5F3A83DB
 		/// @DnDArgument : "expr" "1"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "path_speed"
-		with(obj_leftfist) {
-		path_speed += 1;
-		
-		}
+	
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 7BBD9D8D
+		/// @DnDDisabled : 1
 		/// @DnDApplyTo : {obj_rightfist}
 		/// @DnDParent : 5F3A83DB
 		/// @DnDArgument : "expr" "1"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "path_speed"
-		with(obj_rightfist) {
-		path_speed += 1;
-		
-		}
 	}
 }

@@ -21,6 +21,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":48,"eventType":9,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":8,"eventType":7,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":5,"eventType":7,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":73,"eventType":8,"isDnD":true,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -50,8 +51,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_whitecube",
-    "path": "sprites/spr_whitecube/spr_whitecube.yy",
+    "name": "spr_emptycube",
+    "path": "sprites/spr_emptycube/spr_emptycube.yy",
   },
   "spriteMaskId": null,
   "visible": true,
