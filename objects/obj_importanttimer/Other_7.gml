@@ -10,20 +10,20 @@ if(l0CBABB52_0)
 	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
 	/// @DnDHash : 73E905B5
-	/// @DnDDisabled : 1
 	/// @DnDApplyTo : {obj_trackerball}
 	/// @DnDParent : 0CBABB52
 	/// @DnDArgument : "room" "ds_list_find_value(minigame_lineup, TrackNumber)"
-
+	with(obj_trackerball) room_goto(ds_list_find_value(minigame_lineup, TrackNumber));
 
 	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
 	/// @DnDHash : 2EC99AF7
+	/// @DnDDisabled : 1
 	/// @DnDApplyTo : {obj_trackerball}
 	/// @DnDParent : 0CBABB52
-	/// @DnDArgument : "room" "RIPHALF"
-	/// @DnDSaveInfo : "room" "RIPHALF"
-	with(obj_trackerball) room_goto(RIPHALF);
+	/// @DnDArgument : "room" "CASINO"
+	/// @DnDSaveInfo : "room" "CASINO"
+
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1

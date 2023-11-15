@@ -60,3 +60,30 @@ with(obj_cube) {
 image_alpha = frontALPHA;
 
 }
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
+/// @DnDVersion : 1
+/// @DnDHash : 3DE68EC1
+/// @DnDApplyTo : {obj_BigBorder_front}
+with(obj_BigBorder_front) image_alpha = 1;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
+/// @DnDVersion : 1
+/// @DnDHash : 3392C29E
+/// @DnDApplyTo : {obj_BigBorder_right}
+/// @DnDArgument : "alpha" "0"
+with(obj_BigBorder_right) image_alpha = 0;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
+/// @DnDVersion : 1
+/// @DnDHash : 3A76BE6C
+/// @DnDApplyTo : {obj_BigBorder_left}
+/// @DnDArgument : "alpha" "0"
+with(obj_BigBorder_left) image_alpha = 0;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
+/// @DnDVersion : 1
+/// @DnDHash : 1368F31C
+/// @DnDApplyTo : {obj_BigBorder_back}
+/// @DnDArgument : "alpha" "0"
+with(obj_BigBorder_back) image_alpha = 0;

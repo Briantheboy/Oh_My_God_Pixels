@@ -44,6 +44,17 @@ if(l60A44350_0)
 		/// @DnDHash : 2A530897
 		/// @DnDParent : 25C317ED
 		image_alpha = 1;
+	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 7C479A2D
+		/// @DnDParent : 25C317ED
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "obj_BigBorder_front"
+		/// @DnDArgument : "layer" ""Border""
+		/// @DnDSaveInfo : "objectid" "obj_BigBorder_front"
+		instance_create_layer(x + 0, y + 0, "Border", obj_BigBorder_front);
 	}
 }
 
@@ -93,6 +104,17 @@ if(l2B76B8F3_0)
 		/// @DnDHash : 062BD9FA
 		/// @DnDParent : 70AEE45D
 		image_alpha = 1;
+	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 68451BA1
+		/// @DnDParent : 70AEE45D
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "obj_BigBorder_back"
+		/// @DnDArgument : "layer" ""Border""
+		/// @DnDSaveInfo : "objectid" "obj_BigBorder_back"
+		instance_create_layer(x + 0, y + 0, "Border", obj_BigBorder_back);
 	}
 }
 
@@ -142,6 +164,17 @@ if(l10C1A50C_0)
 		/// @DnDHash : 7D13057F
 		/// @DnDParent : 17EA1833
 		image_alpha = 1;
+	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 1FBC4136
+		/// @DnDParent : 17EA1833
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "obj_BigBorder_left"
+		/// @DnDArgument : "layer" ""Border""
+		/// @DnDSaveInfo : "objectid" "obj_BigBorder_left"
+		instance_create_layer(x + 0, y + 0, "Border", obj_BigBorder_left);
 	}
 }
 
@@ -191,5 +224,16 @@ if(l657569B0_0)
 		/// @DnDHash : 524387E5
 		/// @DnDParent : 724ECF68
 		image_alpha = 1;
+	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 228304C5
+		/// @DnDParent : 724ECF68
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "obj_BigBorder_right"
+		/// @DnDArgument : "layer" ""Border""
+		/// @DnDSaveInfo : "objectid" "obj_BigBorder_right"
+		instance_create_layer(x + 0, y + 0, "Border", obj_BigBorder_right);
 	}
 }

@@ -18,7 +18,7 @@ image_alpha = 0.01;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 144B246B
-/// @DnDInput : 15
+/// @DnDInput : 20
 /// @DnDArgument : "expr" "spr_emptycube"
 /// @DnDArgument : "expr_1" "0.01"
 /// @DnDArgument : "expr_2" "spr_emptycube"
@@ -33,6 +33,11 @@ image_alpha = 0.01;
 /// @DnDArgument : "expr_12" ""no""
 /// @DnDArgument : "expr_13" ""no""
 /// @DnDArgument : "expr_14" ""no""
+/// @DnDArgument : "expr_15" ""off""
+/// @DnDArgument : "expr_16" ""no""
+/// @DnDArgument : "expr_17" ""no""
+/// @DnDArgument : "expr_18" ""no""
+/// @DnDArgument : "expr_19" ""no""
 /// @DnDArgument : "var" "frontCOLOR"
 /// @DnDArgument : "var_1" "frontALPHA"
 /// @DnDArgument : "var_2" "leftCOLOR"
@@ -48,6 +53,11 @@ image_alpha = 0.01;
 /// @DnDArgument : "var_12" "ShouldDown"
 /// @DnDArgument : "var_13" "ShouldLeft"
 /// @DnDArgument : "var_14" "Test"
+/// @DnDArgument : "var_15" "ActivateBorder"
+/// @DnDArgument : "var_16" "drw_Bottom_front"
+/// @DnDArgument : "var_17" "drw_Up_front"
+/// @DnDArgument : "var_18" "drw_Left_front"
+/// @DnDArgument : "var_19" "drw_Right_front"
 frontCOLOR = spr_emptycube;
 frontALPHA = 0.01;
 leftCOLOR = spr_emptycube;
@@ -63,3 +73,8 @@ ShouldRight = "no";
 ShouldDown = "no";
 ShouldLeft = "no";
 Test = "no";
+ActivateBorder = "off";
+drw_Bottom_front = "no";
+drw_Up_front = "no";
+drw_Left_front = "no";
+drw_Right_front = "no";

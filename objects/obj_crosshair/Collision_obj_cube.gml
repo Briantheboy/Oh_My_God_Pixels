@@ -46,6 +46,19 @@ if(room == BOOM)
 			/// @DnDArgument : "speed" "9"
 			with(obj_cube) speed = 9;
 		
+			/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+			/// @DnDVersion : 1
+			/// @DnDHash : 52947B65
+			/// @DnDApplyTo : {obj_BigBorder_front}
+			/// @DnDParent : 2C366C5A
+			/// @DnDArgument : "x" "5000"
+			/// @DnDArgument : "x_relative" "1"
+			/// @DnDArgument : "y_relative" "1"
+			with(obj_BigBorder_front) {
+			x += 5000;
+			
+			}
+		
 			/// @DnDAction : YoYo Games.Instances.Create_Instance
 			/// @DnDVersion : 1
 			/// @DnDHash : 6CFF57BD

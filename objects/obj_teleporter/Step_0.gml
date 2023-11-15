@@ -20,6 +20,54 @@ if(!l67790F6A_0)
 	
 	}
 
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 656FD70B
+	/// @DnDApplyTo : {obj_BigBorder_back}
+	/// @DnDParent : 67790F6A
+	/// @DnDArgument : "expr" "obj_teleporter"
+	/// @DnDArgument : "var" "target"
+	with(obj_BigBorder_back) {
+	target = obj_teleporter;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 6055E226
+	/// @DnDApplyTo : {obj_BigBorder_front}
+	/// @DnDParent : 67790F6A
+	/// @DnDArgument : "expr" "obj_teleporter"
+	/// @DnDArgument : "var" "target"
+	with(obj_BigBorder_front) {
+	target = obj_teleporter;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2BC96E39
+	/// @DnDApplyTo : {obj_BigBorder_left}
+	/// @DnDParent : 67790F6A
+	/// @DnDArgument : "expr" "obj_teleporter"
+	/// @DnDArgument : "var" "target"
+	with(obj_BigBorder_left) {
+	target = obj_teleporter;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 0A153497
+	/// @DnDApplyTo : {obj_BigBorder_right}
+	/// @DnDParent : 67790F6A
+	/// @DnDArgument : "expr" "obj_teleporter"
+	/// @DnDArgument : "var" "target"
+	with(obj_BigBorder_right) {
+	target = obj_teleporter;
+	
+	}
+
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
 	/// @DnDHash : 53DEE6C3
@@ -27,6 +75,66 @@ if(!l67790F6A_0)
 	/// @DnDParent : 67790F6A
 	/// @DnDArgument : "code" "if point_distance(x, y, target.x, target.y) > 15$(13_10){$(13_10)    move_towards_point(target.x, target.y, 15);$(13_10)}$(13_10)else speed = 0;$(13_10)"
 	with(obj_cube) {
+	if point_distance(x, y, target.x, target.y) > 15
+	{
+	    move_towards_point(target.x, target.y, 15);
+	}
+	else speed = 0;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 3C4DD4AD
+	/// @DnDApplyTo : {obj_BigBorder_back}
+	/// @DnDParent : 67790F6A
+	/// @DnDArgument : "code" "if point_distance(x, y, target.x, target.y) > 15$(13_10){$(13_10)    move_towards_point(target.x, target.y, 15);$(13_10)}$(13_10)else speed = 0;$(13_10)"
+	with(obj_BigBorder_back) {
+	if point_distance(x, y, target.x, target.y) > 15
+	{
+	    move_towards_point(target.x, target.y, 15);
+	}
+	else speed = 0;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 017D1A6A
+	/// @DnDApplyTo : {obj_BigBorder_front}
+	/// @DnDParent : 67790F6A
+	/// @DnDArgument : "code" "if point_distance(x, y, target.x, target.y) > 15$(13_10){$(13_10)    move_towards_point(target.x, target.y, 15);$(13_10)}$(13_10)else speed = 0;$(13_10)"
+	with(obj_BigBorder_front) {
+	if point_distance(x, y, target.x, target.y) > 15
+	{
+	    move_towards_point(target.x, target.y, 15);
+	}
+	else speed = 0;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 43F81BD5
+	/// @DnDApplyTo : {obj_BigBorder_left}
+	/// @DnDParent : 67790F6A
+	/// @DnDArgument : "code" "if point_distance(x, y, target.x, target.y) > 15$(13_10){$(13_10)    move_towards_point(target.x, target.y, 15);$(13_10)}$(13_10)else speed = 0;$(13_10)"
+	with(obj_BigBorder_left) {
+	if point_distance(x, y, target.x, target.y) > 15
+	{
+	    move_towards_point(target.x, target.y, 15);
+	}
+	else speed = 0;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 7E5ABCDD
+	/// @DnDApplyTo : {obj_BigBorder_right}
+	/// @DnDParent : 67790F6A
+	/// @DnDArgument : "code" "if point_distance(x, y, target.x, target.y) > 15$(13_10){$(13_10)    move_towards_point(target.x, target.y, 15);$(13_10)}$(13_10)else speed = 0;$(13_10)"
+	with(obj_BigBorder_right) {
 	if point_distance(x, y, target.x, target.y) > 15
 	{
 	    move_towards_point(target.x, target.y, 15);

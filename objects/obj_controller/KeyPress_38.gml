@@ -38,6 +38,14 @@ if(MinigameGoing == "yes")
 		
 		}
 	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 1AFE5776
+		/// @DnDParent : 580AF623
+		/// @DnDArgument : "expr" ""Back""
+		/// @DnDArgument : "var" "IsayPosition"
+		IsayPosition = "Back";
+	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 1C4067A6

@@ -19,3 +19,14 @@ with(obj_cube) {
 image_alpha = backALPHA;
 
 }
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 17B1D640
+/// @DnDApplyTo : {obj_controller}
+/// @DnDArgument : "expr" ""Back""
+/// @DnDArgument : "var" "IsayPosition"
+with(obj_controller) {
+IsayPosition = "Back";
+
+}

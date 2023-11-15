@@ -19,3 +19,14 @@ with(obj_cube) {
 image_alpha = frontALPHA;
 
 }
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0DE2EA50
+/// @DnDApplyTo : {obj_controller}
+/// @DnDArgument : "expr" ""Front""
+/// @DnDArgument : "var" "IsayPosition"
+with(obj_controller) {
+IsayPosition = "Front";
+
+}
