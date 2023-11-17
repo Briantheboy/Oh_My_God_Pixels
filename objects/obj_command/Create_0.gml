@@ -238,3 +238,20 @@ if(room == CASINO)
 	sprite_index = spr_casino;
 	image_index = 0;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2C057C1F
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "WRONGPIXEL"
+if(room == WRONGPIXEL)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 1A6678DB
+	/// @DnDParent : 2C057C1F
+	/// @DnDArgument : "spriteind" "spr_wrongpixel"
+	/// @DnDSaveInfo : "spriteind" "spr_wrongpixel"
+	sprite_index = spr_wrongpixel;
+	image_index = 0;
+}

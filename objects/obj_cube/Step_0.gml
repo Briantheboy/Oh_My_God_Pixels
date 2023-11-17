@@ -117,6 +117,26 @@ if(room == BOOM)
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
 	x += 15;
+
+	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+	/// @DnDVersion : 1
+	/// @DnDHash : 4AD526DE
+	/// @DnDParent : 04777F05
+	/// @DnDArgument : "obj" "obj_win"
+	/// @DnDSaveInfo : "obj" "obj_win"
+	var l4AD526DE_0 = false;
+	l4AD526DE_0 = instance_exists(obj_win);
+	if(l4AD526DE_0)
+	{
+		/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+		/// @DnDVersion : 1
+		/// @DnDHash : 4650442F
+		/// @DnDApplyTo : {obj_cube}
+		/// @DnDParent : 4AD526DE
+		/// @DnDArgument : "angle" "irandom_range(0.25, 1)"
+		/// @DnDArgument : "angle_relative" "1"
+		with(obj_cube) image_angle += irandom_range(0.25, 1);
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
