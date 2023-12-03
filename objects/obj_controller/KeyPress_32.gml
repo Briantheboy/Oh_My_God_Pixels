@@ -106,26 +106,5 @@ if(MinigameGoing == "yes")
 		/// @DnDArgument : "health_relative" "1"
 		if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
 		__dnd_health += real(1);
-	
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 136CBE07
-		/// @DnDDisabled : 1
-		/// @DnDApplyTo : {obj_leftfist}
-		/// @DnDParent : 5F3A83DB
-		/// @DnDArgument : "expr" "1"
-		/// @DnDArgument : "expr_relative" "1"
-		/// @DnDArgument : "var" "path_speed"
-	
-	
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 7BBD9D8D
-		/// @DnDDisabled : 1
-		/// @DnDApplyTo : {obj_rightfist}
-		/// @DnDParent : 5F3A83DB
-		/// @DnDArgument : "expr" "1"
-		/// @DnDArgument : "expr_relative" "1"
-		/// @DnDArgument : "var" "path_speed"
 	}
 }

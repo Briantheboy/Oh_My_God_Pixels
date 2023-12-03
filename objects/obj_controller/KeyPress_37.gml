@@ -68,3 +68,20 @@ if(MinigameGoing == "yes")
 		}
 	}
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 490AC029
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "RIPHALF"
+if(room == RIPHALF)
+{
+	/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+	/// @DnDVersion : 1
+	/// @DnDHash : 56E0ABA7
+	/// @DnDParent : 490AC029
+	/// @DnDArgument : "health" "1"
+	/// @DnDArgument : "health_relative" "1"
+	if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
+	__dnd_health += real(1);
+}

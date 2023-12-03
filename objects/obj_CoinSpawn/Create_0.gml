@@ -40,3 +40,10 @@ var emitter = part_emitter_create(system);
 /// @DnDArgument : "mindir" "-230"
 /// @DnDArgument : "maxdir" "-310"
 part_type_direction(DaSprinkles, -230, -310, 0, 0);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 05D5B5A2
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "RandomPositions"
+RandomPositions = 1;

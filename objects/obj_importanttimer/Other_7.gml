@@ -21,9 +21,9 @@ if(l0CBABB52_0)
 	/// @DnDHash : 2EC99AF7
 	/// @DnDApplyTo : {obj_trackerball}
 	/// @DnDParent : 0CBABB52
-	/// @DnDArgument : "room" "WRONGPIXEL"
-	/// @DnDSaveInfo : "room" "WRONGPIXEL"
-	with(obj_trackerball) room_goto(WRONGPIXEL);
+	/// @DnDArgument : "room" "CASINO"
+	/// @DnDSaveInfo : "room" "CASINO"
+	with(obj_trackerball) room_goto(CASINO);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
