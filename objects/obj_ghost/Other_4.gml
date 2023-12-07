@@ -28,3 +28,27 @@ direction = choose(135,90,45,180,0,225,270,315);
 /// @DnDHash : 25744C43
 /// @DnDArgument : "speed" "15"
 speed = 15;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+/// @DnDVersion : 1
+/// @DnDHash : 0E3E09C5
+/// @DnDArgument : "xscale" ".5"
+/// @DnDArgument : "yscale" ".5"
+image_xscale = .5;
+image_yscale = .5;
+
+/// @DnDAction : YoYo Games.Timelines.Speed_Timeline
+/// @DnDVersion : 1
+/// @DnDHash : 04A21D4E
+/// @DnDArgument : "speed" ".1"
+timeline_speed = .1;
+
+/// @DnDAction : YoYo Games.Timelines.Set_Timeline
+/// @DnDVersion : 1
+/// @DnDHash : 5F3299BE
+/// @DnDArgument : "timeline" "tml_GhostJiggle"
+/// @DnDArgument : "loop" "1"
+/// @DnDSaveInfo : "timeline" "tml_GhostJiggle"
+timeline_index = tml_GhostJiggle;
+timeline_loop = 1;
+timeline_running = 1;

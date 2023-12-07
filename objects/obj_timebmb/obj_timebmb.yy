@@ -4,6 +4,7 @@
   "name": "obj_timebmb",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_timeflame","path":"objects/obj_timeflame/obj_timeflame.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":5,"eventType":7,"isDnD":true,},
   ],
   "managed": true,
   "overriddenProperties": [],

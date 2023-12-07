@@ -12,3 +12,9 @@ image_alpha = 0;
 /// @DnDArgument : "yscale" ".5"
 image_xscale += 5;
 image_yscale = .5;
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 75B48AFD
+/// @DnDArgument : "steps" "40"
+alarm_set(0, 40);

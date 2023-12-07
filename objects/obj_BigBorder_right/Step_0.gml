@@ -100,34 +100,34 @@ if(room == BOOM)
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 688AAE10
+/// @DnDHash : 038785BE
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "CASINO"
 if(room == CASINO)
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 14F067EA
+	/// @DnDHash : 2E353E97
 	/// @DnDApplyTo : {obj_controller}
-	/// @DnDParent : 688AAE10
+	/// @DnDParent : 038785BE
 	/// @DnDArgument : "var" "StopandGo"
 	/// @DnDArgument : "value" ""Go""
-	with(obj_controller) var l14F067EA_0 = StopandGo == "Go";
-	if(l14F067EA_0)
+	with(obj_controller) var l2E353E97_0 = StopandGo == "Go";
+	if(l2E353E97_0)
 	{
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 3130BFAC
-		/// @DnDParent : 14F067EA
+		/// @DnDHash : 17C50429
+		/// @DnDParent : 2E353E97
 		/// @DnDArgument : "var" "y"
 		/// @DnDArgument : "op" "3"
-		/// @DnDArgument : "value" "236"
-		if(y <= 236)
+		/// @DnDArgument : "value" "266"
+		if(y <= 266)
 		{
 			/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 			/// @DnDVersion : 1
-			/// @DnDHash : 0BDCCEA6
-			/// @DnDParent : 3130BFAC
+			/// @DnDHash : 6E774ED4
+			/// @DnDParent : 17C50429
 			/// @DnDArgument : "x" "-10"
 			/// @DnDArgument : "x_relative" "1"
 			/// @DnDArgument : "y_relative" "1"
@@ -135,19 +135,19 @@ if(room == CASINO)
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 24A73399
+			/// @DnDHash : 4102ED60
 			/// @DnDApplyTo : {obj_DumbCasBOX_Top}
-			/// @DnDParent : 3130BFAC
+			/// @DnDParent : 17C50429
 			/// @DnDArgument : "var" "x"
 			/// @DnDArgument : "op" "3"
 			/// @DnDArgument : "value" "-250"
-			with(obj_DumbCasBOX_Top) var l24A73399_0 = x <= -250;
-			if(l24A73399_0)
+			with(obj_DumbCasBOX_Top) var l4102ED60_0 = x <= -250;
+			if(l4102ED60_0)
 			{
 				/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 				/// @DnDVersion : 1
-				/// @DnDHash : 0CDE3A00
-				/// @DnDParent : 24A73399
+				/// @DnDHash : 729FE99C
+				/// @DnDParent : 4102ED60
 				/// @DnDArgument : "x" "1780"
 				/// @DnDArgument : "x_relative" "1"
 				/// @DnDArgument : "y" "0"
@@ -159,26 +159,26 @@ if(room == CASINO)
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 77668387
-		/// @DnDParent : 14F067EA
+		/// @DnDHash : 05C219A6
+		/// @DnDParent : 2E353E97
 		/// @DnDArgument : "var" "y"
 		/// @DnDArgument : "op" "3"
-		/// @DnDArgument : "value" "411"
-		if(y <= 411)
+		/// @DnDArgument : "value" "441"
+		if(y <= 441)
 		{
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 4EA8BC0A
-			/// @DnDParent : 77668387
+			/// @DnDHash : 0957A3A2
+			/// @DnDParent : 05C219A6
 			/// @DnDArgument : "var" "y"
 			/// @DnDArgument : "op" "2"
-			/// @DnDArgument : "value" "236"
-			if(y > 236)
+			/// @DnDArgument : "value" "266"
+			if(y > 266)
 			{
 				/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 				/// @DnDVersion : 1
-				/// @DnDHash : 08328963
-				/// @DnDParent : 4EA8BC0A
+				/// @DnDHash : 1683A3A3
+				/// @DnDParent : 0957A3A2
 				/// @DnDArgument : "x" "10"
 				/// @DnDArgument : "x_relative" "1"
 				/// @DnDArgument : "y_relative" "1"
@@ -186,19 +186,19 @@ if(room == CASINO)
 			
 				/// @DnDAction : YoYo Games.Common.If_Variable
 				/// @DnDVersion : 1
-				/// @DnDHash : 543B4528
+				/// @DnDHash : 6B2E9536
 				/// @DnDApplyTo : {obj_DumbCasBOX_Mid}
-				/// @DnDParent : 4EA8BC0A
+				/// @DnDParent : 0957A3A2
 				/// @DnDArgument : "var" "x"
 				/// @DnDArgument : "op" "4"
 				/// @DnDArgument : "value" "1530"
-				with(obj_DumbCasBOX_Mid) var l543B4528_0 = x >= 1530;
-				if(l543B4528_0)
+				with(obj_DumbCasBOX_Mid) var l6B2E9536_0 = x >= 1530;
+				if(l6B2E9536_0)
 				{
 					/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 					/// @DnDVersion : 1
-					/// @DnDHash : 771ADADB
-					/// @DnDParent : 543B4528
+					/// @DnDHash : 58DA0FA6
+					/// @DnDParent : 6B2E9536
 					/// @DnDArgument : "x" "-1780"
 					/// @DnDArgument : "x_relative" "1"
 					/// @DnDArgument : "y" "0"
@@ -211,26 +211,26 @@ if(room == CASINO)
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 3E99D4D1
-		/// @DnDParent : 14F067EA
+		/// @DnDHash : 19A70279
+		/// @DnDParent : 2E353E97
 		/// @DnDArgument : "var" "y"
 		/// @DnDArgument : "op" "3"
-		/// @DnDArgument : "value" "615"
-		if(y <= 615)
+		/// @DnDArgument : "value" "645"
+		if(y <= 645)
 		{
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 10C000EC
-			/// @DnDParent : 3E99D4D1
+			/// @DnDHash : 1BD2F67E
+			/// @DnDParent : 19A70279
 			/// @DnDArgument : "var" "y"
 			/// @DnDArgument : "op" "2"
-			/// @DnDArgument : "value" "411"
-			if(y > 411)
+			/// @DnDArgument : "value" "441"
+			if(y > 441)
 			{
 				/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 				/// @DnDVersion : 1
-				/// @DnDHash : 06DD9558
-				/// @DnDParent : 10C000EC
+				/// @DnDHash : 3E8A3940
+				/// @DnDParent : 1BD2F67E
 				/// @DnDArgument : "x" "-10"
 				/// @DnDArgument : "x_relative" "1"
 				/// @DnDArgument : "y_relative" "1"
@@ -238,19 +238,19 @@ if(room == CASINO)
 			
 				/// @DnDAction : YoYo Games.Common.If_Variable
 				/// @DnDVersion : 1
-				/// @DnDHash : 75C6CFAF
+				/// @DnDHash : 09E310CF
 				/// @DnDApplyTo : {obj_DumbCasBOX_Bot}
-				/// @DnDParent : 10C000EC
+				/// @DnDParent : 1BD2F67E
 				/// @DnDArgument : "var" "x"
 				/// @DnDArgument : "op" "3"
 				/// @DnDArgument : "value" "-250"
-				with(obj_DumbCasBOX_Bot) var l75C6CFAF_0 = x <= -250;
-				if(l75C6CFAF_0)
+				with(obj_DumbCasBOX_Bot) var l09E310CF_0 = x <= -250;
+				if(l09E310CF_0)
 				{
 					/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 					/// @DnDVersion : 1
-					/// @DnDHash : 2971D38F
-					/// @DnDParent : 75C6CFAF
+					/// @DnDHash : 4EF34288
+					/// @DnDParent : 09E310CF
 					/// @DnDArgument : "x" "1780"
 					/// @DnDArgument : "x_relative" "1"
 					/// @DnDArgument : "y" "0"
@@ -264,35 +264,35 @@ if(room == CASINO)
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 4DD7E83A
+	/// @DnDHash : 453D7F7C
 	/// @DnDApplyTo : {obj_controller}
-	/// @DnDParent : 688AAE10
+	/// @DnDParent : 038785BE
 	/// @DnDArgument : "var" "StopandGo"
 	/// @DnDArgument : "value" ""LeftOver""
-	with(obj_controller) var l4DD7E83A_0 = StopandGo == "LeftOver";
-	if(l4DD7E83A_0)
+	with(obj_controller) var l453D7F7C_0 = StopandGo == "LeftOver";
+	if(l453D7F7C_0)
 	{
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 22A98BA6
-		/// @DnDParent : 4DD7E83A
+		/// @DnDHash : 04E5EB1A
+		/// @DnDParent : 453D7F7C
 		/// @DnDArgument : "var" "CasinoSet"
 		/// @DnDArgument : "value" ""no""
 		if(CasinoSet == "no")
 		{
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 4F0C5D51
-			/// @DnDParent : 22A98BA6
+			/// @DnDHash : 17ED62CD
+			/// @DnDParent : 04E5EB1A
 			/// @DnDArgument : "var" "y"
 			/// @DnDArgument : "op" "3"
-			/// @DnDArgument : "value" "236"
-			if(y <= 236)
+			/// @DnDArgument : "value" "266"
+			if(y <= 266)
 			{
 				/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 				/// @DnDVersion : 1
-				/// @DnDHash : 6DC3077F
-				/// @DnDParent : 4F0C5D51
+				/// @DnDHash : 11CAE2B1
+				/// @DnDParent : 17ED62CD
 				/// @DnDArgument : "x" "((CasinoSlide)+10)"
 				/// @DnDArgument : "x_relative" "1"
 				/// @DnDArgument : "y_relative" "1"
@@ -300,8 +300,8 @@ if(room == CASINO)
 			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
-				/// @DnDHash : 6AD092DE
-				/// @DnDParent : 4F0C5D51
+				/// @DnDHash : 6B9FC62D
+				/// @DnDParent : 17ED62CD
 				/// @DnDArgument : "expr" ""yes""
 				/// @DnDArgument : "var" "CasinoSet"
 				CasinoSet = "yes";
@@ -309,26 +309,26 @@ if(room == CASINO)
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 29F21D4C
-			/// @DnDParent : 22A98BA6
+			/// @DnDHash : 37CD48F6
+			/// @DnDParent : 04E5EB1A
 			/// @DnDArgument : "var" "y"
 			/// @DnDArgument : "op" "3"
-			/// @DnDArgument : "value" "615"
-			if(y <= 615)
+			/// @DnDArgument : "value" "645"
+			if(y <= 645)
 			{
 				/// @DnDAction : YoYo Games.Common.If_Variable
 				/// @DnDVersion : 1
-				/// @DnDHash : 3138D635
-				/// @DnDParent : 29F21D4C
+				/// @DnDHash : 675B3BA5
+				/// @DnDParent : 37CD48F6
 				/// @DnDArgument : "var" "y"
 				/// @DnDArgument : "op" "2"
-				/// @DnDArgument : "value" "411"
-				if(y > 411)
+				/// @DnDArgument : "value" "441"
+				if(y > 441)
 				{
 					/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 					/// @DnDVersion : 1
-					/// @DnDHash : 6CDCF795
-					/// @DnDParent : 3138D635
+					/// @DnDHash : 3D4D4CBD
+					/// @DnDParent : 675B3BA5
 					/// @DnDArgument : "x" "((CasinoSlide)+10)"
 					/// @DnDArgument : "x_relative" "1"
 					/// @DnDArgument : "y_relative" "1"
@@ -336,8 +336,8 @@ if(room == CASINO)
 				
 					/// @DnDAction : YoYo Games.Common.Variable
 					/// @DnDVersion : 1
-					/// @DnDHash : 7ABF39F6
-					/// @DnDParent : 3138D635
+					/// @DnDHash : 594D4677
+					/// @DnDParent : 675B3BA5
 					/// @DnDArgument : "expr" ""yes""
 					/// @DnDArgument : "var" "CasinoSet"
 					CasinoSet = "yes";

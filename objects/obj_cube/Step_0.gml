@@ -327,8 +327,8 @@ if(room == CASINO)
 			/// @DnDParent : 09E8159E
 			/// @DnDArgument : "var" "y"
 			/// @DnDArgument : "op" "3"
-			/// @DnDArgument : "value" "236"
-			if(y <= 236)
+			/// @DnDArgument : "value" "266"
+			if(y <= 266)
 			{
 				/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 				/// @DnDVersion : 1
@@ -354,8 +354,8 @@ if(room == CASINO)
 			/// @DnDParent : 09E8159E
 			/// @DnDArgument : "var" "y"
 			/// @DnDArgument : "op" "3"
-			/// @DnDArgument : "value" "615"
-			if(y <= 615)
+			/// @DnDArgument : "value" "645"
+			if(y <= 645)
 			{
 				/// @DnDAction : YoYo Games.Common.If_Variable
 				/// @DnDVersion : 1
@@ -363,8 +363,8 @@ if(room == CASINO)
 				/// @DnDParent : 11D1FE2C
 				/// @DnDArgument : "var" "y"
 				/// @DnDArgument : "op" "2"
-				/// @DnDArgument : "value" "411"
-				if(y > 411)
+				/// @DnDArgument : "value" "441"
+				if(y > 441)
 				{
 					/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 					/// @DnDVersion : 1

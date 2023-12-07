@@ -86,7 +86,8 @@ if(l20C356A5_0)
 	/// @DnDApplyTo : {obj_numberondoor}
 	/// @DnDParent : 20C356A5
 	/// @DnDArgument : "var" "MiniHealth"
-	with(obj_numberondoor) var l214957B5_0 = MiniHealth == 0;
+	/// @DnDArgument : "op" "3"
+	with(obj_numberondoor) var l214957B5_0 = MiniHealth <= 0;
 	if(l214957B5_0)
 	{
 		/// @DnDAction : YoYo Games.Common.If_Variable

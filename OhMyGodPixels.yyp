@@ -359,6 +359,7 @@
     {"id":{"name":"spr_brownsel_close","path":"sprites/spr_brownsel_close/spr_brownsel_close.yy",},},
     {"id":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},},
     {"id":{"name":"obj_DumbCasBOX_Top","path":"objects/obj_DumbCasBOX_Top/obj_DumbCasBOX_Top.yy",},},
+    {"id":{"name":"tml_GhostJiggle","path":"timelines/tml_GhostJiggle/tml_GhostJiggle.yy",},},
     {"id":{"name":"spr_left_open","path":"sprites/spr_left_open/spr_left_open.yy",},},
     {"id":{"name":"obj_crosshair","path":"objects/obj_crosshair/obj_crosshair.yy",},},
     {"id":{"name":"obj_checker_firework","path":"objects/obj_checker_firework/obj_checker_firework.yy",},},

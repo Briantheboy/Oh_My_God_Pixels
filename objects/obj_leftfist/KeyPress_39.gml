@@ -2,10 +2,10 @@
 /// @DnDVersion : 1
 /// @DnDHash : 2A7A080D
 /// @DnDApplyTo : {obj_controller}
-/// @DnDArgument : "value" "5"
+/// @DnDArgument : "value" "8"
 with(obj_controller) {
 if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-var l2A7A080D_0 = __dnd_health == 5;
+var l2A7A080D_0 = __dnd_health == 8;
 }
 if(l2A7A080D_0)
 {
@@ -96,10 +96,10 @@ if(l74137E32_0)
 /// @DnDVersion : 1
 /// @DnDHash : 2D385959
 /// @DnDApplyTo : {obj_controller}
-/// @DnDArgument : "value" "3"
+/// @DnDArgument : "value" "4"
 with(obj_controller) {
 if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-var l2D385959_0 = __dnd_health == 3;
+var l2D385959_0 = __dnd_health == 4;
 }
 if(l2D385959_0)
 {
@@ -127,10 +127,10 @@ if(l2D385959_0)
 /// @DnDVersion : 1
 /// @DnDHash : 44EB9DE8
 /// @DnDApplyTo : {obj_controller}
-/// @DnDArgument : "value" "4"
+/// @DnDArgument : "value" "6"
 with(obj_controller) {
 if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-var l44EB9DE8_0 = __dnd_health == 4;
+var l44EB9DE8_0 = __dnd_health == 6;
 }
 if(l44EB9DE8_0)
 {
@@ -158,10 +158,10 @@ if(l44EB9DE8_0)
 /// @DnDVersion : 1
 /// @DnDHash : 4B626551
 /// @DnDApplyTo : {obj_controller}
-/// @DnDArgument : "value" "5"
+/// @DnDArgument : "value" "8"
 with(obj_controller) {
 if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-var l4B626551_0 = __dnd_health == 5;
+var l4B626551_0 = __dnd_health == 8;
 }
 if(l4B626551_0)
 {

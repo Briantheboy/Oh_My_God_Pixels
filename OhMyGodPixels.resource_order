@@ -304,6 +304,7 @@
     {"name":"spr_brownsel_close","order":27,"path":"sprites/spr_brownsel_close/spr_brownsel_close.yy",},
     {"name":"obj_car","order":23,"path":"objects/obj_car/obj_car.yy",},
     {"name":"obj_DumbCasBOX_Top","order":12,"path":"objects/obj_DumbCasBOX_Top/obj_DumbCasBOX_Top.yy",},
+    {"name":"tml_GhostJiggle","order":9,"path":"timelines/tml_GhostJiggle/tml_GhostJiggle.yy",},
     {"name":"spr_left_open","order":7,"path":"sprites/spr_left_open/spr_left_open.yy",},
     {"name":"obj_crosshair","order":1,"path":"objects/obj_crosshair/obj_crosshair.yy",},
     {"name":"obj_checker_firework","order":1,"path":"objects/obj_checker_firework/obj_checker_firework.yy",},

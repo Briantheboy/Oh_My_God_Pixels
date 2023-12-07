@@ -13,20 +13,32 @@ if(MinigameGoing == "yes")
 	/// @DnDArgument : "value" "CASINO"
 	if(room == CASINO)
 	{
-		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 		/// @DnDVersion : 1
-		/// @DnDHash : 4A04E20D
+		/// @DnDHash : 7BD0EAC8
 		/// @DnDParent : 5C8737D1
-		/// @DnDArgument : "expr" ""Stop""
-		/// @DnDArgument : "var" "StopandGo"
-		StopandGo = "Stop";
-	
-		/// @DnDAction : YoYo Games.Instances.Set_Alarm
-		/// @DnDVersion : 1
-		/// @DnDHash : 74471343
-		/// @DnDParent : 5C8737D1
-		/// @DnDArgument : "steps" "10"
-		alarm_set(0, 10);
+		/// @DnDArgument : "obj" "obj_command"
+		/// @DnDArgument : "not" "1"
+		/// @DnDSaveInfo : "obj" "obj_command"
+		var l7BD0EAC8_0 = false;
+		l7BD0EAC8_0 = instance_exists(obj_command);
+		if(!l7BD0EAC8_0)
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 4A04E20D
+			/// @DnDParent : 7BD0EAC8
+			/// @DnDArgument : "expr" ""Stop""
+			/// @DnDArgument : "var" "StopandGo"
+			StopandGo = "Stop";
+		
+			/// @DnDAction : YoYo Games.Instances.Set_Alarm
+			/// @DnDVersion : 1
+			/// @DnDHash : 74471343
+			/// @DnDParent : 7BD0EAC8
+			/// @DnDArgument : "steps" "10"
+			alarm_set(0, 10);
+		}
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
