@@ -45,52 +45,50 @@ if(room == DoorTest)
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 52BF3E86
+/// @DnDDisabled : 1
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "gameover"
-if(room == gameover)
-{
-	/// @DnDAction : YoYo Games.Drawing.Set_Font
-	/// @DnDVersion : 1
-	/// @DnDHash : 637CD26C
-	/// @DnDParent : 52BF3E86
-	/// @DnDArgument : "font" "fnt_DoorNum"
-	/// @DnDSaveInfo : "font" "fnt_DoorNum"
-	draw_set_font(fnt_DoorNum);
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 637CD26C
+/// @DnDDisabled : 1
+/// @DnDParent : 52BF3E86
+/// @DnDArgument : "font" "fnt_DoorNum"
+/// @DnDSaveInfo : "font" "fnt_DoorNum"
 
-	/// @DnDAction : YoYo Games.Drawing.Set_Alignment
-	/// @DnDVersion : 1.1
-	/// @DnDHash : 750D2929
-	/// @DnDParent : 52BF3E86
-	/// @DnDArgument : "halign" "fa_center"
-	/// @DnDArgument : "valign" "fa_middle"
-	draw_set_halign(fa_center);
-	draw_set_valign(fa_middle);
 
-	/// @DnDAction : YoYo Games.Drawing.Set_Color
-	/// @DnDVersion : 1
-	/// @DnDHash : 14CE99B0
-	/// @DnDParent : 52BF3E86
-	/// @DnDArgument : "color" "$FF000000"
-	draw_set_colour($FF000000 & $ffffff);
-	var l14CE99B0_0=($FF000000 >> 24);
-	draw_set_alpha(l14CE99B0_0 / $ff);
+/// @DnDAction : YoYo Games.Drawing.Set_Alignment
+/// @DnDVersion : 1.1
+/// @DnDHash : 750D2929
+/// @DnDDisabled : 1
+/// @DnDParent : 52BF3E86
+/// @DnDArgument : "halign" "fa_center"
+/// @DnDArgument : "valign" "fa_middle"
 
-	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
-	/// @DnDVersion : 1
-	/// @DnDHash : 1211EED7
-	/// @DnDParent : 52BF3E86
-	/// @DnDArgument : "x" "640.5"
-	/// @DnDArgument : "y" "400"
-	x = 640.5;
-	y = 400;
 
-	/// @DnDAction : YoYo Games.Drawing.Draw_Value
-	/// @DnDVersion : 1
-	/// @DnDHash : 092FC9DF
-	/// @DnDParent : 52BF3E86
-	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "caption" ""GAME OVER \n FINAL SCORE \n IS:\n""
-	/// @DnDArgument : "var" "MinigamePoints"
-	draw_text(x + 0, y + 0, string("GAME OVER \n FINAL SCORE \n IS:\n") + string(MinigamePoints));
-}
+/// @DnDAction : YoYo Games.Drawing.Set_Color
+/// @DnDVersion : 1
+/// @DnDHash : 14CE99B0
+/// @DnDDisabled : 1
+/// @DnDParent : 52BF3E86
+/// @DnDArgument : "color" "$FF000000"
+
+
+/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+/// @DnDVersion : 1
+/// @DnDHash : 1211EED7
+/// @DnDDisabled : 1
+/// @DnDParent : 52BF3E86
+/// @DnDArgument : "x" "640.5"
+/// @DnDArgument : "y" "400"
+
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 092FC9DF
+/// @DnDDisabled : 1
+/// @DnDParent : 52BF3E86
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "caption" ""GAME OVER \n FINAL SCORE \n IS:\n""
+/// @DnDArgument : "var" "MinigamePoints"

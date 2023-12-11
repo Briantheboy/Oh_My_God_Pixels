@@ -1,4 +1,8 @@
-/// @DnDAction : YoYo Games.Game.End_Game
+/// @DnDAction : YoYo Games.Timelines.Set_Timeline
 /// @DnDVersion : 1
-/// @DnDHash : 7EE509BF
-game_end();
+/// @DnDHash : 272DFB39
+/// @DnDArgument : "timeline" "tml_ResetWorld"
+/// @DnDSaveInfo : "timeline" "tml_ResetWorld"
+timeline_index = tml_ResetWorld;
+timeline_loop = 0;
+timeline_running = 1;

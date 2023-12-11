@@ -12,6 +12,7 @@
     {"name":"inst_214716E7","path":"rooms/ChooseExample/ChooseExample.yy",},
     {"name":"inst_7AA5EA9D","path":"rooms/ChooseExample/ChooseExample.yy",},
     {"name":"inst_357B13E2","path":"rooms/ChooseExample/ChooseExample.yy",},
+    {"name":"inst_765E2C8B","path":"rooms/ChooseExample/ChooseExample.yy",},
   ],
   "isDnd": true,
   "layers": [
@@ -21,6 +22,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_214716E7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Examplebutton_3","path":"objects/obj_Examplebutton_3/obj_Examplebutton_3.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":790.0,"y":544.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7AA5EA9D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_tosslater","path":"objects/obj_tosslater/obj_tosslater.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":640.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_357B13E2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Examplebutton_4","path":"objects/obj_Examplebutton_4/obj_Examplebutton_4.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1088.0,"y":544.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_765E2C8B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":472.0,"y":304.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Overlay","depth":100,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Blocks","depth":200,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},

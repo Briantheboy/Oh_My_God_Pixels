@@ -1,5 +1,36 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 1FDEA12B
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "highscore"
+if(room == highscore)
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 3AA0B99A
+	/// @DnDParent : 1FDEA12B
+	/// @DnDArgument : "var" "frontCOLOR"
+	/// @DnDArgument : "not" "1"
+	/// @DnDArgument : "value" "spr_emptycube"
+	if(!(frontCOLOR == spr_emptycube))
+	{
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 536B2AED
+		/// @DnDParent : 3AA0B99A
+		/// @DnDArgument : "xpos" "3247"
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos" "843"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "obj_shadowcharacter"
+		/// @DnDArgument : "layer" ""Blocks""
+		/// @DnDSaveInfo : "objectid" "obj_shadowcharacter"
+		instance_create_layer(x + 3247, y + 843, "Blocks", obj_shadowcharacter);
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 4E1912D5
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "FIREWORK"

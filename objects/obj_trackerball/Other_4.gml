@@ -167,3 +167,20 @@ if(room == CASINO)
 	/// @DnDArgument : "var" "TrackNumber"
 	TrackNumber += 1;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5DCF4005
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "WRONGPIXEL"
+if(room == WRONGPIXEL)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2F6D47D2
+	/// @DnDParent : 5DCF4005
+	/// @DnDArgument : "expr" "1"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "TrackNumber"
+	TrackNumber += 1;
+}
