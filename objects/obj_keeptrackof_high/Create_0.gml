@@ -1,3 +1,8 @@
+/// @DnDAction : YoYo Games.Game.Load_Game
+/// @DnDVersion : 1
+/// @DnDHash : 38A98140
+game_load("save.dat");
+
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 146605E2
@@ -10,13 +15,13 @@ global.TextMove = "none";
 /// @DnDHash : 7A4A138C
 /// @DnDInput : 3
 /// @DnDArgument : "expr" "10"
-/// @DnDArgument : "expr_1" "8"
+/// @DnDArgument : "expr_1" "7"
 /// @DnDArgument : "expr_2" "5"
 /// @DnDArgument : "var" "Top1"
 /// @DnDArgument : "var_1" "Top2"
 /// @DnDArgument : "var_2" "Top3"
 Top1 = 10;
-Top2 = 8;
+Top2 = 7;
 Top3 = 5;
 
 /// @DnDAction : YoYo Games.Common.Variable

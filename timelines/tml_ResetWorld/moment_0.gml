@@ -101,8 +101,3 @@ audio_sound_pitch(voi_Good3, 1);
 /// @DnDArgument : "sound" "voi_Good4"
 /// @DnDSaveInfo : "sound" "voi_Good4"
 audio_sound_pitch(voi_Good4, 1);
-
-/// @DnDAction : YoYo Games.Game.Restart_Game
-/// @DnDVersion : 1
-/// @DnDHash : 59963369
-game_restart();

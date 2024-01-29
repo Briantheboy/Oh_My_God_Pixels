@@ -1,5 +1,151 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 16CA2C63
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "LOOKAWAY"
+if(room == LOOKAWAY)
+{
+	/// @DnDAction : YoYo Games.Timelines.Set_Timeline
+	/// @DnDVersion : 1
+	/// @DnDHash : 7907697E
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 16CA2C63
+	/// @DnDArgument : "timeline" "tml_CharaacterupandDown"
+	/// @DnDArgument : "loop" "1"
+	/// @DnDSaveInfo : "timeline" "tml_CharaacterupandDown"
+	with(obj_cube) {
+	timeline_index = tml_CharaacterupandDown;
+	timeline_loop = 1;
+	timeline_running = 1;
+	}
+
+	/// @DnDAction : YoYo Games.Timelines.Set_Timeline
+	/// @DnDVersion : 1
+	/// @DnDHash : 1729C134
+	/// @DnDApplyTo : {obj_BigBorder_front}
+	/// @DnDParent : 16CA2C63
+	/// @DnDArgument : "timeline" "tml_CharaacterupandDown"
+	/// @DnDArgument : "loop" "1"
+	/// @DnDSaveInfo : "timeline" "tml_CharaacterupandDown"
+	with(obj_BigBorder_front) {
+	timeline_index = tml_CharaacterupandDown;
+	timeline_loop = 1;
+	timeline_running = 1;
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 0DD19C8E
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 16CA2C63
+	/// @DnDArgument : "expr" "frontCOLOR"
+	/// @DnDArgument : "var" "sprite_index"
+	with(obj_cube) {
+	sprite_index = frontCOLOR;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 1519F19D
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 16CA2C63
+	/// @DnDArgument : "expr" "frontALPHA"
+	/// @DnDArgument : "var" "image_alpha"
+	with(obj_cube) {
+	image_alpha = frontALPHA;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 6E58C4ED
+	/// @DnDParent : 16CA2C63
+	/// @DnDArgument : "expr" ""Stuck""
+	/// @DnDArgument : "var" "ControlAccess"
+	ControlAccess = "Stuck";
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 060E6C00
+	/// @DnDParent : 16CA2C63
+	/// @DnDArgument : "expr" ""Front""
+	/// @DnDArgument : "var" "IsayPosition"
+	IsayPosition = "Front";
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 2A867915
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 16CA2C63
+	/// @DnDArgument : "x" "641"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "672"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_cube) {
+	x += 641;
+	y += 672;
+	}
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 400D314A
+	/// @DnDApplyTo : {obj_BigBorder_back}
+	/// @DnDParent : 16CA2C63
+	/// @DnDArgument : "x" "641"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "672"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_BigBorder_back) {
+	x += 641;
+	y += 672;
+	}
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 543139F0
+	/// @DnDApplyTo : {obj_BigBorder_front}
+	/// @DnDParent : 16CA2C63
+	/// @DnDArgument : "x" "641"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "672"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_BigBorder_front) {
+	x += 641;
+	y += 672;
+	}
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 426A1E77
+	/// @DnDApplyTo : {obj_BigBorder_right}
+	/// @DnDParent : 16CA2C63
+	/// @DnDArgument : "x" "641"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "672"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_BigBorder_right) {
+	x += 641;
+	y += 672;
+	}
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 681DD989
+	/// @DnDApplyTo : {obj_BigBorder_left}
+	/// @DnDParent : 16CA2C63
+	/// @DnDArgument : "x" "641"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "672"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_BigBorder_left) {
+	x += 641;
+	y += 672;
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 7E014822
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "FLIRT"

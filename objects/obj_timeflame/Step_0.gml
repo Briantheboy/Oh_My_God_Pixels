@@ -124,4 +124,22 @@ if(!l4038EF65_0)
 		/// @DnDArgument : "y_relative" "1"
 		x += 3;
 	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 6CA6C3B8
+	/// @DnDParent : 4038EF65
+	/// @DnDArgument : "var" "room"
+	/// @DnDArgument : "value" "LOOKAWAY"
+	if(room == LOOKAWAY)
+	{
+		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+		/// @DnDVersion : 1
+		/// @DnDHash : 3F532DB8
+		/// @DnDParent : 6CA6C3B8
+		/// @DnDArgument : "x" "-6"
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y_relative" "1"
+		x += -6;
+	}
 }
