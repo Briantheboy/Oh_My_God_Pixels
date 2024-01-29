@@ -272,3 +272,20 @@ if(room == LOOKAWAY)
 	sprite_index = spr_lookaway;
 	image_index = 0;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5E95C779
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "SPANK"
+if(room == SPANK)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 246A7C6B
+	/// @DnDParent : 5E95C779
+	/// @DnDArgument : "spriteind" "spr_spank"
+	/// @DnDSaveInfo : "spriteind" "spr_spank"
+	sprite_index = spr_spank;
+	image_index = 0;
+}
