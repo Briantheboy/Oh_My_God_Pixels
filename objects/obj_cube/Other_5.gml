@@ -24,3 +24,46 @@ if(room == FIREWORK)
 	/// @DnDParent : 6E6CECBD
 	part_emitter_destroy(system, emitter);
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1D1959D2
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "VIBRATE"
+if(room == VIBRATE)
+{
+	/// @DnDAction : YoYo Games.Paths.Stop_Path
+	/// @DnDVersion : 1
+	/// @DnDHash : 5502BD59
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 1D1959D2
+	with(obj_cube) path_end();
+
+	/// @DnDAction : YoYo Games.Paths.Stop_Path
+	/// @DnDVersion : 1
+	/// @DnDHash : 6111BB02
+	/// @DnDApplyTo : {obj_BigBorder_back}
+	/// @DnDParent : 1D1959D2
+	with(obj_BigBorder_back) path_end();
+
+	/// @DnDAction : YoYo Games.Paths.Stop_Path
+	/// @DnDVersion : 1
+	/// @DnDHash : 0F509553
+	/// @DnDApplyTo : {obj_BigBorder_front}
+	/// @DnDParent : 1D1959D2
+	with(obj_BigBorder_front) path_end();
+
+	/// @DnDAction : YoYo Games.Paths.Stop_Path
+	/// @DnDVersion : 1
+	/// @DnDHash : 6A267477
+	/// @DnDApplyTo : {obj_BigBorder_left}
+	/// @DnDParent : 1D1959D2
+	with(obj_BigBorder_left) path_end();
+
+	/// @DnDAction : YoYo Games.Paths.Stop_Path
+	/// @DnDVersion : 1
+	/// @DnDHash : 1E5FC663
+	/// @DnDApplyTo : {obj_BigBorder_right}
+	/// @DnDParent : 1D1959D2
+	with(obj_BigBorder_right) path_end();
+}

@@ -1292,6 +1292,146 @@ if(room == WRONGPIXEL)
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 46802CF2
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "VIBRATE"
+if(room == VIBRATE)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 3BDFD38D
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 46802CF2
+	/// @DnDArgument : "expr" "frontCOLOR"
+	/// @DnDArgument : "var" "sprite_index"
+	with(obj_cube) {
+	sprite_index = frontCOLOR;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 10C86C37
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 46802CF2
+	/// @DnDArgument : "expr" "frontALPHA"
+	/// @DnDArgument : "var" "image_alpha"
+	with(obj_cube) {
+	image_alpha = frontALPHA;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 52777CEF
+	/// @DnDParent : 46802CF2
+	/// @DnDArgument : "expr" ""Stuck""
+	/// @DnDArgument : "var" "ControlAccess"
+	ControlAccess = "Stuck";
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 53153AAC
+	/// @DnDParent : 46802CF2
+	/// @DnDArgument : "expr" ""Front""
+	/// @DnDArgument : "var" "IsayPosition"
+	IsayPosition = "Front";
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 31EC0E8D
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 46802CF2
+	/// @DnDArgument : "x" "641"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "466"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_cube) {
+	x += 641;
+	y += 466;
+	}
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 6775FE2F
+	/// @DnDApplyTo : {obj_BigBorder_back}
+	/// @DnDParent : 46802CF2
+	/// @DnDArgument : "x" "641"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "466"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_BigBorder_back) {
+	x += 641;
+	y += 466;
+	}
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 35549117
+	/// @DnDApplyTo : {obj_BigBorder_front}
+	/// @DnDParent : 46802CF2
+	/// @DnDArgument : "x" "641"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "466"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_BigBorder_front) {
+	x += 641;
+	y += 466;
+	}
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 5C19B2BA
+	/// @DnDApplyTo : {obj_BigBorder_left}
+	/// @DnDParent : 46802CF2
+	/// @DnDArgument : "x" "641"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "466"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_BigBorder_left) {
+	x += 641;
+	y += 466;
+	}
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 00BED384
+	/// @DnDApplyTo : {obj_BigBorder_right}
+	/// @DnDParent : 46802CF2
+	/// @DnDArgument : "x" "641"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "466"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_BigBorder_right) {
+	x += 641;
+	y += 466;
+	}
+
+	/// @DnDAction : YoYo Games.Paths.Start_Path
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 3A20D920
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 46802CF2
+	/// @DnDArgument : "path" "pth_vibrator"
+	/// @DnDArgument : "speed" "15"
+	/// @DnDArgument : "atend" "path_action_reverse"
+	/// @DnDSaveInfo : "path" "pth_vibrator"
+	with(obj_cube) path_start(pth_vibrator, 15, path_action_reverse, false);
+
+	/// @DnDAction : YoYo Games.Paths.Start_Path
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 0CEA7601
+	/// @DnDApplyTo : {obj_BigBorder_front}
+	/// @DnDParent : 46802CF2
+	/// @DnDArgument : "path" "pth_vibrator"
+	/// @DnDArgument : "speed" "15"
+	/// @DnDArgument : "atend" "path_action_reverse"
+	/// @DnDSaveInfo : "path" "pth_vibrator"
+	with(obj_BigBorder_front) path_start(pth_vibrator, 15, path_action_reverse, false);
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 4D99A94F
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "DoorTest"

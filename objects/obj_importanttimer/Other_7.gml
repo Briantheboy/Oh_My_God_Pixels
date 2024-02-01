@@ -46,9 +46,9 @@ if(!(room == gameover))
 		/// @DnDHash : 2EC99AF7
 		/// @DnDApplyTo : {obj_trackerball}
 		/// @DnDParent : 0CBABB52
-		/// @DnDArgument : "room" "SPANK"
-		/// @DnDSaveInfo : "room" "SPANK"
-		with(obj_trackerball) room_goto(SPANK);
+		/// @DnDArgument : "room" "VIBRATE"
+		/// @DnDSaveInfo : "room" "VIBRATE"
+		with(obj_trackerball) room_goto(VIBRATE);
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
