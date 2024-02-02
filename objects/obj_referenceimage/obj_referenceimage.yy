@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_example_bun_back",
-    "path": "sprites/spr_example_bun_back/spr_example_bun_back.yy",
+    "name": "spr_example_gho_front",
+    "path": "sprites/spr_example_gho_front/spr_example_gho_front.yy",
   },
   "spriteMaskId": null,
   "visible": true,
