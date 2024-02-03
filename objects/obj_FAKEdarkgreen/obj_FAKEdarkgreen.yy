@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_FAKEdarkgreen",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_darkgreencube",
-    "path": "sprites/spr_darkgreencube/spr_darkgreencube.yy",
+    "name": "spr_darkgreencube_FAKE",
+    "path": "sprites/spr_darkgreencube_FAKE/spr_darkgreencube_FAKE.yy",
   },
   "spriteMaskId": null,
   "visible": true,

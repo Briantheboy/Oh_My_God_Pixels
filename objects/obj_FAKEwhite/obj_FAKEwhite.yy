@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_FAKEwhite",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_whitecube",
-    "path": "sprites/spr_whitecube/spr_whitecube.yy",
+    "name": "spr_whitecube_FAKE",
+    "path": "sprites/spr_whitecube_FAKE/spr_whitecube_FAKE.yy",
   },
   "spriteMaskId": null,
   "visible": true,

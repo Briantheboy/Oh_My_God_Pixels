@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_FAKEorange",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_orangecube",
-    "path": "sprites/spr_orangecube/spr_orangecube.yy",
+    "name": "spr_orangecube_FAKE",
+    "path": "sprites/spr_orangecube_FAKE/spr_orangecube_FAKE.yy",
   },
   "spriteMaskId": null,
   "visible": true,

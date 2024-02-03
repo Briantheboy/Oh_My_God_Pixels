@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_FAKEdarkblue",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_darkbluecube",
-    "path": "sprites/spr_darkbluecube/spr_darkbluecube.yy",
+    "name": "spr_darkbluecube_FAKE",
+    "path": "sprites/spr_darkbluecube_FAKE/spr_darkbluecube_FAKE.yy",
   },
   "spriteMaskId": null,
   "visible": true,

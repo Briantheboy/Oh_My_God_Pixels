@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_FAKEdarkgrey",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_darkgreycube",
-    "path": "sprites/spr_darkgreycube/spr_darkgreycube.yy",
+    "name": "spr_darkgreycube_FAKE",
+    "path": "sprites/spr_darkgreycube_FAKE/spr_darkgreycube_FAKE.yy",
   },
   "spriteMaskId": null,
   "visible": true,

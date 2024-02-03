@@ -1489,9 +1489,9 @@ if(room == WRONGCHARACTER)
 	/// @DnDParent : 458D80D0
 	/// @DnDArgument : "var" "Wrong_Char_Mode"
 	/// @DnDArgument : "type" "1"
-	/// @DnDArgument : "min" "4"
+	/// @DnDArgument : "min" "1"
 	/// @DnDArgument : "max" "4"
-	Wrong_Char_Mode = floor(random_range(4, 4 + 1));
+	Wrong_Char_Mode = floor(random_range(1, 4 + 1));
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1

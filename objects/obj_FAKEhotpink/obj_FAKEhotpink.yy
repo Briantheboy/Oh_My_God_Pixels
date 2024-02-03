@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_FAKEhotpink",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_hotpinkcube",
-    "path": "sprites/spr_hotpinkcube/spr_hotpinkcube.yy",
+    "name": "spr_hotpinkcube_FAKE",
+    "path": "sprites/spr_hotpinkcube_FAKE/spr_hotpinkcube_FAKE.yy",
   },
   "spriteMaskId": null,
   "visible": true,

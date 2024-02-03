@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_FAKEblack",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_blackcube",
-    "path": "sprites/spr_blackcube/spr_blackcube.yy",
+    "name": "spr_blackcube_FAKE",
+    "path": "sprites/spr_blackcube_FAKE/spr_blackcube_FAKE.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -38,10 +38,10 @@ if(sprite_index == spr_beigecube)
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos" "-801"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "obj_FAKEbeige"
+	/// @DnDArgument : "objectid" "obj_FAKEyellow"
 	/// @DnDArgument : "layer" ""Blocks""
-	/// @DnDSaveInfo : "objectid" "obj_FAKEbeige"
-	instance_create_layer(x + 0, y + -801, "Blocks", obj_FAKEbeige);
+	/// @DnDSaveInfo : "objectid" "obj_FAKEyellow"
+	instance_create_layer(x + 0, y + -801, "Blocks", obj_FAKEyellow);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -72,10 +72,10 @@ if(sprite_index == spr_blackcube)
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos" "-416"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "obj_FAKEblack"
+	/// @DnDArgument : "objectid" "obj_FAKEdarkgreen"
 	/// @DnDArgument : "layer" ""Blocks""
-	/// @DnDSaveInfo : "objectid" "obj_FAKEblack"
-	instance_create_layer(x + 448, y + -416, "Blocks", obj_FAKEblack);
+	/// @DnDSaveInfo : "objectid" "obj_FAKEdarkgreen"
+	instance_create_layer(x + 448, y + -416, "Blocks", obj_FAKEdarkgreen);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
@@ -105,10 +105,10 @@ if(sprite_index == spr_bluecube)
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos" "-416"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "obj_FAKEblue"
+	/// @DnDArgument : "objectid" "obj_FAKEdarkblue"
 	/// @DnDArgument : "layer" ""Blocks""
-	/// @DnDSaveInfo : "objectid" "obj_FAKEblue"
-	instance_create_layer(x + -448, y + -416, "Blocks", obj_FAKEblue);
+	/// @DnDSaveInfo : "objectid" "obj_FAKEdarkblue"
+	instance_create_layer(x + -448, y + -416, "Blocks", obj_FAKEdarkblue);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
@@ -176,10 +176,10 @@ if(sprite_index == spr_browncube)
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos" "-801"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "obj_FAKEbrown"
+	/// @DnDArgument : "objectid" "obj_FAKEorange"
 	/// @DnDArgument : "layer" ""Blocks""
-	/// @DnDSaveInfo : "objectid" "obj_FAKEbrown"
-	instance_create_layer(x + 0, y + -801, "Blocks", obj_FAKEbrown);
+	/// @DnDSaveInfo : "objectid" "obj_FAKEorange"
+	instance_create_layer(x + 0, y + -801, "Blocks", obj_FAKEorange);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -210,10 +210,10 @@ if(sprite_index == spr_darkbluecube)
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos" "-416"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "obj_FAKEdarkblue"
+	/// @DnDArgument : "objectid" "obj_FAKEblue"
 	/// @DnDArgument : "layer" ""Blocks""
-	/// @DnDSaveInfo : "objectid" "obj_FAKEdarkblue"
-	instance_create_layer(x + 448, y + -416, "Blocks", obj_FAKEdarkblue);
+	/// @DnDSaveInfo : "objectid" "obj_FAKEblue"
+	instance_create_layer(x + 448, y + -416, "Blocks", obj_FAKEblue);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
@@ -243,10 +243,10 @@ if(sprite_index == spr_darkgreencube)
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos" "-416"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "obj_FAKEdarkgreen"
+	/// @DnDArgument : "objectid" "obj_FAKEyellow"
 	/// @DnDArgument : "layer" ""Blocks""
-	/// @DnDSaveInfo : "objectid" "obj_FAKEdarkgreen"
-	instance_create_layer(x + -448, y + -416, "Blocks", obj_FAKEdarkgreen);
+	/// @DnDSaveInfo : "objectid" "obj_FAKEyellow"
+	instance_create_layer(x + -448, y + -416, "Blocks", obj_FAKEyellow);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
@@ -314,10 +314,10 @@ if(sprite_index == spr_darkgreycube)
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos" "-801"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "obj_FAKEdarkgrey"
+	/// @DnDArgument : "objectid" "obj_FAKEblack"
 	/// @DnDArgument : "layer" ""Blocks""
-	/// @DnDSaveInfo : "objectid" "obj_FAKEdarkgrey"
-	instance_create_layer(x + 0, y + -801, "Blocks", obj_FAKEdarkgrey);
+	/// @DnDSaveInfo : "objectid" "obj_FAKEblack"
+	instance_create_layer(x + 0, y + -801, "Blocks", obj_FAKEblack);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -348,10 +348,10 @@ if(sprite_index == spr_greencube)
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos" "-416"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "obj_FAKEgreen"
+	/// @DnDArgument : "objectid" "obj_FAKEdarkgreen"
 	/// @DnDArgument : "layer" ""Blocks""
-	/// @DnDSaveInfo : "objectid" "obj_FAKEgreen"
-	instance_create_layer(x + 448, y + -416, "Blocks", obj_FAKEgreen);
+	/// @DnDSaveInfo : "objectid" "obj_FAKEdarkgreen"
+	instance_create_layer(x + 448, y + -416, "Blocks", obj_FAKEdarkgreen);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
@@ -381,10 +381,10 @@ if(sprite_index == spr_greycube)
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos" "-416"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "obj_FAKEgrey"
+	/// @DnDArgument : "objectid" "obj_FAKEblack"
 	/// @DnDArgument : "layer" ""Blocks""
-	/// @DnDSaveInfo : "objectid" "obj_FAKEgrey"
-	instance_create_layer(x + -448, y + -416, "Blocks", obj_FAKEgrey);
+	/// @DnDSaveInfo : "objectid" "obj_FAKEblack"
+	instance_create_layer(x + -448, y + -416, "Blocks", obj_FAKEblack);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
@@ -452,10 +452,10 @@ if(sprite_index == spr_hotpinkcube)
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos" "-801"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "obj_FAKEhotpink"
+	/// @DnDArgument : "objectid" "obj_FAKEred"
 	/// @DnDArgument : "layer" ""Blocks""
-	/// @DnDSaveInfo : "objectid" "obj_FAKEhotpink"
-	instance_create_layer(x + 0, y + -801, "Blocks", obj_FAKEhotpink);
+	/// @DnDSaveInfo : "objectid" "obj_FAKEred"
+	instance_create_layer(x + 0, y + -801, "Blocks", obj_FAKEred);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -486,10 +486,10 @@ if(sprite_index == spr_orangecube)
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos" "-416"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "obj_FAKEorange"
+	/// @DnDArgument : "objectid" "obj_FAKEred"
 	/// @DnDArgument : "layer" ""Blocks""
-	/// @DnDSaveInfo : "objectid" "obj_FAKEorange"
-	instance_create_layer(x + 448, y + -416, "Blocks", obj_FAKEorange);
+	/// @DnDSaveInfo : "objectid" "obj_FAKEred"
+	instance_create_layer(x + 448, y + -416, "Blocks", obj_FAKEred);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
@@ -519,10 +519,10 @@ if(sprite_index == spr_pinkcube)
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos" "-416"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "obj_FAKEpink"
+	/// @DnDArgument : "objectid" "obj_FAKEred"
 	/// @DnDArgument : "layer" ""Blocks""
-	/// @DnDSaveInfo : "objectid" "obj_FAKEpink"
-	instance_create_layer(x + -448, y + -416, "Blocks", obj_FAKEpink);
+	/// @DnDSaveInfo : "objectid" "obj_FAKEred"
+	instance_create_layer(x + -448, y + -416, "Blocks", obj_FAKEred);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
@@ -590,10 +590,10 @@ if(sprite_index == spr_purplecube)
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos" "-801"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "obj_FAKEpurple"
+	/// @DnDArgument : "objectid" "obj_FAKEpink"
 	/// @DnDArgument : "layer" ""Blocks""
-	/// @DnDSaveInfo : "objectid" "obj_FAKEpurple"
-	instance_create_layer(x + 0, y + -801, "Blocks", obj_FAKEpurple);
+	/// @DnDSaveInfo : "objectid" "obj_FAKEpink"
+	instance_create_layer(x + 0, y + -801, "Blocks", obj_FAKEpink);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -624,10 +624,10 @@ if(sprite_index == spr_redcube)
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos" "-416"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "obj_FAKEred"
+	/// @DnDArgument : "objectid" "obj_FAKEhotpink"
 	/// @DnDArgument : "layer" ""Blocks""
-	/// @DnDSaveInfo : "objectid" "obj_FAKEred"
-	instance_create_layer(x + 448, y + -416, "Blocks", obj_FAKEred);
+	/// @DnDSaveInfo : "objectid" "obj_FAKEhotpink"
+	instance_create_layer(x + 448, y + -416, "Blocks", obj_FAKEhotpink);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
@@ -657,10 +657,10 @@ if(sprite_index == spr_whitecube)
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos" "-416"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "obj_FAKEwhite"
+	/// @DnDArgument : "objectid" "obj_FAKEgrey"
 	/// @DnDArgument : "layer" ""Blocks""
-	/// @DnDSaveInfo : "objectid" "obj_FAKEwhite"
-	instance_create_layer(x + -448, y + -416, "Blocks", obj_FAKEwhite);
+	/// @DnDSaveInfo : "objectid" "obj_FAKEgrey"
+	instance_create_layer(x + -448, y + -416, "Blocks", obj_FAKEgrey);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
@@ -716,10 +716,10 @@ if(sprite_index == spr_yellowcube)
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos" "-416"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "obj_FAKEyellow"
+	/// @DnDArgument : "objectid" "obj_FAKEdarkgreen"
 	/// @DnDArgument : "layer" ""Blocks""
-	/// @DnDSaveInfo : "objectid" "obj_FAKEyellow"
-	instance_create_layer(x + 448, y + -416, "Blocks", obj_FAKEyellow);
+	/// @DnDSaveInfo : "objectid" "obj_FAKEdarkgreen"
+	instance_create_layer(x + 448, y + -416, "Blocks", obj_FAKEdarkgreen);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1

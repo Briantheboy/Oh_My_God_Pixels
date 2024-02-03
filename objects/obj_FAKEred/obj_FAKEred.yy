@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_FAKEred",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_redcube",
-    "path": "sprites/spr_redcube/spr_redcube.yy",
+    "name": "spr_redcube_FAKE",
+    "path": "sprites/spr_redcube_FAKE/spr_redcube_FAKE.yy",
   },
   "spriteMaskId": null,
   "visible": true,
