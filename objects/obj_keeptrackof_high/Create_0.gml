@@ -13,16 +13,18 @@ global.TextMove = "none";
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7A4A138C
-/// @DnDInput : 3
-/// @DnDArgument : "expr" "10"
-/// @DnDArgument : "expr_1" "7"
-/// @DnDArgument : "expr_2" "5"
+/// @DnDInput : 4
+/// @DnDArgument : "expr" "4"
+/// @DnDArgument : "expr_1" "3"
+/// @DnDArgument : "expr_2" "2"
 /// @DnDArgument : "var" "Top1"
 /// @DnDArgument : "var_1" "Top2"
 /// @DnDArgument : "var_2" "Top3"
-Top1 = 10;
-Top2 = 7;
-Top3 = 5;
+/// @DnDArgument : "var_3" "WARNINGFORMOVE"
+Top1 = 4;
+Top2 = 3;
+Top3 = 2;
+WARNINGFORMOVE = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

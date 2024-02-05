@@ -17,3 +17,20 @@ if(!(room == highscore))
 	/// @DnDSaveInfo : "objectid" "obj_FAKE_BigBorder"
 	instance_create_layer(x + 0, y + 0, "Border", obj_FAKE_BigBorder);
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 565539BB
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "highscore"
+if(room == highscore)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 22A65D96
+	/// @DnDParent : 565539BB
+	/// @DnDArgument : "spriteind" "spr_greycube"
+	/// @DnDSaveInfo : "spriteind" "spr_greycube"
+	sprite_index = spr_greycube;
+	image_index = 0;
+}
