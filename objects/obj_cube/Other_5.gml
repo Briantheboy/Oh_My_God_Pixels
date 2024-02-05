@@ -1,3 +1,8 @@
+/// @DnDAction : YoYo Games.Paths.Stop_Path
+/// @DnDVersion : 1
+/// @DnDHash : 12A00834
+path_end();
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6E6CECBD

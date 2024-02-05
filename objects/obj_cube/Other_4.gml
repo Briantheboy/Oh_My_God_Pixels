@@ -70,6 +70,37 @@ if(room == FIREWORK)
 /// @DnDArgument : "value" "DoorTest"
 if(room == DoorTest)
 {
+	/// @DnDAction : YoYo Games.Paths.Stop_Path
+	/// @DnDVersion : 1
+	/// @DnDHash : 1660CAAF
+	/// @DnDParent : 0A96B31C
+	path_end();
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 732C4FC8
+	/// @DnDParent : 0A96B31C
+	/// @DnDArgument : "var" "path_speed"
+	path_speed = 0;
+
+	/// @DnDAction : YoYo Games.Paths.Stop_Path
+	/// @DnDVersion : 1
+	/// @DnDHash : 7DE9C90C
+	/// @DnDApplyTo : {obj_BigBorder_front}
+	/// @DnDParent : 0A96B31C
+	with(obj_BigBorder_front) path_end();
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 13F472D4
+	/// @DnDApplyTo : {obj_BigBorder_front}
+	/// @DnDParent : 0A96B31C
+	/// @DnDArgument : "var" "path_speed"
+	with(obj_BigBorder_front) {
+	path_speed = 0;
+	
+	}
+
 	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 	/// @DnDVersion : 1
 	/// @DnDHash : 6FE06F8A

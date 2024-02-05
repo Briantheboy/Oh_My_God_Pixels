@@ -11,4 +11,15 @@ if(y > 3300)
 	/// @DnDHash : 299B4CD7
 	/// @DnDParent : 3F8B0B31
 	instance_destroy();
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 6163D7B1
+	/// @DnDApplyTo : {obj_keeptrackof_high}
+	/// @DnDParent : 3F8B0B31
+	/// @DnDArgument : "var" "WARNINGFORMOVE"
+	with(obj_keeptrackof_high) {
+	WARNINGFORMOVE = 0;
+	
+	}
 }

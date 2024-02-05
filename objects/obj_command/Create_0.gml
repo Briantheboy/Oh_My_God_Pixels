@@ -323,3 +323,20 @@ if(room == WRONGCHARACTER)
 	sprite_index = spr_wrongcharacter;
 	image_index = 0;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 46C7D6D8
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "RIPPLE"
+if(room == RIPPLE)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 147B2D3C
+	/// @DnDParent : 46C7D6D8
+	/// @DnDArgument : "spriteind" "spr_ripple"
+	/// @DnDSaveInfo : "spriteind" "spr_ripple"
+	sprite_index = spr_ripple;
+	image_index = 0;
+}
