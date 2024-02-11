@@ -1,5 +1,123 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 65380F11
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "MARIO"
+if(room == MARIO)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 0D4715AE
+	/// @DnDParent : 65380F11
+	/// @DnDArgument : "expr" ""Limited_RL""
+	/// @DnDArgument : "var" "ControlAccess"
+	ControlAccess = "Limited_RL";
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 64144CAB
+	/// @DnDParent : 65380F11
+	/// @DnDArgument : "expr" ""Right""
+	/// @DnDArgument : "var" "IsayPosition"
+	IsayPosition = "Right";
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 640CBDF5
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 65380F11
+	/// @DnDArgument : "expr" "rightCOLOR"
+	/// @DnDArgument : "var" "sprite_index"
+	with(obj_cube) {
+	sprite_index = rightCOLOR;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 0CBF45B9
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 65380F11
+	/// @DnDArgument : "expr" "rightALPHA"
+	/// @DnDArgument : "var" "image_alpha"
+	with(obj_cube) {
+	image_alpha = rightALPHA;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 44979D74
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 65380F11
+	/// @DnDArgument : "x" "65"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "1922"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_cube) {
+	x += 65;
+	y += 1922;
+	}
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 4669B925
+	/// @DnDApplyTo : {obj_BigBorder_back}
+	/// @DnDParent : 65380F11
+	/// @DnDArgument : "x" "65"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "1922"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_BigBorder_back) {
+	x += 65;
+	y += 1922;
+	}
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 2DBAB162
+	/// @DnDApplyTo : {obj_BigBorder_front}
+	/// @DnDParent : 65380F11
+	/// @DnDArgument : "x" "65"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "1922"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_BigBorder_front) {
+	x += 65;
+	y += 1922;
+	}
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 7CF673A2
+	/// @DnDApplyTo : {obj_BigBorder_right}
+	/// @DnDParent : 65380F11
+	/// @DnDArgument : "x" "65"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "1922"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_BigBorder_right) {
+	x += 65;
+	y += 1922;
+	}
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 092CF251
+	/// @DnDApplyTo : {obj_BigBorder_left}
+	/// @DnDParent : 65380F11
+	/// @DnDArgument : "x" "65"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "1922"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_BigBorder_left) {
+	x += 65;
+	y += 1922;
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 16CA2C63
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "LOOKAWAY"

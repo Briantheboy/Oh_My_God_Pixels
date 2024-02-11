@@ -582,6 +582,7 @@
     {"id":{"name":"tml_HandGlow","path":"timelines/tml_HandGlow/tml_HandGlow.yy",},},
     {"id":{"name":"obj_losegoop","path":"objects/obj_losegoop/obj_losegoop.yy",},},
     {"id":{"name":"spr_timebmb","path":"sprites/spr_timebmb/spr_timebmb.yy",},},
+    {"id":{"name":"spr_mariomin","path":"sprites/spr_mariomin/spr_mariomin.yy",},},
     {"id":{"name":"tml_FlashRed","path":"timelines/tml_FlashRed/tml_FlashRed.yy",},},
     {"id":{"name":"highscore19","path":"rooms/highscore19/highscore19.yy",},},
     {"id":{"name":"obj_FAKEpink","path":"objects/obj_FAKEpink/obj_FAKEpink.yy",},},
@@ -629,6 +630,7 @@
     {"id":{"name":"FLIRT","path":"rooms/FLIRT/FLIRT.yy",},},
     {"id":{"name":"obj_PChitbox","path":"objects/obj_PChitbox/obj_PChitbox.yy",},},
     {"id":{"name":"tml_ResetWorld","path":"timelines/tml_ResetWorld/tml_ResetWorld.yy",},},
+    {"id":{"name":"MARIO","path":"rooms/MARIO/MARIO.yy",},},
     {"id":{"name":"sou_failclock","path":"sounds/sou_failclock/sou_failclock.yy",},},
     {"id":{"name":"obj_pinksel","path":"objects/obj_pinksel/obj_pinksel.yy",},},
     {"id":{"name":"spr_GoodAns2","path":"sprites/spr_GoodAns2/spr_GoodAns2.yy",},},
@@ -737,6 +739,7 @@
     {"roomId":{"name":"VIBRATE","path":"rooms/VIBRATE/VIBRATE.yy",},},
     {"roomId":{"name":"WRONGCHARACTER","path":"rooms/WRONGCHARACTER/WRONGCHARACTER.yy",},},
     {"roomId":{"name":"RIPPLE","path":"rooms/RIPPLE/RIPPLE.yy",},},
+    {"roomId":{"name":"MARIO","path":"rooms/MARIO/MARIO.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

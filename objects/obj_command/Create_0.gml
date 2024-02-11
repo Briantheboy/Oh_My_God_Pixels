@@ -340,3 +340,20 @@ if(room == RIPPLE)
 	sprite_index = spr_ripple;
 	image_index = 0;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 286C0EE2
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "MARIO"
+if(room == MARIO)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 7A23715F
+	/// @DnDParent : 286C0EE2
+	/// @DnDArgument : "spriteind" "spr_mariomin"
+	/// @DnDSaveInfo : "spriteind" "spr_mariomin"
+	sprite_index = spr_mariomin;
+	image_index = 0;
+}

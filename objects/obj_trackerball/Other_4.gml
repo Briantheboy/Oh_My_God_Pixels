@@ -269,3 +269,20 @@ if(room == RIPPLE)
 	/// @DnDArgument : "var" "TrackNumber"
 	TrackNumber += 1;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1D769612
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "MARIO"
+if(room == MARIO)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 1F5FD082
+	/// @DnDParent : 1D769612
+	/// @DnDArgument : "expr" "1"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "TrackNumber"
+	TrackNumber += 1;
+}
