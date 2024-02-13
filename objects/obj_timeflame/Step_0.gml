@@ -187,4 +187,22 @@ if(!l4038EF65_0)
 		/// @DnDArgument : "y_relative" "1"
 		x += 3.2;
 	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 3434A8F8
+	/// @DnDParent : 4038EF65
+	/// @DnDArgument : "var" "room"
+	/// @DnDArgument : "value" "MARIO"
+	if(room == MARIO)
+	{
+		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+		/// @DnDVersion : 1
+		/// @DnDHash : 23CE9F88
+		/// @DnDParent : 3434A8F8
+		/// @DnDArgument : "x" "-4"
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y_relative" "1"
+		x += -4;
+	}
 }

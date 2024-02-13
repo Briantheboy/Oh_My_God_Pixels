@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "spr_mariomin",
   "bbox_bottom": 387,
-  "bbox_left": 282,
-  "bbox_right": 1637,
+  "bbox_left": 444,
+  "bbox_right": 1465,
   "bbox_top": 14,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"636e6f64-7dd3-4794-8c99-a5fcb460b631",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e169922a-75b9-468f-b888-e9b1ce89f566",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 389,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6b3f5694-8611-4972-b85c-842baa49ea2a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"02e8eb66-4a3c-4798-be68-32b86d2f6a64","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"636e6f64-7dd3-4794-8c99-a5fcb460b631","path":"sprites/spr_mariomin/spr_mariomin.yy",},},},"Disabled":false,"id":"f7e7e94d-2bf0-4486-ba4d-60d620ce1d14","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e169922a-75b9-468f-b888-e9b1ce89f566","path":"sprites/spr_mariomin/spr_mariomin.yy",},},},"Disabled":false,"id":"1dc50769-c045-495f-aade-c89f22227a5a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

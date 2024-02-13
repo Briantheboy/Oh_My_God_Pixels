@@ -128,3 +128,20 @@ if(room == COLLECT)
 	image_xscale = 2;
 	image_yscale = 2;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4C84D51C
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "MARIO"
+if(room == MARIO)
+{
+	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+	/// @DnDVersion : 1
+	/// @DnDHash : 16426BF7
+	/// @DnDParent : 4C84D51C
+	/// @DnDArgument : "xscale" "1.5"
+	/// @DnDArgument : "yscale" "1.5"
+	image_xscale = 1.5;
+	image_yscale = 1.5;
+}

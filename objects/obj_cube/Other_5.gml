@@ -32,6 +32,33 @@ if(room == FIREWORK)
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 1F09343E
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "MARIO"
+if(room == MARIO)
+{
+	/// @DnDAction : YoYo Games.Particles.Part_Syst_Destroy
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 5467C656
+	/// @DnDParent : 1F09343E
+	part_system_destroy(system);
+
+	/// @DnDAction : YoYo Games.Particles.Part_Type_Destroy
+	/// @DnDVersion : 1
+	/// @DnDHash : 3BB24C98
+	/// @DnDParent : 1F09343E
+	/// @DnDArgument : "type" "DaSprinkles"
+	part_type_destroy(DaSprinkles);
+
+	/// @DnDAction : YoYo Games.Particles.Part_Emit_Destroy
+	/// @DnDVersion : 1
+	/// @DnDHash : 54887DC3
+	/// @DnDParent : 1F09343E
+	part_emitter_destroy(system, emitter);
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 1D1959D2
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "VIBRATE"

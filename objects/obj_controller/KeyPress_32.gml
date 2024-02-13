@@ -7,6 +7,17 @@ if(MinigameGoing == "yes")
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
+	/// @DnDHash : 4869C667
+	/// @DnDParent : 48B459D1
+	/// @DnDArgument : "var" "room"
+	/// @DnDArgument : "value" "MARIO"
+	if(room == MARIO)
+	{
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
 	/// @DnDHash : 5C8737D1
 	/// @DnDParent : 48B459D1
 	/// @DnDArgument : "var" "room"
