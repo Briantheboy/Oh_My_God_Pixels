@@ -13,7 +13,38 @@ if(MinigameGoing == "yes")
 	/// @DnDArgument : "value" "MARIO"
 	if(room == MARIO)
 	{
+		/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+		/// @DnDVersion : 1
+		/// @DnDHash : 08F4CD4B
+		/// @DnDApplyTo : {obj_cube}
+		/// @DnDParent : 4869C667
+		/// @DnDArgument : "state" "3"
+		with(obj_cube) {
+		timeline_running = false;
+		timeline_position = 0;
+		}
 	
+		/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+		/// @DnDVersion : 1
+		/// @DnDHash : 4068BE20
+		/// @DnDApplyTo : {obj_BigBorder_left}
+		/// @DnDParent : 4869C667
+		/// @DnDArgument : "state" "3"
+		with(obj_BigBorder_left) {
+		timeline_running = false;
+		timeline_position = 0;
+		}
+	
+		/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+		/// @DnDVersion : 1
+		/// @DnDHash : 0C07E588
+		/// @DnDApplyTo : {obj_BigBorder_right}
+		/// @DnDParent : 4869C667
+		/// @DnDArgument : "state" "3"
+		with(obj_BigBorder_right) {
+		timeline_running = false;
+		timeline_position = 0;
+		}
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable

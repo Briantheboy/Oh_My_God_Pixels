@@ -16,10 +16,9 @@ whichDirection = floor(random_range(1, 2 + 1));
 /// @DnDVersion : 1
 /// @DnDHash : 4ECF143C
 /// @DnDArgument : "var" "whatSpeed"
-/// @DnDArgument : "type" "1"
 /// @DnDArgument : "min" "12"
 /// @DnDArgument : "max" "36"
-whatSpeed = floor(random_range(12, 36 + 1));
+whatSpeed = (random_range(12, 36));
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -51,4 +50,23 @@ if(whichDirection == 2)
 	/// @DnDArgument : "x" "irandom_range(2566, 4840)"
 	/// @DnDArgument : "y_relative" "1"
 	x = irandom_range(2566, 4840);
+}
+
+/// @DnDAction : YoYo Games.Collisions.If_Object_At
+/// @DnDVersion : 1.1
+/// @DnDHash : 000C25D5
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "object" "obj_Goomba"
+/// @DnDSaveInfo : "object" "obj_Goomba"
+var l000C25D5_0 = instance_place(x + 0, y + 0, obj_Goomba);
+if ((l000C25D5_0 > 0))
+{
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 072BDEDA
+	/// @DnDParent : 000C25D5
+	/// @DnDArgument : "x" "2566"
+	/// @DnDArgument : "y_relative" "1"
+	x = 2566;
 }

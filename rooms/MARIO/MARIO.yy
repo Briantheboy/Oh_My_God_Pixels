@@ -88,6 +88,7 @@
     {"name":"inst_614F0899","path":"rooms/MARIO/MARIO.yy",},
     {"name":"inst_5532EB1","path":"rooms/MARIO/MARIO.yy",},
     {"name":"inst_18E5A51F","path":"rooms/MARIO/MARIO.yy",},
+    {"name":"inst_1336E409","path":"rooms/MARIO/MARIO.yy",},
   ],
   "isDnd": true,
   "layers": [
@@ -168,6 +169,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_18E5A51F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Meat_1","path":"objects/obj_Meat_1/obj_Meat_1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4288.0,"y":2061.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Slector","depth":500,"effectEnabled":true,"effectType":null,"gridX":80,"gridY":80,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1336E409","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_UncleBrian","path":"objects/obj_UncleBrian/obj_UncleBrian.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2560.0,"y":4000.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1F38A17D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Floorer","path":"objects/obj_Floorer/obj_Floorer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":2640.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_8F2A6A0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Floorer","path":"objects/obj_Floorer/obj_Floorer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":2640.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_238B966A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Floorer","path":"objects/obj_Floorer/obj_Floorer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":2640.0,},
