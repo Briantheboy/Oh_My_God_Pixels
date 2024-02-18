@@ -27,10 +27,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_banner",
-    "path": "sprites/spr_banner/spr_banner.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

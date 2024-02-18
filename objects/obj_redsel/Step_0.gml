@@ -42,10 +42,10 @@ if(!(sprite_index == spr_redsel_close))
 
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 	/// @DnDVersion : 1
-	/// @DnDHash : 49050EFE
+	/// @DnDHash : 136773F4
 	/// @DnDParent : 74F0E991
-	/// @DnDArgument : "xscale" "1.5"
-	/// @DnDArgument : "yscale" "1.5"
-	image_xscale = 1.5;
-	image_yscale = 1.5;
+	/// @DnDArgument : "xscale" "0.75"
+	/// @DnDArgument : "yscale" "0.75"
+	image_xscale = 0.75;
+	image_yscale = 0.75;
 }
