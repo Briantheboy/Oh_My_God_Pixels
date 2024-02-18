@@ -17,6 +17,35 @@ image_alpha = 0.01;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 50DBC0E8
+/// @DnDInput : 8
+/// @DnDArgument : "expr" "spr_emptycube"
+/// @DnDArgument : "expr_1" "0.01"
+/// @DnDArgument : "expr_2" "spr_emptycube"
+/// @DnDArgument : "expr_3" "0.01"
+/// @DnDArgument : "expr_4" "spr_emptycube"
+/// @DnDArgument : "expr_5" "0.01"
+/// @DnDArgument : "expr_6" "spr_emptycube"
+/// @DnDArgument : "expr_7" "0.01"
+/// @DnDArgument : "var" "Sav_Front_Color"
+/// @DnDArgument : "var_1" "Sav_Front_Alpha"
+/// @DnDArgument : "var_2" "Sav_Left_Color"
+/// @DnDArgument : "var_3" "Sav_Left_Alpha"
+/// @DnDArgument : "var_4" "Sav_Back_Color"
+/// @DnDArgument : "var_5" "Sav_Back_Alpha"
+/// @DnDArgument : "var_6" "Sav_Right_Color"
+/// @DnDArgument : "var_7" "Sav_Right_Alpha"
+Sav_Front_Color = spr_emptycube;
+Sav_Front_Alpha = 0.01;
+Sav_Left_Color = spr_emptycube;
+Sav_Left_Alpha = 0.01;
+Sav_Back_Color = spr_emptycube;
+Sav_Back_Alpha = 0.01;
+Sav_Right_Color = spr_emptycube;
+Sav_Right_Alpha = 0.01;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 144B246B
 /// @DnDInput : 20
 /// @DnDArgument : "expr" "spr_emptycube"
