@@ -107,3 +107,12 @@ drw_Bottom_front = "no";
 drw_Up_front = "no";
 drw_Left_front = "no";
 drw_Right_front = "no";
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 02287833
+/// @DnDInput : 2
+/// @DnDArgument : "var" "X_offsetting"
+/// @DnDArgument : "var_1" "Y_offsetting"
+X_offsetting = 0;
+Y_offsetting = 0;
