@@ -1,3 +1,30 @@
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 0A53AE01
+/// @DnDApplyTo : {obj_WordCloud}
+with(obj_WordCloud) instance_destroy();
+
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 136E4549
+/// @DnDArgument : "xpos" "640"
+/// @DnDArgument : "ypos" "550"
+/// @DnDArgument : "objectid" "obj_WordCloud"
+/// @DnDArgument : "layer" ""Overlay""
+/// @DnDSaveInfo : "objectid" "obj_WordCloud"
+instance_create_layer(640, 550, "Overlay", obj_WordCloud);
+
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 1B537F20
+/// @DnDApplyTo : {obj_WordCloud}
+/// @DnDArgument : "spriteind" "spr_Right_Cloud"
+/// @DnDSaveInfo : "spriteind" "spr_Right_Cloud"
+with(obj_WordCloud) {
+sprite_index = spr_Right_Cloud;
+image_index = 0;
+}
+
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 7F0B8BB3

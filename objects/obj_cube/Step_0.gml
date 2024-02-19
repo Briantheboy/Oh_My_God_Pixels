@@ -1,5 +1,27 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 6A5B6198
+/// @DnDArgument : "var" "sprite_index"
+/// @DnDArgument : "value" "spr_yellowcube"
+if(sprite_index == spr_yellowcube)
+{
+	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+	/// @DnDVersion : 1
+	/// @DnDHash : 7C452A68
+	/// @DnDInput : 4
+	/// @DnDParent : 6A5B6198
+	/// @DnDArgument : "msg" ""SHITX""
+	/// @DnDArgument : "msg_1" "SHITTERx"
+	/// @DnDArgument : "msg_2" ""SHITY""
+	/// @DnDArgument : "msg_3" "SHITTERy"
+	show_debug_message(string("SHITX") + @"
+	" + string(SHITTERx) + @"
+	" + string("SHITY") + @"
+	" + string(SHITTERy));
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 6F310152
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "DoorTest"
