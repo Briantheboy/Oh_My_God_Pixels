@@ -111,8 +111,10 @@ drw_Right_front = "no";
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 02287833
-/// @DnDInput : 2
+/// @DnDInput : 3
 /// @DnDArgument : "var" "X_offsetting"
 /// @DnDArgument : "var_1" "Y_offsetting"
+/// @DnDArgument : "var_2" "SHITTER"
 X_offsetting = 0;
 Y_offsetting = 0;
+SHITTER = 0;
