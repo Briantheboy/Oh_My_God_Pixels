@@ -62,9 +62,17 @@ if(room == highscore)
 	/// @DnDParent : 3D52B1CE
 	with(obj_BigBorder_right) instance_destroy();
 
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 3A28289B
+	/// @DnDParent : 3D52B1CE
+	/// @DnDArgument : "expr" "font_add_sprite_ext(spr_Ui_SpriteFont, "ABCDEFGHIJKLMNOPQRSTUVWXYZ.!_+-0123456789", true, 0 )"
+	/// @DnDArgument : "var" "fontBubble"
+	fontBubble = font_add_sprite_ext(spr_Ui_SpriteFont, "ABCDEFGHIJKLMNOPQRSTUVWXYZ.!_+-0123456789", true, 0 );
+
 	/// @DnDAction : YoYo Games.Drawing.Set_Font
 	/// @DnDVersion : 1
-	/// @DnDHash : 3DE851BD
+	/// @DnDHash : 05410AAB
 	/// @DnDParent : 3D52B1CE
 	/// @DnDArgument : "font" "fontBubble"
 	draw_set_font(fontBubble);
