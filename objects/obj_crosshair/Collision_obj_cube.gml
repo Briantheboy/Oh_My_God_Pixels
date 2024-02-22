@@ -27,35 +27,15 @@ if(room == BOOM)
 		if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 		if(__dnd_score == 0)
 		{
-			/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+			/// @DnDAction : YoYo Games.Instances.Set_Alarm
 			/// @DnDVersion : 1
-			/// @DnDHash : 7612AC62
-			/// @DnDApplyTo : {obj_cube}
+			/// @DnDHash : 68FA23C1
+			/// @DnDApplyTo : {obj_controller}
 			/// @DnDParent : 2C366C5A
-			/// @DnDArgument : "x" "random_range(-359, 359)"
-			/// @DnDArgument : "x_relative" "1"
-			/// @DnDArgument : "y" "random_range(-359, 359)"
-			/// @DnDArgument : "y_relative" "1"
-			with(obj_cube) direction = point_direction(x, y, x + random_range(-359, 359), y + random_range(-359, 359));
-		
-			/// @DnDAction : YoYo Games.Movement.Set_Speed
-			/// @DnDVersion : 1
-			/// @DnDHash : 41B4C95D
-			/// @DnDApplyTo : {obj_cube}
-			/// @DnDParent : 2C366C5A
-			/// @DnDArgument : "speed" "9"
-			with(obj_cube) speed = 9;
-		
-			/// @DnDAction : YoYo Games.Movement.Jump_To_Point
-			/// @DnDVersion : 1
-			/// @DnDHash : 52947B65
-			/// @DnDApplyTo : {obj_BigBorder_front}
-			/// @DnDParent : 2C366C5A
-			/// @DnDArgument : "x" "5000"
-			/// @DnDArgument : "x_relative" "1"
-			/// @DnDArgument : "y_relative" "1"
-			with(obj_BigBorder_front) {
-			x += 5000;
+			/// @DnDArgument : "steps" "2"
+			/// @DnDArgument : "alarm" "1"
+			with(obj_controller) {
+			alarm_set(1, 2);
 			
 			}
 		
