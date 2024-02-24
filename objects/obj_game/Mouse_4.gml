@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Game.Restart_Game
+/// @DnDVersion : 1
+/// @DnDHash : 5B589264
+/// @DnDDisabled : 1
+
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 5F0FA5CE

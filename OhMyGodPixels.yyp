@@ -80,9 +80,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
   ],
-  "IncludedFiles": [
-    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"demo.mp4","CopyToMask":-1,"filePath":"datafiles",},
-  ],
+  "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
@@ -690,6 +688,7 @@
     {"id":{"name":"tml_ResetWorld","path":"timelines/tml_ResetWorld/tml_ResetWorld.yy",},},
     {"id":{"name":"MARIO","path":"rooms/MARIO/MARIO.yy",},},
     {"id":{"name":"sou_failclock","path":"sounds/sou_failclock/sou_failclock.yy",},},
+    {"id":{"name":"tml_Mirror_Time_RL","path":"timelines/tml_Mirror_Time_RL/tml_Mirror_Time_RL.yy",},},
     {"id":{"name":"obj_pinksel","path":"objects/obj_pinksel/obj_pinksel.yy",},},
     {"id":{"name":"spr_GoodAns2","path":"sprites/spr_GoodAns2/spr_GoodAns2.yy",},},
     {"id":{"name":"spr_doyouwantexample","path":"sprites/spr_doyouwantexample/spr_doyouwantexample.yy",},},
