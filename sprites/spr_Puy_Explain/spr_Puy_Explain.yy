@@ -24,7 +24,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"abe1f947-873c-462e-a9f8-5d5521031b9d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 7,
   "parent": {
     "name": "CM_Hud",
     "path": "folders/Sprites/CM_Hud.yy",
@@ -62,7 +62,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 289,
-    "yorigin": 462,
+    "yorigin": 925,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
