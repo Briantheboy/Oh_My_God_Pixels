@@ -47,4 +47,19 @@ if(DimmingTime == "Off")
 		/// @DnDArgument : "alpha_relative" "1"
 		image_alpha += -0.04;
 	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 7F226CD7
+	/// @DnDParent : 05162DBF
+	/// @DnDArgument : "var" "image_alpha"
+	/// @DnDArgument : "op" "3"
+	if(image_alpha <= 0)
+	{
+		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 6598626C
+		/// @DnDParent : 7F226CD7
+		instance_destroy();
+	}
 }
