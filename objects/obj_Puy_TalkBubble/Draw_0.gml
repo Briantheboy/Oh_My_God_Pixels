@@ -71,9 +71,9 @@ if(room == Make_Intro)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "xscale" "Scaler"
 		/// @DnDArgument : "yscale" "Scaler"
-		/// @DnDArgument : "caption" ""Before we start, please use the MOUSE to choose\nif you want make a NEW baby or LOAD one.""
+		/// @DnDArgument : "caption" ""Before we start, please use the MOUSE to choose\nif you want to make a NEW baby or LOAD one.""
 		/// @DnDArgument : "angle" "Rotater"
-		draw_text_transformed(x + 150, y + -50, string("Before we start, please use the MOUSE to choose\nif you want make a NEW baby or LOAD one.") + "", Scaler, Scaler, Rotater);
+		draw_text_transformed(x + 150, y + -50, string("Before we start, please use the MOUSE to choose\nif you want to make a NEW baby or LOAD one.") + "", Scaler, Scaler, Rotater);
 	}
 }
 
@@ -101,9 +101,9 @@ if(room == ChooseExample)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "xscale" "Scaler"
 		/// @DnDArgument : "yscale" "Scaler"
-		/// @DnDArgument : "caption" ""Alright, cool!\n""
+		/// @DnDArgument : "caption" ""Alright, cool! Let's design a baby! \nUse the mouse to make a selection.""
 		/// @DnDArgument : "angle" "Rotater"
-		draw_text_transformed(x + 150, y + -50, string("Alright, cool!\n") + "", Scaler, Scaler, Rotater);
+		draw_text_transformed(x + 150, y + -50, string("Alright, cool! Let's design a baby! \nUse the mouse to make a selection.") + "", Scaler, Scaler, Rotater);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -124,8 +124,153 @@ if(room == ChooseExample)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "xscale" "Scaler"
 		/// @DnDArgument : "yscale" "Scaler"
-		/// @DnDArgument : "caption" ""Before we start, please use the MOUSE to choose\nif you want make a NEW baby or LOAD one.""
+		/// @DnDArgument : "caption" ""If you wanna start with a blank canvas, click START FRESH.\nThis option is recommended for creative people.""
 		/// @DnDArgument : "angle" "Rotater"
-		draw_text_transformed(x + 150, y + -50, string("Before we start, please use the MOUSE to choose\nif you want make a NEW baby or LOAD one.") + "", Scaler, Scaler, Rotater);
+		draw_text_transformed(x + 150, y + -50, string("If you wanna start with a blank canvas, click START FRESH.\nThis option is recommended for creative people.") + "", Scaler, Scaler, Rotater);
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 1BBAE184
+	/// @DnDParent : 0AA2BF25
+	/// @DnDArgument : "var" "TalkValue"
+	/// @DnDArgument : "value" "2"
+	if(TalkValue == 2)
+	{
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 7EA2CCF3
+		/// @DnDParent : 1BBAE184
+		/// @DnDArgument : "x" "150"
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y" "-50"
+		/// @DnDArgument : "y_relative" "1"
+		/// @DnDArgument : "xscale" "Scaler"
+		/// @DnDArgument : "yscale" "Scaler"
+		/// @DnDArgument : "caption" ""If you want to edit a pre-made character, select \nEDIT EXAMPLE.""
+		/// @DnDArgument : "angle" "Rotater"
+		draw_text_transformed(x + 150, y + -50, string("If you want to edit a pre-made character, select \nEDIT EXAMPLE.") + "", Scaler, Scaler, Rotater);
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 4E08CF27
+	/// @DnDParent : 0AA2BF25
+	/// @DnDArgument : "var" "TalkValue"
+	/// @DnDArgument : "value" "3"
+	if(TalkValue == 3)
+	{
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 235B6D9C
+		/// @DnDParent : 4E08CF27
+		/// @DnDArgument : "x" "150"
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y" "-50"
+		/// @DnDArgument : "y_relative" "1"
+		/// @DnDArgument : "xscale" "Scaler"
+		/// @DnDArgument : "yscale" "Scaler"
+		/// @DnDArgument : "caption" ""This option is recommended for impatient people \nwho just want to jump into the game.""
+		/// @DnDArgument : "angle" "Rotater"
+		draw_text_transformed(x + 150, y + -50, string("This option is recommended for impatient people \nwho just want to jump into the game.") + "", Scaler, Scaler, Rotater);
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5AA78169
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "Make"
+if(room == Make)
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 148E7A84
+	/// @DnDParent : 5AA78169
+	/// @DnDArgument : "var" "TalkValue"
+	if(TalkValue == 0)
+	{
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 065C250F
+		/// @DnDParent : 148E7A84
+		/// @DnDArgument : "x" "150"
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y" "-50"
+		/// @DnDArgument : "y_relative" "1"
+		/// @DnDArgument : "xscale" "Scaler"
+		/// @DnDArgument : "yscale" "Scaler"
+		/// @DnDArgument : "caption" ""Time to Draw! Use your MOUSE to draw onto all FOUR\nframes: FRONT, LEFT, BACK, and RIGHT.""
+		/// @DnDArgument : "angle" "Rotater"
+		draw_text_transformed(x + 150, y + -50, string("Time to Draw! Use your MOUSE to draw onto all FOUR\nframes: FRONT, LEFT, BACK, and RIGHT.") + "", Scaler, Scaler, Rotater);
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 349143F3
+	/// @DnDParent : 5AA78169
+	/// @DnDArgument : "var" "TalkValue"
+	/// @DnDArgument : "value" "1"
+	if(TalkValue == 1)
+	{
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 5827923C
+		/// @DnDParent : 349143F3
+		/// @DnDArgument : "x" "150"
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y" "-50"
+		/// @DnDArgument : "y_relative" "1"
+		/// @DnDArgument : "xscale" "Scaler"
+		/// @DnDArgument : "yscale" "Scaler"
+		/// @DnDArgument : "caption" ""You need at least one pixel on each frame to continue.\nSo get creative!""
+		/// @DnDArgument : "angle" "Rotater"
+		draw_text_transformed(x + 150, y + -50, string("You need at least one pixel on each frame to continue.\nSo get creative!") + "", Scaler, Scaler, Rotater);
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 06B03AD1
+	/// @DnDParent : 5AA78169
+	/// @DnDArgument : "var" "TalkValue"
+	/// @DnDArgument : "value" "2"
+	if(TalkValue == 2)
+	{
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 3A2EEBC5
+		/// @DnDParent : 06B03AD1
+		/// @DnDArgument : "x" "150"
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y" "-50"
+		/// @DnDArgument : "y_relative" "1"
+		/// @DnDArgument : "xscale" "Scaler"
+		/// @DnDArgument : "yscale" "Scaler"
+		/// @DnDArgument : "caption" ""Have fun using your tools! Select the PENICL or\nBUCKET to draw onto your image.""
+		/// @DnDArgument : "angle" "Rotater"
+		draw_text_transformed(x + 150, y + -50, string("Have fun using your tools! Select the PENICL or\nBUCKET to draw onto your image.") + "", Scaler, Scaler, Rotater);
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 657CFD0C
+	/// @DnDParent : 5AA78169
+	/// @DnDArgument : "var" "TalkValue"
+	/// @DnDArgument : "value" "3"
+	if(TalkValue == 3)
+	{
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 7456DA44
+		/// @DnDParent : 657CFD0C
+		/// @DnDArgument : "x" "150"
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y" "-50"
+		/// @DnDArgument : "y_relative" "1"
+		/// @DnDArgument : "xscale" "Scaler"
+		/// @DnDArgument : "yscale" "Scaler"
+		/// @DnDArgument : "caption" ""Click the ERASER in tandem with the PENCIL or BUCKET\ntools to erase parts of your image.""
+		/// @DnDArgument : "angle" "Rotater"
+		draw_text_transformed(x + 150, y + -50, string("Click the ERASER in tandem with the PENCIL or BUCKET\ntools to erase parts of your image.") + "", Scaler, Scaler, Rotater);
 	}
 }

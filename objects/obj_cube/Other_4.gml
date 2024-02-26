@@ -135,6 +135,15 @@ if(room == MARIO)
 /// @DnDArgument : "value" "DoorTest"
 if(room == DoorTest)
 {
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 21B44992
+	/// @DnDParent : 0A96B31C
+	/// @DnDArgument : "x" "StartPosx"
+	/// @DnDArgument : "y" "StartPosy"
+	x = StartPosx;
+	y = StartPosy;
+
 	/// @DnDAction : YoYo Games.Paths.Stop_Path
 	/// @DnDVersion : 1
 	/// @DnDHash : 1660CAAF
@@ -346,4 +355,21 @@ if(room == WRONGCHARACTER)
 		timeline_loop = 0;
 		timeline_running = 1;
 	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 20B94D40
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "LoadCharacter"
+if(room == LoadCharacter)
+{
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 402523CD
+	/// @DnDParent : 20B94D40
+	/// @DnDArgument : "x" "(StartPosx)+639"
+	/// @DnDArgument : "y" "(StartPosy)-98"
+	x = (StartPosx)+639;
+	y = (StartPosy)-98;
 }

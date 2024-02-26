@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "CM_Examples",
-    "path": "folders/Sprites/CM_Examples.yy",
+    "name": "CM_SAMPLES",
+    "path": "folders/Objects/CM_SAMPLES.yy",
   },
   "parentObjectId": null,
   "persistent": false,

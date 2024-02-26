@@ -36,4 +36,17 @@ if(!l5E6444D7_0)
 	sprite_index = spr_examplegrid_alien;
 	image_index = 0;
 	}
+
+	/// @DnDAction : YoYo Games.Timelines.Set_Timeline
+	/// @DnDVersion : 1
+	/// @DnDHash : 7C10042A
+	/// @DnDApplyTo : {obj_examplegrid}
+	/// @DnDParent : 5E6444D7
+	/// @DnDArgument : "timeline" "tml_SquishmyBalls"
+	/// @DnDSaveInfo : "timeline" "tml_SquishmyBalls"
+	with(obj_examplegrid) {
+	timeline_index = tml_SquishmyBalls;
+	timeline_loop = 0;
+	timeline_running = 1;
+	}
 }
