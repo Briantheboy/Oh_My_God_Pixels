@@ -372,4 +372,19 @@ if(room == LoadCharacter)
 	/// @DnDArgument : "y" "(StartPosy)-98"
 	x = (StartPosx)+639;
 	y = (StartPosy)-98;
+
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 3882D282
+	/// @DnDParent : 20B94D40
+	/// @DnDArgument : "spriteind" "frontCOLOR"
+	sprite_index = frontCOLOR;
+	image_index = 0;
+
+	/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
+	/// @DnDVersion : 1
+	/// @DnDHash : 051534A0
+	/// @DnDParent : 20B94D40
+	/// @DnDArgument : "alpha" "frontALPHA"
+	image_alpha = frontALPHA;
 }

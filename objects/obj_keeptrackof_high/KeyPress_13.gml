@@ -31,9 +31,9 @@ if(room == highscore)
 			/// @DnDVersion : 1
 			/// @DnDHash : 4963649C
 			/// @DnDParent : 2AB5FF94
-			/// @DnDArgument : "room" "ChooseExample"
-			/// @DnDSaveInfo : "room" "ChooseExample"
-			room_goto(ChooseExample);
+			/// @DnDArgument : "room" "Make_Intro"
+			/// @DnDSaveInfo : "room" "Make_Intro"
+			room_goto(Make_Intro);
 		}
 	}
 }

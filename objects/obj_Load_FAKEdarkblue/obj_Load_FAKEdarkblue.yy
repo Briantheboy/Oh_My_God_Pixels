@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_Load_FAKEdarkblue",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_SlotClearer","path":"objects/obj_SlotClearer/obj_SlotClearer.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
