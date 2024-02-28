@@ -66,10 +66,9 @@ if(room == LoadCharacter)
 	/// @DnDVersion : 1
 	/// @DnDHash : 3E2CE9C0
 	/// @DnDParent : 3B644CFD
-	/// @DnDArgument : "xscale" "0"
-	/// @DnDArgument : "xscale_relative" "1"
+	/// @DnDArgument : "xscale" "0.62"
 	/// @DnDArgument : "yscale" "0.18"
-	image_xscale += 0;
+	image_xscale = 0.62;
 	image_yscale = 0.18;
 
 	/// @DnDAction : YoYo Games.Timelines.Set_Timeline
