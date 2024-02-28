@@ -480,6 +480,56 @@ if(room == LoadCharacter)
 		instance_create_layer(x + 0, y + 0, "Overlay", obj_Sample_Right);
 	}
 
+	/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+	/// @DnDVersion : 1
+	/// @DnDHash : 7C3440BE
+	/// @DnDApplyTo : {obj_Slot1}
+	/// @DnDParent : 6DF1D23E
+	with(obj_Slot1) {
+	
+	__dnd_score = real(0);
+	}
+
+	/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+	/// @DnDVersion : 1
+	/// @DnDHash : 3DDCB7DB
+	/// @DnDApplyTo : {obj_Slot2}
+	/// @DnDParent : 6DF1D23E
+	with(obj_Slot2) {
+	
+	__dnd_score = real(0);
+	}
+
+	/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+	/// @DnDVersion : 1
+	/// @DnDHash : 254A6DE3
+	/// @DnDApplyTo : {obj_Slot3}
+	/// @DnDParent : 6DF1D23E
+	with(obj_Slot3) {
+	
+	__dnd_score = real(0);
+	}
+
+	/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+	/// @DnDVersion : 1
+	/// @DnDHash : 3C11B380
+	/// @DnDApplyTo : {obj_Slot4}
+	/// @DnDParent : 6DF1D23E
+	with(obj_Slot4) {
+	
+	__dnd_score = real(0);
+	}
+
+	/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+	/// @DnDVersion : 1
+	/// @DnDHash : 7BBA3DB2
+	/// @DnDApplyTo : {obj_Slot5}
+	/// @DnDParent : 6DF1D23E
+	with(obj_Slot5) {
+	
+	__dnd_score = real(0);
+	}
+
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1
 	/// @DnDHash : 7CFEBB76

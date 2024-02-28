@@ -130,6 +130,70 @@ if(room == MARIO)
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 20770EFD
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "LoadCharacter"
+if(room == LoadCharacter)
+{
+	/// @DnDAction : YoYo Games.Particles.Part_Syst_Create
+	/// @DnDVersion : 1.2
+	/// @DnDHash : 3C3DED7A
+	/// @DnDParent : 20770EFD
+	/// @DnDArgument : "layer" ""Overlay""
+	system = part_system_create_layer("Overlay", 0);
+
+	/// @DnDAction : YoYo Games.Particles.Part_Type_Create
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 05F5F5F0
+	/// @DnDParent : 20770EFD
+	/// @DnDArgument : "var" "DaSprinkles"
+	DaSprinkles = part_type_create();
+	// no blending
+
+	/// @DnDAction : YoYo Games.Particles.Part_Type_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 285DAC00
+	/// @DnDParent : 20770EFD
+	/// @DnDArgument : "type" "DaSprinkles"
+	/// @DnDArgument : "sprite" "frontCOLOR"
+	part_type_sprite(DaSprinkles, frontCOLOR, true, false, false);
+
+	/// @DnDAction : YoYo Games.Particles.Part_Emit_Create
+	/// @DnDVersion : 1
+	/// @DnDHash : 0B631555
+	/// @DnDParent : 20770EFD
+	emitter = part_emitter_create(system);
+
+	/// @DnDAction : YoYo Games.Particles.Part_Type_Life
+	/// @DnDVersion : 1
+	/// @DnDHash : 2F74925A
+	/// @DnDParent : 20770EFD
+	/// @DnDArgument : "typ" "DaSprinkles"
+	/// @DnDArgument : "minlife" "20"
+	/// @DnDArgument : "maxlife" "20"
+	part_type_life(DaSprinkles, 20, 20);
+
+	/// @DnDAction : YoYo Games.Particles.Part_Type_Size
+	/// @DnDVersion : 1
+	/// @DnDHash : 46046099
+	/// @DnDParent : 20770EFD
+	/// @DnDArgument : "type" "DaSprinkles"
+	/// @DnDArgument : "minsize" "1"
+	part_type_size(DaSprinkles, 1, 1, 0, 0);
+
+	/// @DnDAction : YoYo Games.Particles.Part_Type_Alpha
+	/// @DnDVersion : 1
+	/// @DnDHash : 6026CF3D
+	/// @DnDParent : 20770EFD
+	/// @DnDArgument : "type" "DaSprinkles"
+	/// @DnDArgument : "start" "0.5"
+	/// @DnDArgument : "middle" "0.25"
+	/// @DnDArgument : "end" "0"
+	part_type_alpha3(DaSprinkles, 0.5, 0.25, 0);
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 0A96B31C
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "DoorTest"
