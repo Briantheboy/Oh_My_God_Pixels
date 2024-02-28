@@ -12,7 +12,7 @@ if(!l1FF1E534_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 7F18FEAF
 	/// @DnDParent : 1FF1E534
-	/// @DnDArgument : "room" "ChooseExample"
-	/// @DnDSaveInfo : "room" "ChooseExample"
-	room_goto(ChooseExample);
+	/// @DnDArgument : "room" "LoadCharacter"
+	/// @DnDSaveInfo : "room" "LoadCharacter"
+	room_goto(LoadCharacter);
 }

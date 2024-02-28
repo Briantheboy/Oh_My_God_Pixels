@@ -274,3 +274,78 @@ if(room == Make)
 		draw_text_transformed(x + 150, y + -50, string("Click the ERASER in tandem with the PENCIL or BUCKET\ntools to erase parts of your image.") + "", Scaler, Scaler, Rotater);
 	}
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 30E7E53C
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "LoadCharacter"
+if(room == LoadCharacter)
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 33F40C26
+	/// @DnDParent : 30E7E53C
+	/// @DnDArgument : "var" "TalkValue"
+	if(TalkValue == 0)
+	{
+		/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+		/// @DnDVersion : 1
+		/// @DnDHash : 4FE2E9C4
+		/// @DnDParent : 33F40C26
+		/// @DnDArgument : "obj" "obj_cube"
+		/// @DnDSaveInfo : "obj" "obj_cube"
+		var l4FE2E9C4_0 = false;
+		l4FE2E9C4_0 = instance_exists(obj_cube);
+		if(l4FE2E9C4_0)
+		{
+			/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+			/// @DnDVersion : 1
+			/// @DnDHash : 7E1D5D83
+			/// @DnDParent : 4FE2E9C4
+			/// @DnDArgument : "x" "300"
+			/// @DnDArgument : "x_relative" "1"
+			/// @DnDArgument : "y" "-100"
+			/// @DnDArgument : "y_relative" "1"
+			/// @DnDArgument : "xscale" "Scaler"
+			/// @DnDArgument : "yscale" "Scaler"
+			/// @DnDArgument : "caption" ""Sick! Now pick what SLOT you wanna save your character\nonto. Once you are done, hit the top right arrow!""
+			/// @DnDArgument : "angle" "Rotater"
+			draw_text_transformed(x + 300, y + -100, string("Sick! Now pick what SLOT you wanna save your character\nonto. Once you are done, hit the top right arrow!") + "", Scaler, Scaler, Rotater);
+		}
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2A7D0AF7
+	/// @DnDParent : 30E7E53C
+	/// @DnDArgument : "var" "TalkValue"
+	if(TalkValue == 0)
+	{
+		/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+		/// @DnDVersion : 1
+		/// @DnDHash : 479BEDFE
+		/// @DnDParent : 2A7D0AF7
+		/// @DnDArgument : "obj" "obj_cube"
+		/// @DnDArgument : "not" "1"
+		/// @DnDSaveInfo : "obj" "obj_cube"
+		var l479BEDFE_0 = false;
+		l479BEDFE_0 = instance_exists(obj_cube);
+		if(!l479BEDFE_0)
+		{
+			/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+			/// @DnDVersion : 1
+			/// @DnDHash : 5C4F755A
+			/// @DnDParent : 479BEDFE
+			/// @DnDArgument : "x" "300"
+			/// @DnDArgument : "x_relative" "1"
+			/// @DnDArgument : "y" "-100"
+			/// @DnDArgument : "y_relative" "1"
+			/// @DnDArgument : "xscale" "Scaler"
+			/// @DnDArgument : "yscale" "Scaler"
+			/// @DnDArgument : "caption" ""Select a character to load!""
+			/// @DnDArgument : "angle" "Rotater"
+			draw_text_transformed(x + 300, y + -100, string("Select a character to load!") + "", Scaler, Scaler, Rotater);
+		}
+	}
+}
