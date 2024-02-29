@@ -45,7 +45,6 @@
     {"name":"inst_43A200B3","path":"rooms/highscore/highscore.yy",},
     {"name":"inst_436935AA","path":"rooms/highscore/highscore.yy",},
     {"name":"inst_40226821","path":"rooms/highscore/highscore.yy",},
-    {"name":"inst_152FB573","path":"rooms/highscore/highscore.yy",},
   ],
   "isDnd": true,
   "layers": [
@@ -58,7 +57,6 @@
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"StartText","animationFPS":3.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_EntertoBegin","path":"sprites/spr_EntertoBegin/spr_EntertoBegin.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":1950,"y":3180,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Command","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2FC67B1B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_blackout","path":"objects/obj_blackout/obj_blackout.yy",},"properties":[],"rotation":0.0,"scaleX":260.84,"scaleY":-18.199999,"x":3320.3198,"y":3407.36,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_152FB573","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_GotoLoad","path":"objects/obj_GotoLoad/obj_GotoLoad.yy",},"properties":[],"rotation":0.0,"scaleX":6.9999995,"scaleY":6.9999995,"x":6112.0,"y":3328.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Overlay","depth":300,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_748BCE1A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":280.0,},

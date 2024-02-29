@@ -9,5 +9,5 @@ image_yscale = 0.5;
 /// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 /// @DnDVersion : 1
 /// @DnDHash : 4A1E5595
-/// @DnDDisabled : 1
 /// @DnDArgument : "alpha" "0"
+image_alpha = 0;

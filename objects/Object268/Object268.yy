@@ -1,10 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_GotoGame",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":true,},
-  ],
+  "name": "Object268",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -28,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite335",
-    "path": "sprites/Sprite335/Sprite335.yy",
+    "name": "spr_LoadingPerson",
+    "path": "sprites/spr_LoadingPerson/spr_LoadingPerson.yy",
   },
   "spriteMaskId": null,
   "visible": true,

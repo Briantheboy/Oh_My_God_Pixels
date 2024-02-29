@@ -26,16 +26,6 @@ if(!l4C7AE68D_0)
 		if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 		if(__dnd_score == 0)
 		{
-			/// @DnDAction : YoYo Games.Paths.Start_Path
-			/// @DnDVersion : 1.1
-			/// @DnDHash : 083AE7D1
-			/// @DnDApplyTo : {obj_cube}
-			/// @DnDParent : 41001CA4
-			/// @DnDArgument : "path" "pth_Slot1"
-			/// @DnDArgument : "speed" "40"
-			/// @DnDSaveInfo : "path" "pth_Slot1"
-			with(obj_cube) path_start(pth_Slot1, 40, path_action_stop, false);
-		
 			/// @DnDAction : YoYo Games.Instances.Create_Instance
 			/// @DnDVersion : 1
 			/// @DnDHash : 2181F7B9
@@ -46,6 +36,27 @@ if(!l4C7AE68D_0)
 			/// @DnDArgument : "layer" ""Overlay""
 			/// @DnDSaveInfo : "objectid" "obj_SlotClearer"
 			instance_create_layer(x + 0, y + 0, "Overlay", obj_SlotClearer);
+		
+			/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+			/// @DnDVersion : 1
+			/// @DnDHash : 1FCCE000
+			/// @DnDParent : 41001CA4
+			/// @DnDArgument : "obj" "obj_cube"
+			/// @DnDSaveInfo : "obj" "obj_cube"
+			var l1FCCE000_0 = false;
+			l1FCCE000_0 = instance_exists(obj_cube);
+			if(l1FCCE000_0)
+			{
+				/// @DnDAction : YoYo Games.Paths.Start_Path
+				/// @DnDVersion : 1.1
+				/// @DnDHash : 083AE7D1
+				/// @DnDApplyTo : {obj_cube}
+				/// @DnDParent : 1FCCE000
+				/// @DnDArgument : "path" "pth_Slot1"
+				/// @DnDArgument : "speed" "40"
+				/// @DnDSaveInfo : "path" "pth_Slot1"
+				with(obj_cube) path_start(pth_Slot1, 40, path_action_stop, false);
+			}
 		
 			/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 			/// @DnDVersion : 1

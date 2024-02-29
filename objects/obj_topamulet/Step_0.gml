@@ -1,5 +1,19 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 650EB4C5
+/// @DnDDisabled : 1
+/// @DnDArgument : "var" "layer_exists("SampleBACK_bun")"
+/// @DnDArgument : "value" "false"
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 2C8D8ADE
+/// @DnDDisabled : 1
+/// @DnDParent : 650EB4C5
+/// @DnDArgument : "soundid" "sou_bloodsquirt"
+/// @DnDSaveInfo : "soundid" "sou_bloodsquirt"
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 1B2FDBD6
 /// @DnDApplyTo : {obj_drawselecter}
 /// @DnDArgument : "var" "sprite_index"

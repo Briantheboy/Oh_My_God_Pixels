@@ -313,10 +313,10 @@ if(TalkValue == 0)
 		/// @DnDHash : 0E8EE226
 		/// @DnDApplyTo : {obj_Puy_Explain}
 		/// @DnDParent : 1244DF61
-		/// @DnDArgument : "timeline" "tml_PuyumiJumpout"
-		/// @DnDSaveInfo : "timeline" "tml_PuyumiJumpout"
+		/// @DnDArgument : "timeline" "tml_PuyumiJumpout_Big"
+		/// @DnDSaveInfo : "timeline" "tml_PuyumiJumpout_Big"
 		with(obj_Puy_Explain) {
-		timeline_index = tml_PuyumiJumpout;
+		timeline_index = tml_PuyumiJumpout_Big;
 		timeline_loop = 0;
 		timeline_running = 1;
 		}
