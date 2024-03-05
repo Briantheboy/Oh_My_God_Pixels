@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 1302751E
+/// @DnDHash : 4B13A65E
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "not" "1"
 /// @DnDArgument : "value" "highscore"
@@ -8,89 +8,113 @@ if(!(room == highscore))
 {
 	/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 	/// @DnDVersion : 1
-	/// @DnDHash : 4B69747C
-	/// @DnDParent : 1302751E
+	/// @DnDHash : 69BCAE1D
+	/// @DnDParent : 4B13A65E
 	/// @DnDArgument : "alpha" "0"
 	image_alpha = 0;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 078F87B2
+/// @DnDHash : 0CFBE004
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "highscore"
 if(room == highscore)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
-	/// @DnDHash : 18CC61E9
-	/// @DnDParent : 078F87B2
+	/// @DnDHash : 10AAE7DE
+	/// @DnDParent : 0CFBE004
 	/// @DnDArgument : "steps" "3"
 	alarm_set(0, 3);
 
 	/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 	/// @DnDVersion : 1
-	/// @DnDHash : 0F2DB48B
-	/// @DnDParent : 078F87B2
+	/// @DnDHash : 15D5387F
+	/// @DnDParent : 0CFBE004
 	image_alpha = 1;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 3200C961
-/// @DnDApplyTo : {obj_keeptrackof_high}
+/// @DnDHash : 68106AA4
 /// @DnDArgument : "var" "global.TextMove"
-/// @DnDArgument : "value" ""third""
-with(obj_keeptrackof_high) var l3200C961_0 = global.TextMove == "third";
-if(l3200C961_0)
+/// @DnDArgument : "value" ""first""
+if(global.TextMove == "first")
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 7230DCB9
-	/// @DnDParent : 3200C961
+	/// @DnDHash : 69D8A1FD
+	/// @DnDParent : 68106AA4
 	/// @DnDArgument : "var" "y"
 	/// @DnDArgument : "op" "2"
-	/// @DnDArgument : "value" "1660"
-	if(y > 1660)
+	/// @DnDArgument : "value" "1000"
+	if(y > 1000)
 	{
 		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 		/// @DnDVersion : 1
-		/// @DnDHash : 441C3203
-		/// @DnDParent : 7230DCB9
+		/// @DnDHash : 4498E8BC
+		/// @DnDParent : 69D8A1FD
 		/// @DnDArgument : "x_relative" "1"
-		/// @DnDArgument : "y" "800"
+		/// @DnDArgument : "y" "798"
 		/// @DnDArgument : "y_relative" "1"
 		
-		y += 800;
+		y += 798;
 	}
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 19A95D27
-/// @DnDApplyTo : {obj_keeptrackof_high}
+/// @DnDHash : 638A9FF2
 /// @DnDArgument : "var" "global.TextMove"
 /// @DnDArgument : "value" ""second""
-with(obj_keeptrackof_high) var l19A95D27_0 = global.TextMove == "second";
-if(l19A95D27_0)
+if(global.TextMove == "second")
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 3DA3ECFB
-	/// @DnDParent : 19A95D27
+	/// @DnDHash : 1BF73C62
+	/// @DnDParent : 638A9FF2
 	/// @DnDArgument : "var" "y"
 	/// @DnDArgument : "op" "2"
-	/// @DnDArgument : "value" "1660"
-	if(y > 1660)
+	/// @DnDArgument : "value" "2000"
+	if(y > 2000)
 	{
 		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 		/// @DnDVersion : 1
-		/// @DnDHash : 413EA2FD
-		/// @DnDParent : 3DA3ECFB
+		/// @DnDHash : 6107E498
+		/// @DnDParent : 1BF73C62
 		/// @DnDArgument : "x_relative" "1"
-		/// @DnDArgument : "y" "800"
+		/// @DnDArgument : "y" "798"
 		/// @DnDArgument : "y_relative" "1"
 		
-		y += 800;
+		y += 798;
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 45CF8E17
+/// @DnDArgument : "var" "global.TextMove"
+/// @DnDArgument : "value" ""third""
+if(global.TextMove == "third")
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 51F64BC3
+	/// @DnDParent : 45CF8E17
+	/// @DnDArgument : "var" "y"
+	/// @DnDArgument : "op" "2"
+	/// @DnDArgument : "value" "2500"
+	if(y > 2500)
+	{
+		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+		/// @DnDVersion : 1
+		/// @DnDHash : 23E223D6
+		/// @DnDParent : 51F64BC3
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y" "798"
+		/// @DnDArgument : "y_relative" "1"
+		
+		y += 798;
 	}
 }

@@ -8,14 +8,16 @@ if(room == Make)
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 4BA71DA4
-	/// @DnDInput : 4
+	/// @DnDInput : 5
 	/// @DnDParent : 6D90F588
 	/// @DnDArgument : "var" "frontChecker"
 	/// @DnDArgument : "var_1" "leftChecker"
 	/// @DnDArgument : "var_2" "backChecker"
 	/// @DnDArgument : "var_3" "rightChecker"
+	/// @DnDArgument : "var_4" "fullChecker"
 	frontChecker = 0;
 	leftChecker = 0;
 	backChecker = 0;
 	rightChecker = 0;
+	fullChecker = 0;
 }

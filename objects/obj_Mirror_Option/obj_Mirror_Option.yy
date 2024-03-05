@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_CopyandMirror_LR",
-    "path": "sprites/spr_CopyandMirror_LR/spr_CopyandMirror_LR.yy",
+    "name": "spr_CopyandMirror_FB",
+    "path": "sprites/spr_CopyandMirror_FB/spr_CopyandMirror_FB.yy",
   },
   "spriteMaskId": null,
   "visible": true,

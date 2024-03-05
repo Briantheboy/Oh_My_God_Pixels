@@ -61,28 +61,223 @@ if(l118B0474_0)
 		with(obj_controller) var l1D4BDD57_0 = Wrong_Char_Mode == 2;
 		if(l1D4BDD57_0)
 		{
-			/// @DnDAction : YoYo Games.Instances.Create_Instance
+			/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 			/// @DnDVersion : 1
-			/// @DnDHash : 24BE073F
+			/// @DnDHash : 0CD0EEB0
 			/// @DnDParent : 1D4BDD57
-			/// @DnDArgument : "xpos" "1000"
-			/// @DnDArgument : "xpos_relative" "1"
-			/// @DnDArgument : "ypos_relative" "1"
-			/// @DnDArgument : "objectid" "obj_win"
-			/// @DnDArgument : "layer" ""Overlay""
-			/// @DnDSaveInfo : "objectid" "obj_win"
-			instance_create_layer(x + 1000, y + 0, "Overlay", obj_win);
-		
-			/// @DnDAction : YoYo Games.Instances.Create_Instance
-			/// @DnDVersion : 1
-			/// @DnDHash : 2005C50B
-			/// @DnDParent : 1D4BDD57
-			/// @DnDArgument : "xpos" "1280"
-			/// @DnDArgument : "ypos" "1080"
-			/// @DnDArgument : "objectid" "obj_AnswerCharacter"
-			/// @DnDArgument : "layer" ""Overlay""
-			/// @DnDSaveInfo : "objectid" "obj_AnswerCharacter"
-			instance_create_layer(1280, 1080, "Overlay", obj_AnswerCharacter);
+			/// @DnDArgument : "obj" "obj_win"
+			/// @DnDArgument : "not" "1"
+			/// @DnDSaveInfo : "obj" "obj_win"
+			var l0CD0EEB0_0 = false;
+			l0CD0EEB0_0 = instance_exists(obj_win);
+			if(!l0CD0EEB0_0)
+			{
+				/// @DnDAction : YoYo Games.Instances.Create_Instance
+				/// @DnDVersion : 1
+				/// @DnDHash : 24BE073F
+				/// @DnDParent : 0CD0EEB0
+				/// @DnDArgument : "xpos" "1000"
+				/// @DnDArgument : "xpos_relative" "1"
+				/// @DnDArgument : "ypos_relative" "1"
+				/// @DnDArgument : "objectid" "obj_win"
+				/// @DnDArgument : "layer" ""Overlay""
+				/// @DnDSaveInfo : "objectid" "obj_win"
+				instance_create_layer(x + 1000, y + 0, "Overlay", obj_win);
+			
+				/// @DnDAction : YoYo Games.Instances.Create_Instance
+				/// @DnDVersion : 1
+				/// @DnDHash : 2005C50B
+				/// @DnDParent : 0CD0EEB0
+				/// @DnDArgument : "xpos" "1280"
+				/// @DnDArgument : "ypos" "1080"
+				/// @DnDArgument : "objectid" "obj_AnswerCharacter"
+				/// @DnDArgument : "layer" ""Overlay""
+				/// @DnDSaveInfo : "objectid" "obj_AnswerCharacter"
+				instance_create_layer(1280, 1080, "Overlay", obj_AnswerCharacter);
+			
+				/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+				/// @DnDVersion : 1
+				/// @DnDHash : 6CC7B80B
+				/// @DnDApplyTo : {obj_FAKEbeige}
+				/// @DnDParent : 0CD0EEB0
+				/// @DnDArgument : "score" "1"
+				with(obj_FAKEbeige) {
+				
+				__dnd_score = real(1);
+				}
+			
+				/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+				/// @DnDVersion : 1
+				/// @DnDHash : 55FD4DD2
+				/// @DnDApplyTo : {obj_FAKEblack}
+				/// @DnDParent : 0CD0EEB0
+				/// @DnDArgument : "score" "1"
+				with(obj_FAKEblack) {
+				
+				__dnd_score = real(1);
+				}
+			
+				/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+				/// @DnDVersion : 1
+				/// @DnDHash : 5F19FEB4
+				/// @DnDApplyTo : {obj_FAKEblue}
+				/// @DnDParent : 0CD0EEB0
+				/// @DnDArgument : "score" "1"
+				with(obj_FAKEblue) {
+				
+				__dnd_score = real(1);
+				}
+			
+				/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+				/// @DnDVersion : 1
+				/// @DnDHash : 3AAF25C4
+				/// @DnDApplyTo : {obj_FAKEbrown}
+				/// @DnDParent : 0CD0EEB0
+				/// @DnDArgument : "score" "1"
+				with(obj_FAKEbrown) {
+				
+				__dnd_score = real(1);
+				}
+			
+				/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+				/// @DnDVersion : 1
+				/// @DnDHash : 49B42816
+				/// @DnDApplyTo : {obj_FAKEdarkblue}
+				/// @DnDParent : 0CD0EEB0
+				/// @DnDArgument : "score" "1"
+				with(obj_FAKEdarkblue) {
+				
+				__dnd_score = real(1);
+				}
+			
+				/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+				/// @DnDVersion : 1
+				/// @DnDHash : 325F3D19
+				/// @DnDApplyTo : {obj_FAKEdarkgreen}
+				/// @DnDParent : 0CD0EEB0
+				/// @DnDArgument : "score" "1"
+				with(obj_FAKEdarkgreen) {
+				
+				__dnd_score = real(1);
+				}
+			
+				/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+				/// @DnDVersion : 1
+				/// @DnDHash : 49C01EC9
+				/// @DnDApplyTo : {obj_FAKEdarkgrey}
+				/// @DnDParent : 0CD0EEB0
+				/// @DnDArgument : "score" "1"
+				with(obj_FAKEdarkgrey) {
+				
+				__dnd_score = real(1);
+				}
+			
+				/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+				/// @DnDVersion : 1
+				/// @DnDHash : 6EFD82BB
+				/// @DnDApplyTo : {obj_FAKEgreen}
+				/// @DnDParent : 0CD0EEB0
+				/// @DnDArgument : "score" "1"
+				with(obj_FAKEgreen) {
+				
+				__dnd_score = real(1);
+				}
+			
+				/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+				/// @DnDVersion : 1
+				/// @DnDHash : 1EF79467
+				/// @DnDApplyTo : {obj_FAKEgrey}
+				/// @DnDParent : 0CD0EEB0
+				/// @DnDArgument : "score" "1"
+				with(obj_FAKEgrey) {
+				
+				__dnd_score = real(1);
+				}
+			
+				/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+				/// @DnDVersion : 1
+				/// @DnDHash : 22096E48
+				/// @DnDApplyTo : {obj_FAKEhotpink}
+				/// @DnDParent : 0CD0EEB0
+				/// @DnDArgument : "score" "1"
+				with(obj_FAKEhotpink) {
+				
+				__dnd_score = real(1);
+				}
+			
+				/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+				/// @DnDVersion : 1
+				/// @DnDHash : 5FF98C07
+				/// @DnDApplyTo : {obj_FAKEorange}
+				/// @DnDParent : 0CD0EEB0
+				/// @DnDArgument : "score" "1"
+				with(obj_FAKEorange) {
+				
+				__dnd_score = real(1);
+				}
+			
+				/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+				/// @DnDVersion : 1
+				/// @DnDHash : 53D00350
+				/// @DnDApplyTo : {obj_FAKEpink}
+				/// @DnDParent : 0CD0EEB0
+				/// @DnDArgument : "score" "1"
+				with(obj_FAKEpink) {
+				
+				__dnd_score = real(1);
+				}
+			
+				/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+				/// @DnDVersion : 1
+				/// @DnDHash : 02B4FB0B
+				/// @DnDApplyTo : {obj_FAKEpurple}
+				/// @DnDParent : 0CD0EEB0
+				/// @DnDArgument : "score" "1"
+				with(obj_FAKEpurple) {
+				
+				__dnd_score = real(1);
+				}
+			
+				/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+				/// @DnDVersion : 1
+				/// @DnDHash : 6D45BE72
+				/// @DnDApplyTo : {obj_FAKEred}
+				/// @DnDParent : 0CD0EEB0
+				/// @DnDArgument : "score" "1"
+				with(obj_FAKEred) {
+				
+				__dnd_score = real(1);
+				}
+			
+				/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+				/// @DnDVersion : 1
+				/// @DnDHash : 489B6692
+				/// @DnDApplyTo : {obj_FAKEwhite}
+				/// @DnDParent : 0CD0EEB0
+				/// @DnDArgument : "score" "1"
+				with(obj_FAKEwhite) {
+				
+				__dnd_score = real(1);
+				}
+			
+				/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+				/// @DnDVersion : 1
+				/// @DnDHash : 01EC7BD4
+				/// @DnDApplyTo : {obj_FAKEyellow}
+				/// @DnDParent : 0CD0EEB0
+				/// @DnDArgument : "score" "1"
+				with(obj_FAKEyellow) {
+				
+				__dnd_score = real(1);
+				}
+			
+				/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+				/// @DnDVersion : 1
+				/// @DnDHash : 4307E1BB
+				/// @DnDApplyTo : {obj_FAKE_BigBorder}
+				/// @DnDParent : 0CD0EEB0
+				with(obj_FAKE_BigBorder) instance_destroy();
+			}
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable

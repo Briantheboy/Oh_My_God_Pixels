@@ -20,7 +20,6 @@
     {"name":"inst_17602E57","path":"rooms/highscore/highscore.yy",},
     {"name":"inst_5657B60","path":"rooms/highscore/highscore.yy",},
     {"name":"inst_5B179B6","path":"rooms/highscore/highscore.yy",},
-    {"name":"inst_748BCE1A","path":"rooms/highscore/highscore.yy",},
     {"name":"inst_1F160FD5","path":"rooms/highscore/highscore.yy",},
     {"name":"inst_658B0933","path":"rooms/highscore/highscore.yy",},
     {"name":"inst_6E422486","path":"rooms/highscore/highscore.yy",},
@@ -59,7 +58,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2FC67B1B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_blackout","path":"objects/obj_blackout/obj_blackout.yy",},"properties":[],"rotation":0.0,"scaleX":260.84,"scaleY":-18.199999,"x":3320.3198,"y":3407.36,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Overlay","depth":300,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_748BCE1A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":280.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1F160FD5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_referenceimage","path":"objects/obj_referenceimage/obj_referenceimage.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0009288,"x":3884.0,"y":1288.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Blocks","depth":400,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
@@ -114,7 +112,7 @@
   "roomSettings": {
     "Height": 3600,
     "inheritRoomSettings": false,
-    "persistent": false,
+    "persistent": true,
     "Width": 6400,
   },
   "sequenceId": null,

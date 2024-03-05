@@ -877,12 +877,12 @@ if(room == BOOM)
 	/// @DnDHash : 12A8638B
 	/// @DnDApplyTo : {obj_cube}
 	/// @DnDParent : 7768A456
-	/// @DnDArgument : "x" "-799"
+	/// @DnDArgument : "x" "-1299"
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "25"
 	/// @DnDArgument : "y_relative" "1"
 	with(obj_cube) {
-	x += -799;
+	x += -1299;
 	y += 25;
 	}
 
@@ -891,12 +891,12 @@ if(room == BOOM)
 	/// @DnDHash : 492129BF
 	/// @DnDApplyTo : {obj_BigBorder_back}
 	/// @DnDParent : 7768A456
-	/// @DnDArgument : "x" "-799"
+	/// @DnDArgument : "x" "-1299"
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "25"
 	/// @DnDArgument : "y_relative" "1"
 	with(obj_BigBorder_back) {
-	x += -799;
+	x += -1299;
 	y += 25;
 	}
 
@@ -905,12 +905,12 @@ if(room == BOOM)
 	/// @DnDHash : 76120CBA
 	/// @DnDApplyTo : {obj_BigBorder_front}
 	/// @DnDParent : 7768A456
-	/// @DnDArgument : "x" "-799"
+	/// @DnDArgument : "x" "-1299"
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "25"
 	/// @DnDArgument : "y_relative" "1"
 	with(obj_BigBorder_front) {
-	x += -799;
+	x += -1299;
 	y += 25;
 	}
 
@@ -919,12 +919,12 @@ if(room == BOOM)
 	/// @DnDHash : 3B987B94
 	/// @DnDApplyTo : {obj_BigBorder_left}
 	/// @DnDParent : 7768A456
-	/// @DnDArgument : "x" "-799"
+	/// @DnDArgument : "x" "-1299"
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "25"
 	/// @DnDArgument : "y_relative" "1"
 	with(obj_BigBorder_left) {
-	x += -799;
+	x += -1299;
 	y += 25;
 	}
 
@@ -933,12 +933,12 @@ if(room == BOOM)
 	/// @DnDHash : 713B0A21
 	/// @DnDApplyTo : {obj_BigBorder_right}
 	/// @DnDParent : 7768A456
-	/// @DnDArgument : "x" "-799"
+	/// @DnDArgument : "x" "-1299"
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "25"
 	/// @DnDArgument : "y_relative" "1"
 	with(obj_BigBorder_right) {
-	x += -799;
+	x += -1299;
 	y += 25;
 	}
 }

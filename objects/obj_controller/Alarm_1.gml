@@ -20,9 +20,37 @@ with(obj_cube) speed = 9;
 /// @DnDHash : 690F67FD
 /// @DnDApplyTo : {obj_BigBorder_front}
 /// @DnDArgument : "x" "5000"
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y_relative" "1"
 with(obj_BigBorder_front) {
-x += 5000;
+x = 5000;
+
+}
+
+/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+/// @DnDVersion : 1
+/// @DnDHash : 24A7F10A
+/// @DnDApplyTo : {obj_BigBorder_back}
+/// @DnDArgument : "x" "5000"
+with(obj_BigBorder_back) {
+x = 5000;
+
+}
+
+/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+/// @DnDVersion : 1
+/// @DnDHash : 483766D3
+/// @DnDApplyTo : {obj_BigBorder_left}
+/// @DnDArgument : "x" "5000"
+with(obj_BigBorder_left) {
+x = 5000;
+
+}
+
+/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+/// @DnDVersion : 1
+/// @DnDHash : 1AC6FA6A
+/// @DnDApplyTo : {obj_BigBorder_right}
+/// @DnDArgument : "x" "5000"
+with(obj_BigBorder_right) {
+x = 5000;
 
 }
