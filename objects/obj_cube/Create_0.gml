@@ -9,6 +9,11 @@
 StartPosx = x;
 StartPosy = y;
 
+/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+/// @DnDVersion : 1
+/// @DnDHash : 453CE964
+image_angle = 0;
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 /// @DnDVersion : 1
 /// @DnDHash : 0D55F9E9

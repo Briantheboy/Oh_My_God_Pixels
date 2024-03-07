@@ -18,6 +18,74 @@ if(room == Make)
 	{
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
+		/// @DnDHash : 382348B8
+		/// @DnDParent : 1F6A9824
+		/// @DnDArgument : "var" "frontCOLOR"
+		/// @DnDArgument : "value" "spr_emptycube"
+		if(frontCOLOR == spr_emptycube)
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 05EA4838
+			/// @DnDParent : 382348B8
+			/// @DnDArgument : "expr" "0.01"
+			/// @DnDArgument : "var" "frontALPHA"
+			frontALPHA = 0.01;
+		}
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 21A3D553
+		/// @DnDParent : 1F6A9824
+		/// @DnDArgument : "var" "leftCOLOR"
+		/// @DnDArgument : "value" "spr_emptycube"
+		if(leftCOLOR == spr_emptycube)
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 6F60250F
+			/// @DnDParent : 21A3D553
+			/// @DnDArgument : "expr" "0.01"
+			/// @DnDArgument : "var" "leftALPHA"
+			leftALPHA = 0.01;
+		}
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 68C46790
+		/// @DnDParent : 1F6A9824
+		/// @DnDArgument : "var" "backCOLOR"
+		/// @DnDArgument : "value" "spr_emptycube"
+		if(backCOLOR == spr_emptycube)
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 1C25C261
+			/// @DnDParent : 68C46790
+			/// @DnDArgument : "expr" "0.01"
+			/// @DnDArgument : "var" "backALPHA"
+			backALPHA = 0.01;
+		}
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 624ED6D9
+		/// @DnDParent : 1F6A9824
+		/// @DnDArgument : "var" "rightCOLOR"
+		/// @DnDArgument : "value" "spr_emptycube"
+		if(rightCOLOR == spr_emptycube)
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 78A93B91
+			/// @DnDParent : 624ED6D9
+			/// @DnDArgument : "expr" "0.01"
+			/// @DnDArgument : "var" "rightALPHA"
+			rightALPHA = 0.01;
+		}
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
 		/// @DnDHash : 61C2F4B3
 		/// @DnDParent : 1F6A9824
 		/// @DnDArgument : "var" "frontCOLOR"

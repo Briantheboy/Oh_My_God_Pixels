@@ -64,6 +64,7 @@
     {"name":"obj_FAKEblack_High","order":8,"path":"objects/obj_FAKEblack_High/obj_FAKEblack_High.yy",},
     {"name":"spr_light_none","order":3,"path":"sprites/spr_light_none/spr_light_none.yy",},
     {"name":"obj_Mirror_Shit","order":38,"path":"objects/obj_Mirror_Shit/obj_Mirror_Shit.yy",},
+    {"name":"spr_timebmb369","order":8,"path":"sprites/spr_timebmb369/spr_timebmb369.yy",},
     {"name":"obj_badAnswer3","order":2,"path":"objects/obj_badAnswer3/obj_badAnswer3.yy",},
     {"name":"spr_sewerbackground","order":11,"path":"sprites/spr_sewerbackground/spr_sewerbackground.yy",},
     {"name":"spr_timeflame_blue","order":7,"path":"sprites/spr_timeflame_blue/spr_timeflame_blue.yy",},

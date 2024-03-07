@@ -30,6 +30,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_Sample_Left_PERM","path":"objects/obj_Sample_Left_PERM/obj_Sample_Left_PERM.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_Sample_Front_PERM","path":"objects/obj_Sample_Front_PERM/obj_Sample_Front_PERM.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_Sample_Back_PERM","path":"objects/obj_Sample_Back_PERM/obj_Sample_Back_PERM.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":5,"eventType":6,"isDnD":true,},
   ],
   "managed": true,
   "overriddenProperties": [],

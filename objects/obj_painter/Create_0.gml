@@ -16,8 +16,7 @@ Ridofblack = 0;
 /// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 /// @DnDVersion : 1
 /// @DnDHash : 08D0045A
-/// @DnDArgument : "alpha" "0"
-image_alpha = 0;
+image_alpha = 1;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
