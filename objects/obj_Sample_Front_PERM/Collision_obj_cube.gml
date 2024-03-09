@@ -14,29 +14,24 @@ if(room == Make)
 	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 53F7DF3E
+	/// @DnDDisabled : 1
 	/// @DnDParent : 059B6B7F
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "obj_BigBorder_front"
 	/// @DnDArgument : "not" "1"
 	/// @DnDSaveInfo : "object" "obj_BigBorder_front"
-	var l53F7DF3E_0 = instance_place(x + 0, y + 0, obj_BigBorder_front);
-	if (!(l53F7DF3E_0 > 0))
-	{
-		/// @DnDAction : YoYo Games.Instances.Create_Instance
-		/// @DnDVersion : 1
-		/// @DnDHash : 66077D93
-		/// @DnDApplyTo : other
-		/// @DnDParent : 53F7DF3E
-		/// @DnDArgument : "xpos_relative" "1"
-		/// @DnDArgument : "ypos_relative" "1"
-		/// @DnDArgument : "objectid" "obj_BigBorder_front"
-		/// @DnDArgument : "layer" ""Border""
-		/// @DnDSaveInfo : "objectid" "obj_BigBorder_front"
-		with(other) {
-			instance_create_layer(x + 0, y + 0, "Border", obj_BigBorder_front); 
-		}
-	}
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 66077D93
+	/// @DnDDisabled : 1
+	/// @DnDApplyTo : other
+	/// @DnDParent : 53F7DF3E
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
+	/// @DnDArgument : "objectid" "obj_BigBorder_front"
+	/// @DnDArgument : "layer" ""Border""
+	/// @DnDSaveInfo : "objectid" "obj_BigBorder_front"
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
