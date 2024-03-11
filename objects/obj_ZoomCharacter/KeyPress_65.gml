@@ -277,6 +277,14 @@ if(l2ACE1039_0)
 				/// @DnDApplyTo : {obj_FAKE_BigBorder}
 				/// @DnDParent : 1A51BB01
 				with(obj_FAKE_BigBorder) instance_destroy();
+			
+				/// @DnDAction : YoYo Games.Audio.Play_Audio
+				/// @DnDVersion : 1.1
+				/// @DnDHash : 3EF26727
+				/// @DnDParent : 1A51BB01
+				/// @DnDArgument : "soundid" "sou_correct"
+				/// @DnDSaveInfo : "soundid" "sou_correct"
+				audio_play_sound(sou_correct, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
 	
@@ -325,6 +333,14 @@ if(l2ACE1039_0)
 			sprite_index = spr_wrong_character;
 			image_index = 0;
 			}
+		
+			/// @DnDAction : YoYo Games.Audio.Play_Audio
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 28792FD7
+			/// @DnDParent : 79BA5C4D
+			/// @DnDArgument : "soundid" "sou_incorrect"
+			/// @DnDSaveInfo : "soundid" "sou_incorrect"
+			audio_play_sound(sou_incorrect, 0, 0, 1.0, undefined, 1.0);
 		}
 	}
 }

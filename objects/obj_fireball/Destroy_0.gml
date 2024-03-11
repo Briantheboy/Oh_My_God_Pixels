@@ -86,5 +86,12 @@ with(obj_cube) gravity_direction = irandom_range(260,280);
 /// @DnDVersion : 1
 /// @DnDHash : 31987B43
 /// @DnDApplyTo : {obj_cube}
-/// @DnDArgument : "force" "0.3"
-with(obj_cube) gravity = 0.3;
+/// @DnDArgument : "force" "0.15"
+with(obj_cube) gravity = 0.15;
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 67C6FE07
+/// @DnDArgument : "soundid" "sou_fireworkboom"
+/// @DnDSaveInfo : "soundid" "sou_fireworkboom"
+audio_play_sound(sou_fireworkboom, 0, 0, 1.0, undefined, 1.0);

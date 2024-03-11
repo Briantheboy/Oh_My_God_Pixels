@@ -72,4 +72,12 @@ if(image_xscale > .89)
 	/// @DnDApplyTo : {obj_textboxforddlc}
 	/// @DnDParent : 3289C35F
 	with(obj_textboxforddlc) instance_destroy();
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 24A4760A
+	/// @DnDParent : 3289C35F
+	/// @DnDArgument : "soundid" "sou_animewow"
+	/// @DnDSaveInfo : "soundid" "sou_animewow"
+	audio_play_sound(sou_animewow, 0, 0, 1.0, undefined, 1.0);
 }

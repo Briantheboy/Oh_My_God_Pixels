@@ -29,7 +29,7 @@ if(image_xscale < 1.5)
 	/// @DnDVersion : 1
 	/// @DnDHash : 64CE54E7
 	/// @DnDParent : 360738CF
-	/// @DnDArgument : "alpha" "0.125"
+	/// @DnDArgument : "alpha" "0.09"
 	/// @DnDArgument : "alpha_relative" "1"
-	image_alpha += 0.125;
+	image_alpha += 0.09;
 }

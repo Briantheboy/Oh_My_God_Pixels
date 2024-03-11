@@ -20,9 +20,9 @@ if(x > 248)
 	/// @DnDHash : 0DBADAE0
 	/// @DnDApplyTo : {obj_leftfist}
 	/// @DnDParent : 382A7C92
-	/// @DnDArgument : "steps" "60"
+	/// @DnDArgument : "steps" "15"
 	with(obj_leftfist) {
-	alarm_set(0, 60);
+	alarm_set(0, 15);
 	
 	}
 }

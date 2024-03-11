@@ -95,4 +95,12 @@ if(image_xscale > .89)
 	
 	__dnd_score = real(2);
 	}
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 4D0BCC30
+	/// @DnDParent : 732ED105
+	/// @DnDArgument : "soundid" "sou_shock"
+	/// @DnDSaveInfo : "soundid" "sou_shock"
+	audio_play_sound(sou_shock, 0, 0, 1.0, undefined, 1.0);
 }
