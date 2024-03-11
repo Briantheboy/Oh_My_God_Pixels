@@ -20,29 +20,13 @@ image_alpha = frontALPHA;
 
 }
 
-/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 3C64E8FF
-/// @DnDApplyTo : {obj_BigBorder_front}
-with(obj_BigBorder_front) image_alpha = 1;
+/// @DnDHash : 6CC48700
+/// @DnDApplyTo : {obj_controller}
+/// @DnDArgument : "expr" ""Front""
+/// @DnDArgument : "var" "IsayPosition"
+with(obj_controller) {
+IsayPosition = "Front";
 
-/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
-/// @DnDVersion : 1
-/// @DnDHash : 2BEAD869
-/// @DnDApplyTo : {obj_BigBorder_left}
-/// @DnDArgument : "alpha" "0"
-with(obj_BigBorder_left) image_alpha = 0;
-
-/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
-/// @DnDVersion : 1
-/// @DnDHash : 39ECCF5B
-/// @DnDApplyTo : {obj_BigBorder_back}
-/// @DnDArgument : "alpha" "0"
-with(obj_BigBorder_back) image_alpha = 0;
-
-/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
-/// @DnDVersion : 1
-/// @DnDHash : 48C4987C
-/// @DnDApplyTo : {obj_BigBorder_right}
-/// @DnDArgument : "alpha" "0"
-with(obj_BigBorder_right) image_alpha = 0;
+}

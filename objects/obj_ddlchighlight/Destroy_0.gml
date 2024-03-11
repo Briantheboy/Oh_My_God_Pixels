@@ -88,4 +88,14 @@ if(!l5D6B11E6_0)
 	/// @DnDArgument : "speed" "12"
 	/// @DnDSaveInfo : "path" "pth_centerforkiss"
 	with(obj_BigBorder_right) path_start(pth_centerforkiss, 12, path_action_stop, false);
+
+	/// @DnDAction : YoYo Games.Paths.Start_Path
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 4B147A03
+	/// @DnDApplyTo : {obj_bow}
+	/// @DnDParent : 5D6B11E6
+	/// @DnDArgument : "path" "pth_centerforkiss"
+	/// @DnDArgument : "speed" "12"
+	/// @DnDSaveInfo : "path" "pth_centerforkiss"
+	with(obj_bow) path_start(pth_centerforkiss, 12, path_action_stop, false);
 }

@@ -12,6 +12,23 @@ if(frontCOLOR == spr_blackcube)
 	/// @DnDArgument : "colour" "$FF1A1A1A"
 	image_blend = $FF1A1A1A & $ffffff;
 	image_alpha = ($FF1A1A1A >> 24) / $ff;
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 69D8DEC7
+	/// @DnDParent : 7E21F9D2
+	/// @DnDArgument : "var" "room"
+	/// @DnDArgument : "value" "VIBRATE"
+	if(room == VIBRATE)
+	{
+		/// @DnDAction : YoYo Games.Instances.Color_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 490C47DD
+		/// @DnDParent : 69D8DEC7
+		/// @DnDArgument : "colour" "$FF333333"
+		image_blend = $FF333333 & $ffffff;
+		image_alpha = ($FF333333 >> 24) / $ff;
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

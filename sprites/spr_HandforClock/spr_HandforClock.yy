@@ -13,14 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e5527641-0c5b-4f7b-b1a9-aeb1af5a3533",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4d819b61-09a3-4259-9606-3f74ef9db96d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"60610637-a881-4f9b-bd7f-8d44b011e38c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a4bf2e39-8691-4d3e-b892-985fc281d261",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 321,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8af8908b-38e9-4130-b268-b9c86d127f95","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ef642cb1-962a-41a7-88bd-5bf0209f5998","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 3,
@@ -43,7 +45,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 3.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -54,7 +56,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e5527641-0c5b-4f7b-b1a9-aeb1af5a3533","path":"sprites/spr_HandforClock/spr_HandforClock.yy",},},},"Disabled":false,"id":"f97bc47d-ad05-47ae-a416-467a067039f0","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4d819b61-09a3-4259-9606-3f74ef9db96d","path":"sprites/spr_HandforClock/spr_HandforClock.yy",},},},"Disabled":false,"id":"45b7b43f-c7b1-453c-9ffe-d435092d8fe5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"60610637-a881-4f9b-bd7f-8d44b011e38c","path":"sprites/spr_HandforClock/spr_HandforClock.yy",},},},"Disabled":false,"id":"ae2ac424-c865-4d52-a424-e7b7fb5b5150","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a4bf2e39-8691-4d3e-b892-985fc281d261","path":"sprites/spr_HandforClock/spr_HandforClock.yy",},},},"Disabled":false,"id":"c8d75dae-00b1-43e7-aa7f-cb71cb0ec6c3","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 0.920023,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "MG_MARIO",
+    "path": "folders/Sounds/MG_MARIO.yy",
   },
   "preload": false,
   "sampleRate": 44100,

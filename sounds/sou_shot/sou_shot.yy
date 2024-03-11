@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 1.497982,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "MG_BOOM",
+    "path": "folders/Sounds/MG_BOOM.yy",
   },
   "preload": false,
   "sampleRate": 44100,

@@ -27,6 +27,13 @@ if(room == BOOM)
 		if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 		if(__dnd_score == 0)
 		{
+			/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+			/// @DnDVersion : 1
+			/// @DnDHash : 1D61D93A
+			/// @DnDApplyTo : {obj_sweatspawner}
+			/// @DnDParent : 2C366C5A
+			with(obj_sweatspawner) instance_destroy();
+		
 			/// @DnDAction : YoYo Games.Instances.Set_Alarm
 			/// @DnDVersion : 1
 			/// @DnDHash : 68FA23C1

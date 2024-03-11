@@ -84,4 +84,15 @@ if(image_xscale > .89)
 	/// @DnDApplyTo : {obj_textboxforddlc}
 	/// @DnDParent : 732ED105
 	with(obj_textboxforddlc) instance_destroy();
+
+	/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+	/// @DnDVersion : 1
+	/// @DnDHash : 4D68494B
+	/// @DnDApplyTo : {obj_bow}
+	/// @DnDParent : 732ED105
+	/// @DnDArgument : "score" "2"
+	with(obj_bow) {
+	
+	__dnd_score = real(2);
+	}
 }

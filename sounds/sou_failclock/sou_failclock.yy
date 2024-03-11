@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 0.407062,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "MG_VIBRATE",
+    "path": "folders/Sounds/MG_VIBRATE.yy",
   },
   "preload": false,
   "sampleRate": 44100,

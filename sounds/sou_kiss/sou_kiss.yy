@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 0.348163,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "MG_FLIRT",
+    "path": "folders/Sounds/MG_FLIRT.yy",
   },
   "preload": false,
   "sampleRate": 44100,

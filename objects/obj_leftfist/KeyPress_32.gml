@@ -19,6 +19,20 @@ if(l2A7A080D_0)
 	/// @DnDSaveInfo : "objectid" "obj_win"
 	instance_create_layer(10000, 0, "Overlay", obj_win);
 
+	/// @DnDAction : YoYo Games.Paths.Stop_Path
+	/// @DnDVersion : 1
+	/// @DnDHash : 03E431F6
+	/// @DnDApplyTo : {obj_cube}
+	/// @DnDParent : 2A7A080D
+	with(obj_cube) path_end();
+
+	/// @DnDAction : YoYo Games.Paths.Stop_Path
+	/// @DnDVersion : 1
+	/// @DnDHash : 3C3705AA
+	/// @DnDApplyTo : {obj_BigBorder_front}
+	/// @DnDParent : 2A7A080D
+	with(obj_BigBorder_front) path_end();
+
 	/// @DnDAction : YoYo Games.Timelines.Set_Timeline
 	/// @DnDVersion : 1
 	/// @DnDHash : 5192E469
@@ -28,6 +42,61 @@ if(l2A7A080D_0)
 	timeline_index = tml_HandRippers;
 	timeline_loop = 0;
 	timeline_running = 1;
+
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 6513A623
+	/// @DnDParent : 2A7A080D
+	/// @DnDArgument : "xpos" "617"
+	/// @DnDArgument : "ypos" "372"
+	/// @DnDArgument : "objectid" "obj_bloodsplatter"
+	/// @DnDArgument : "layer" ""Overlay""
+	/// @DnDSaveInfo : "objectid" "obj_bloodsplatter"
+	instance_create_layer(617, 372, "Overlay", obj_bloodsplatter);
+
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 10D928AB
+	/// @DnDParent : 2A7A080D
+	/// @DnDArgument : "xpos" "197"
+	/// @DnDArgument : "ypos" "169"
+	/// @DnDArgument : "objectid" "obj_bloodsplatter"
+	/// @DnDArgument : "layer" ""Overlay""
+	/// @DnDSaveInfo : "objectid" "obj_bloodsplatter"
+	instance_create_layer(197, 169, "Overlay", obj_bloodsplatter);
+
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 38900006
+	/// @DnDParent : 2A7A080D
+	/// @DnDArgument : "xpos" "109"
+	/// @DnDArgument : "ypos" "596"
+	/// @DnDArgument : "objectid" "obj_bloodsplatter"
+	/// @DnDArgument : "layer" ""Overlay""
+	/// @DnDSaveInfo : "objectid" "obj_bloodsplatter"
+	instance_create_layer(109, 596, "Overlay", obj_bloodsplatter);
+
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 0F9E2363
+	/// @DnDParent : 2A7A080D
+	/// @DnDArgument : "xpos" "1097"
+	/// @DnDArgument : "ypos" "135"
+	/// @DnDArgument : "objectid" "obj_bloodsplatter"
+	/// @DnDArgument : "layer" ""Overlay""
+	/// @DnDSaveInfo : "objectid" "obj_bloodsplatter"
+	instance_create_layer(1097, 135, "Overlay", obj_bloodsplatter);
+
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 027E75CB
+	/// @DnDParent : 2A7A080D
+	/// @DnDArgument : "xpos" "1188"
+	/// @DnDArgument : "ypos" "747"
+	/// @DnDArgument : "objectid" "obj_bloodsplatter"
+	/// @DnDArgument : "layer" ""Overlay""
+	/// @DnDSaveInfo : "objectid" "obj_bloodsplatter"
+	instance_create_layer(1188, 747, "Overlay", obj_bloodsplatter);
 }
 
 /// @DnDAction : YoYo Games.Instance Variables.If_Health

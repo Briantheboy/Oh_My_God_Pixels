@@ -23,8 +23,20 @@ draw_set_valign(fa_middle);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 3939D472
+/// @DnDDisabled : 1
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""
-/// @DnDArgument : "var" "string_copy("Hi senpai~ Is there something you wanna tell me?", 1, textprint)"
-draw_text(x + 0, y + 0,  + string(string_copy("Hi senpai~ Is there something you wanna tell me?", 1, textprint)));
+/// @DnDArgument : "var" "string_copy("Hi senpai~~~", 1, textprint)"
+
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 30294C25
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "xscale" "0.15"
+/// @DnDArgument : "yscale" "0.15"
+/// @DnDArgument : "caption" ""
+/// @DnDArgument : "text" "string_copy("''Yes, senpai?~~~''", 1, textprint)"
+draw_text_transformed(x + 0, y + 0, "" + string(string_copy("''Yes, senpai?~~~''", 1, textprint)), 0.15, 0.15, 0);

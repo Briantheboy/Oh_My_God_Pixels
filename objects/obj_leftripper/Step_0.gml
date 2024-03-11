@@ -14,6 +14,17 @@ if(x > 248)
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
 	x += -12;
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 0DBADAE0
+	/// @DnDApplyTo : {obj_leftfist}
+	/// @DnDParent : 382A7C92
+	/// @DnDArgument : "steps" "60"
+	with(obj_leftfist) {
+	alarm_set(0, 60);
+	
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

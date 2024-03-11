@@ -13,14 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0b2fec4f-06d6-4e40-bafe-fe5844b7e863",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6786008e-f43c-4a84-b944-82a7629dac61",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fe523d41-9a89-41a8-a8a9-119f782ca20c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c9b2c140-2a5b-46b1-a3d8-bd7a3d67c692",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 279,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0a49275d-4e1d-45a8-b3f1-cb2021055550","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"894e83a9-9fce-4ead-b170-566942f96ac8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 7,
@@ -43,7 +45,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 3.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -54,7 +56,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0b2fec4f-06d6-4e40-bafe-fe5844b7e863","path":"sprites/spr_Clockinside/spr_Clockinside.yy",},},},"Disabled":false,"id":"9154a521-1c88-455d-b3df-11836833c5a8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6786008e-f43c-4a84-b944-82a7629dac61","path":"sprites/spr_Clockinside/spr_Clockinside.yy",},},},"Disabled":false,"id":"9dd49153-dc48-492d-8bf1-41ac3a5dd363","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fe523d41-9a89-41a8-a8a9-119f782ca20c","path":"sprites/spr_Clockinside/spr_Clockinside.yy",},},},"Disabled":false,"id":"82a35bba-5ea6-4e2e-aa89-5c9cfc5483cb","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c9b2c140-2a5b-46b1-a3d8-bd7a3d67c692","path":"sprites/spr_Clockinside/spr_Clockinside.yy",},},},"Disabled":false,"id":"6a25f358-b282-44eb-9961-e8234c4f8ba1","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

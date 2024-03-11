@@ -23,7 +23,18 @@ draw_set_font(fnt_DDLC);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 45AA2A7D
+/// @DnDDisabled : 1
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""Cutie: ""
-draw_text(x + 0, y + 0, string("Cutie: ") + "");
+
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 6E8B1AF1
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "xscale" "0.15"
+/// @DnDArgument : "yscale" "0.15"
+/// @DnDArgument : "caption" ""Cutie: ""
+draw_text_transformed(x + 0, y + 0, string("Cutie: ") + "", 0.15, 0.15, 0);

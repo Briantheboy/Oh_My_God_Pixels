@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 2.983515,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "MG_SPANK",
+    "path": "folders/Sounds/MG_SPANK.yy",
   },
   "preload": false,
   "sampleRate": 44100,
