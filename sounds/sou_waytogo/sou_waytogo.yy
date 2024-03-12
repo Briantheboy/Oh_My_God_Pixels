@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.660363,
+  "duration": 2.395918,
   "parent": {
     "name": "MG_COLLECT",
     "path": "folders/Sounds/MG_COLLECT.yy",

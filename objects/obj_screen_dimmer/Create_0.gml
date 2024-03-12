@@ -18,3 +18,20 @@ image_alpha = 0;
 /// @DnDArgument : "yscale" "374"
 image_xscale = 52;
 image_yscale = 374;
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 540A0E59
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "COLLECT"
+if(room == COLLECT)
+{
+	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+	/// @DnDVersion : 1
+	/// @DnDHash : 0E1113AA
+	/// @DnDParent : 540A0E59
+	/// @DnDArgument : "xscale" "374"
+	/// @DnDArgument : "yscale" "374"
+	image_xscale = 374;
+	image_yscale = 374;
+}

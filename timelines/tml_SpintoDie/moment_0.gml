@@ -30,3 +30,10 @@ with(obj_controller) {
 IsayPosition = "Front";
 
 }
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 62D984C3
+/// @DnDArgument : "soundid" "sou_damage"
+/// @DnDSaveInfo : "soundid" "sou_damage"
+audio_play_sound(sou_damage, 0, 0, 1.0, undefined, 1.0);

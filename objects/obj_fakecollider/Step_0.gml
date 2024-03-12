@@ -36,6 +36,74 @@ if(room == COLLECT)
 			/// @DnDArgument : "layer" ""Command""
 			/// @DnDSaveInfo : "objectid" "obj_win"
 			instance_create_layer(1000, 0, "Command", obj_win);
+		
+			/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+			/// @DnDVersion : 1
+			/// @DnDHash : 551B9A21
+			/// @DnDParent : 14442789
+			instance_destroy();
+		
+			/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+			/// @DnDVersion : 1
+			/// @DnDHash : 1BE1D3D0
+			/// @DnDApplyTo : {obj_controller}
+			/// @DnDParent : 14442789
+			with(obj_controller) instance_destroy();
+		
+			/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+			/// @DnDVersion : 1
+			/// @DnDHash : 3AEA6323
+			/// @DnDApplyTo : {obj_cube}
+			/// @DnDParent : 14442789
+			/// @DnDArgument : "state" "3"
+			with(obj_cube) {
+			timeline_running = false;
+			timeline_position = 0;
+			}
+		
+			/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+			/// @DnDVersion : 1
+			/// @DnDHash : 5F4F5786
+			/// @DnDApplyTo : {obj_BigBorder_back}
+			/// @DnDParent : 14442789
+			/// @DnDArgument : "state" "3"
+			with(obj_BigBorder_back) {
+			timeline_running = false;
+			timeline_position = 0;
+			}
+		
+			/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+			/// @DnDVersion : 1
+			/// @DnDHash : 089A0FA3
+			/// @DnDApplyTo : {obj_BigBorder_front}
+			/// @DnDParent : 14442789
+			/// @DnDArgument : "state" "3"
+			with(obj_BigBorder_front) {
+			timeline_running = false;
+			timeline_position = 0;
+			}
+		
+			/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+			/// @DnDVersion : 1
+			/// @DnDHash : 2C17000E
+			/// @DnDApplyTo : {obj_BigBorder_left}
+			/// @DnDParent : 14442789
+			/// @DnDArgument : "state" "3"
+			with(obj_BigBorder_left) {
+			timeline_running = false;
+			timeline_position = 0;
+			}
+		
+			/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+			/// @DnDVersion : 1
+			/// @DnDHash : 117BAD46
+			/// @DnDApplyTo : {obj_BigBorder_right}
+			/// @DnDParent : 14442789
+			/// @DnDArgument : "state" "3"
+			with(obj_BigBorder_right) {
+			timeline_running = false;
+			timeline_position = 0;
+			}
 		}
 	}
 }
