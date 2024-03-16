@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "spr_Talk_Standard",
   "bbox_bottom": 264,
-  "bbox_left": 0,
-  "bbox_right": 385,
+  "bbox_left": 5,
+  "bbox_right": 383,
   "bbox_top": 2,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dcd9be6b-cbeb-46f2-a551-b40e3040f8c3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a63bbc11-be26-45e4-9e89-71fc00889ff3",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 266,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fd8c5bd0-0426-4c62-976d-e633c7296378","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"408daa06-0ea4-409b-bd9e-4adb6f136611","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"dcd9be6b-cbeb-46f2-a551-b40e3040f8c3","path":"sprites/spr_Talk_Standard/spr_Talk_Standard.yy",},},},"Disabled":false,"id":"5ee21f6a-370b-47de-b5e8-38e26f5e1d10","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a63bbc11-be26-45e4-9e89-71fc00889ff3","path":"sprites/spr_Talk_Standard/spr_Talk_Standard.yy",},},},"Disabled":false,"id":"74179dac-d85e-42aa-937c-21bddb06b120","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

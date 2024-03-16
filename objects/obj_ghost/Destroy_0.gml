@@ -7,3 +7,10 @@
 /// @DnDArgument : "size" "1"
 /// @DnDArgument : "color" "$FFFFFFFF"
 effect_create_below(9, x + 0, y + 0, 1, $FFFFFFFF & $ffffff);
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 10986AA2
+/// @DnDArgument : "soundid" "sou_ghostdefeat"
+/// @DnDSaveInfo : "soundid" "sou_ghostdefeat"
+audio_play_sound(sou_ghostdefeat, 0, 0, 1.0, undefined, 1.0);

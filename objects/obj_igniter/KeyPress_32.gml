@@ -5,18 +5,6 @@
 /// @DnDArgument : "value" "spr_firetrigger_wait"
 if(sprite_index == spr_firetrigger_wait)
 {
-	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
-	/// @DnDVersion : 1
-	/// @DnDHash : 6CC99ADB
-	/// @DnDApplyTo : {obj_fireball}
-	/// @DnDParent : 49FF6DB7
-	/// @DnDArgument : "x" "10000"
-	/// @DnDArgument : "y" "10000"
-	with(obj_fireball) {
-	x = 10000;
-	y = 10000;
-	}
-
 	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 	/// @DnDVersion : 1
 	/// @DnDHash : 69B3278E
@@ -37,5 +25,12 @@ if(sprite_index == spr_firetrigger_wait)
 		/// @DnDArgument : "layer" ""Overlay""
 		/// @DnDSaveInfo : "objectid" "obj_lose"
 		instance_create_layer(10000, 0, "Overlay", obj_lose);
+	
+		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 2E2F7917
+		/// @DnDApplyTo : {obj_igniter}
+		/// @DnDParent : 69B3278E
+		with(obj_igniter) instance_destroy();
 	}
 }

@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 3.239184,
+  "duration": 7.092222,
   "parent": {
     "name": "MG_FIREWORK",
     "path": "folders/Sounds/MG_FIREWORK.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sou_fartreverb.mp3",
+  "soundFile": "sou_fartreverb.wav",
   "type": 1,
   "volume": 1.0,
 }

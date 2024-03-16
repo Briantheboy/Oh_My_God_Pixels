@@ -29,6 +29,38 @@ if(!l5E799EA0_0)
 		/// @DnDArgument : "layer" ""Overlay""
 		/// @DnDSaveInfo : "objectid" "obj_win"
 		instance_create_layer(x + 0, y + 0, "Overlay", obj_win);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Code
+		/// @DnDVersion : 1
+		/// @DnDHash : 39A70311
+		/// @DnDParent : 6BB36150
+		/// @DnDArgument : "code" "layer_set_visible("Effect_1", true);$(13_10)layer_set_visible("Effect_3", true);"
+		layer_set_visible("Effect_1", true);
+		layer_set_visible("Effect_3", true);
+	
+		/// @DnDAction : YoYo Games.Audio.Stop_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 28588515
+		/// @DnDParent : 6BB36150
+		/// @DnDArgument : "soundid" "sou_spookyhouse"
+		/// @DnDSaveInfo : "soundid" "sou_spookyhouse"
+		audio_stop_sound(sou_spookyhouse);
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 6E1D2E03
+		/// @DnDParent : 6BB36150
+		/// @DnDArgument : "soundid" "sou_holychant"
+		/// @DnDSaveInfo : "soundid" "sou_holychant"
+		audio_play_sound(sou_holychant, 0, 0, 1.0, undefined, 1.0);
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 73287C41
+		/// @DnDParent : 6BB36150
+		/// @DnDArgument : "soundid" "sou_angels"
+		/// @DnDSaveInfo : "soundid" "sou_angels"
+		audio_play_sound(sou_angels, 0, 0, 1.0, undefined, 1.0);
 	}
 }
 

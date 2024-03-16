@@ -14,3 +14,10 @@ image_alpha += -0.01;
 /// @DnDArgument : "size" "2"
 /// @DnDArgument : "color" "$FF343434"
 effect_create_below(5, x + 0, y + 0, 2, $FF343434 & $ffffff);
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 5BB0246A
+/// @DnDArgument : "soundid" "sou_ghostgrowl"
+/// @DnDSaveInfo : "soundid" "sou_ghostgrowl"
+audio_play_sound(sou_ghostgrowl, 0, 0, 1.0, undefined, 1.0);

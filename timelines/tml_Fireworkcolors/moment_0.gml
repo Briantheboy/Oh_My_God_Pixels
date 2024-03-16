@@ -436,4 +436,12 @@ if(image_alpha > 0.5)
 		/// @DnDArgument : "endcol" "$FFFFFFFF"
 		part_type_colour3(DaSprinkles, $FFFFFFFF & $FFFFFF, $FFFFFFFF & $FFFFFF, $FFFFFFFF & $FFFFFF);
 	}
+
+	/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+	/// @DnDVersion : 1
+	/// @DnDHash : 4B1F28D3
+	/// @DnDParent : 267CE230
+	/// @DnDArgument : "state" "3"
+	timeline_running = false;
+	timeline_position = 0;
 }

@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 2.983515,
+  "duration": 1.385125,
   "parent": {
     "name": "MG_SPANK",
     "path": "folders/Sounds/MG_SPANK.yy",
@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "sou_crowdboo.wav",
   "type": 1,
-  "volume": 0.53,
+  "volume": 1.0,
 }
