@@ -40,6 +40,16 @@ timeline_running = false;
 timeline_position = 0;
 }
 
+/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+/// @DnDVersion : 1
+/// @DnDHash : 547F2027
+/// @DnDApplyTo : {obj_cubeshadow}
+/// @DnDArgument : "state" "3"
+with(obj_cubeshadow) {
+timeline_running = false;
+timeline_position = 0;
+}
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 /// @DnDVersion : 1
 /// @DnDHash : 59D25C69

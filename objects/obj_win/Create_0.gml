@@ -51,3 +51,30 @@ if(room == COLLECT)
 	/// @DnDSaveInfo : "objectid" "obj_screen_dimmer"
 	instance_create_layer(2560, -256, "Overlay", obj_screen_dimmer);
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 18D81A94
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "MARIO"
+if(room == MARIO)
+{
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 74D6BD5C
+	/// @DnDParent : 18D81A94
+	/// @DnDArgument : "xpos" "2560"
+	/// @DnDArgument : "ypos" "1353"
+	/// @DnDArgument : "objectid" "obj_burgers"
+	/// @DnDArgument : "layer" ""Lowerer""
+	/// @DnDSaveInfo : "objectid" "obj_burgers"
+	instance_create_layer(2560, 1353, "Lowerer", obj_burgers);
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 08EFE09A
+	/// @DnDParent : 18D81A94
+	/// @DnDArgument : "soundid" "sou_harp"
+	/// @DnDSaveInfo : "soundid" "sou_harp"
+	audio_play_sound(sou_harp, 0, 0, 1.0, undefined, 1.0);
+}

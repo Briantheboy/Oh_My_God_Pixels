@@ -206,6 +206,106 @@ if(room == MARIO)
 		y += 97.5;
 		}
 	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 100D1649
+		/// @DnDParent : 7F1E7387
+		/// @DnDArgument : "var" "Mro_State"
+		/// @DnDArgument : "not" "1"
+		/// @DnDArgument : "value" ""ground""
+		if(!(Mro_State == "ground"))
+		{
+			/// @DnDAction : YoYo Games.Particles.Effect
+			/// @DnDVersion : 1
+			/// @DnDHash : 11547B4C
+			/// @DnDParent : 100D1649
+			/// @DnDArgument : "x" "-25"
+			/// @DnDArgument : "x_relative" "1"
+			/// @DnDArgument : "y" "250"
+			/// @DnDArgument : "y_relative" "1"
+			/// @DnDArgument : "type" "4"
+			/// @DnDArgument : "size" "2"
+			/// @DnDArgument : "color" "$FF5B7892"
+			effect_create_below(4, x + -25, y + 250, 2, $FF5B7892 & $ffffff);
+		
+			/// @DnDAction : YoYo Games.Particles.Effect
+			/// @DnDVersion : 1
+			/// @DnDHash : 2B885EBE
+			/// @DnDParent : 100D1649
+			/// @DnDArgument : "x_relative" "1"
+			/// @DnDArgument : "y" "250"
+			/// @DnDArgument : "y_relative" "1"
+			/// @DnDArgument : "type" "4"
+			/// @DnDArgument : "size" "2"
+			/// @DnDArgument : "color" "$FF5B7892"
+			effect_create_below(4, x + 0, y + 250, 2, $FF5B7892 & $ffffff);
+		
+			/// @DnDAction : YoYo Games.Particles.Effect
+			/// @DnDVersion : 1
+			/// @DnDHash : 04D89CD6
+			/// @DnDParent : 100D1649
+			/// @DnDArgument : "x" "25"
+			/// @DnDArgument : "x_relative" "1"
+			/// @DnDArgument : "y" "250"
+			/// @DnDArgument : "y_relative" "1"
+			/// @DnDArgument : "type" "4"
+			/// @DnDArgument : "size" "2"
+			/// @DnDArgument : "color" "$FF5B7892"
+			effect_create_below(4, x + 25, y + 250, 2, $FF5B7892 & $ffffff);
+		
+			/// @DnDAction : YoYo Games.Particles.Effect
+			/// @DnDVersion : 1
+			/// @DnDHash : 05F7BBBC
+			/// @DnDParent : 100D1649
+			/// @DnDArgument : "x" "50"
+			/// @DnDArgument : "x_relative" "1"
+			/// @DnDArgument : "y" "250"
+			/// @DnDArgument : "y_relative" "1"
+			/// @DnDArgument : "type" "4"
+			/// @DnDArgument : "size" "2"
+			/// @DnDArgument : "color" "$FF5B7892"
+			effect_create_below(4, x + 50, y + 250, 2, $FF5B7892 & $ffffff);
+		
+			/// @DnDAction : YoYo Games.Particles.Effect
+			/// @DnDVersion : 1
+			/// @DnDHash : 1907E945
+			/// @DnDParent : 100D1649
+			/// @DnDArgument : "x" "-50"
+			/// @DnDArgument : "x_relative" "1"
+			/// @DnDArgument : "y" "250"
+			/// @DnDArgument : "y_relative" "1"
+			/// @DnDArgument : "type" "4"
+			/// @DnDArgument : "size" "2"
+			/// @DnDArgument : "color" "$FF5B7892"
+			effect_create_below(4, x + -50, y + 250, 2, $FF5B7892 & $ffffff);
+		
+			/// @DnDAction : YoYo Games.Particles.Effect
+			/// @DnDVersion : 1
+			/// @DnDHash : 7D755062
+			/// @DnDParent : 100D1649
+			/// @DnDArgument : "x" "-150"
+			/// @DnDArgument : "x_relative" "1"
+			/// @DnDArgument : "y" "250"
+			/// @DnDArgument : "y_relative" "1"
+			/// @DnDArgument : "type" "4"
+			/// @DnDArgument : "size" "2"
+			/// @DnDArgument : "color" "$FF5B7892"
+			effect_create_below(4, x + -150, y + 250, 2, $FF5B7892 & $ffffff);
+		
+			/// @DnDAction : YoYo Games.Particles.Effect
+			/// @DnDVersion : 1
+			/// @DnDHash : 2D5DAA28
+			/// @DnDParent : 100D1649
+			/// @DnDArgument : "x" "150"
+			/// @DnDArgument : "x_relative" "1"
+			/// @DnDArgument : "y" "250"
+			/// @DnDArgument : "y_relative" "1"
+			/// @DnDArgument : "type" "4"
+			/// @DnDArgument : "size" "2"
+			/// @DnDArgument : "color" "$FF5B7892"
+			effect_create_below(4, x + 150, y + 250, 2, $FF5B7892 & $ffffff);
+		}
+	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 53D5B989

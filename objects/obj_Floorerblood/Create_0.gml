@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 64BB1C45
+/// @DnDArgument : "var" "Meatcount"
+Meatcount = 0;
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
 /// @DnDHash : 4AB3F267
@@ -209,3 +215,43 @@ instance_create_layer(x + irandom_range(-400,400), y + irandom_range(-400,400), 
 /// @DnDArgument : "layer" ""Border""
 /// @DnDSaveInfo : "objectid" "obj_Meat_Ball"
 instance_create_layer(x + irandom_range(-400,400), y + irandom_range(-400,400), "Border", obj_Meat_Ball);
+
+/// @DnDAction : YoYo Games.Instances.Instance_Get_Count
+/// @DnDVersion : 1
+/// @DnDHash : 233F88FE
+/// @DnDArgument : "var" "Meatcount"
+/// @DnDArgument : "object" "obj_Meat_1"
+/// @DnDSaveInfo : "object" "obj_Meat_1"
+Meatcount = instance_number(obj_Meat_1);
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 442A0114
+/// @DnDArgument : "var" "Meatcount"
+/// @DnDArgument : "op" "4"
+/// @DnDArgument : "value" "6"
+if(Meatcount >= 6)
+{
+	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+	/// @DnDVersion : 1
+	/// @DnDHash : 386C8D52
+	/// @DnDParent : 442A0114
+	/// @DnDArgument : "obj" "obj_comboboy"
+	/// @DnDArgument : "not" "1"
+	/// @DnDSaveInfo : "obj" "obj_comboboy"
+	var l386C8D52_0 = false;
+	l386C8D52_0 = instance_exists(obj_comboboy);
+	if(!l386C8D52_0)
+	{
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 3B510E92
+		/// @DnDParent : 386C8D52
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "obj_comboboy"
+		/// @DnDArgument : "layer" ""Overlay""
+		/// @DnDSaveInfo : "objectid" "obj_comboboy"
+		instance_create_layer(x + 0, y + 0, "Overlay", obj_comboboy);
+	}
+}

@@ -379,6 +379,30 @@ if(l02C8435E_0)
 						/// @DnDArgument : "expr" ""Right""
 						/// @DnDArgument : "var" "IsayPosition"
 						IsayPosition = "Right";
+					
+						/// @DnDAction : YoYo Games.Common.If_Variable
+						/// @DnDVersion : 1
+						/// @DnDHash : 329BF82A
+						/// @DnDApplyTo : {obj_fakecollider}
+						/// @DnDParent : 66BF854B
+						/// @DnDArgument : "var" "Mro_State"
+						/// @DnDArgument : "value" ""ground""
+						with(obj_fakecollider) var l329BF82A_0 = Mro_State == "ground";
+						if(l329BF82A_0)
+						{
+							/// @DnDAction : YoYo Games.Particles.Effect
+							/// @DnDVersion : 1
+							/// @DnDHash : 772C83E7
+							/// @DnDApplyTo : {obj_fakecollider}
+							/// @DnDParent : 329BF82A
+							/// @DnDArgument : "x_relative" "1"
+							/// @DnDArgument : "y" "250"
+							/// @DnDArgument : "y_relative" "1"
+							/// @DnDArgument : "type" "4"
+							/// @DnDArgument : "size" "2"
+							/// @DnDArgument : "color" "$FF5B7892"
+							with(obj_fakecollider) effect_create_below(4, x + 0, y + 250, 2, $FF5B7892 & $ffffff);
+						}
 					}
 				}
 			}

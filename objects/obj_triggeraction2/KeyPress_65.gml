@@ -22,7 +22,26 @@ if(l00AA7990_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 129CCBCD
 		/// @DnDParent : 2ACECE01
-		/// @DnDArgument : "steps" "10"
-		alarm_set(0, 10);
+		/// @DnDArgument : "steps" "1"
+		alarm_set(0, 1);
+	
+		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 056AC6BB
+		/// @DnDApplyTo : {obj_cubeshadow}
+		/// @DnDParent : 2ACECE01
+		with(obj_cubeshadow) instance_destroy();
+	
+		/// @DnDAction : YoYo Games.Instances.Set_Alarm
+		/// @DnDVersion : 1
+		/// @DnDHash : 3D25D63D
+		/// @DnDApplyTo : {obj_cube}
+		/// @DnDParent : 2ACECE01
+		/// @DnDArgument : "steps" "1"
+		/// @DnDArgument : "alarm" "8"
+		with(obj_cube) {
+		alarm_set(8, 1);
+		
+		}
 	}
 }

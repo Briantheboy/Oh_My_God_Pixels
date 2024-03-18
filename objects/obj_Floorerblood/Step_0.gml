@@ -62,3 +62,36 @@ if(__dnd_score == 2)
 	/// @DnDParent : 37809E19
 	/// @DnDArgument : "score" "3"
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7B160490
+/// @DnDArgument : "var" "Meatcount"
+/// @DnDArgument : "op" "2"
+/// @DnDArgument : "value" "6"
+if(Meatcount > 6)
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 00DACE37
+	/// @DnDApplyTo : {obj_comboboy}
+	/// @DnDParent : 7B160490
+	/// @DnDArgument : "var" "sprite_index"
+	/// @DnDArgument : "not" "1"
+	/// @DnDArgument : "value" "spr_3x_Combo"
+	with(obj_comboboy) var l00DACE37_0 = sprite_index == spr_3x_Combo;
+	if(!l00DACE37_0)
+	{
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 295ED7AB
+		/// @DnDApplyTo : {obj_comboboy}
+		/// @DnDParent : 00DACE37
+		/// @DnDArgument : "spriteind" "spr_3x_Combo"
+		/// @DnDSaveInfo : "spriteind" "spr_3x_Combo"
+		with(obj_comboboy) {
+		sprite_index = spr_3x_Combo;
+		image_index = 0;
+		}
+	}
+}

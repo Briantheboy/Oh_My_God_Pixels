@@ -14,8 +14,8 @@ audio_play_sound(sou_bloodsquirt, 0, 0, 1.0, undefined, 1.0);
 /// @DnDVersion : 1
 /// @DnDHash : 0718A106
 /// @DnDArgument : "xpos_relative" "1"
-/// @DnDArgument : "ypos" "2639"
+/// @DnDArgument : "ypos" "2634"
 /// @DnDArgument : "objectid" "obj_extradripping"
 /// @DnDArgument : "layer" ""Border""
 /// @DnDSaveInfo : "objectid" "obj_extradripping"
-instance_create_layer(x + 0, 2639, "Border", obj_extradripping);
+instance_create_layer(x + 0, 2634, "Border", obj_extradripping);

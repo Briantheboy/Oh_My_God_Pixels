@@ -200,9 +200,9 @@ if(!l4038EF65_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 23CE9F88
 		/// @DnDParent : 3434A8F8
-		/// @DnDArgument : "x" "-5"
+		/// @DnDArgument : "x" "-5.25"
 		/// @DnDArgument : "x_relative" "1"
 		/// @DnDArgument : "y_relative" "1"
-		x += -5;
+		x += -5.25;
 	}
 }

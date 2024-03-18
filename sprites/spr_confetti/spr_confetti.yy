@@ -39,8 +39,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "MG_Mario",
+    "path": "folders/Sprites/MG_Mario.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

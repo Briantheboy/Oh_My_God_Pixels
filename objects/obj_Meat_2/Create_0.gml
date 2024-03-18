@@ -19,5 +19,5 @@ gravity_direction = irandom_range(240,300);
 /// @DnDAction : YoYo Games.Movement.Set_Gravity_Force
 /// @DnDVersion : 1
 /// @DnDHash : 6B107FDD
-/// @DnDArgument : "force" "2.5"
-gravity = 2.5;
+/// @DnDArgument : "force" "3.5"
+gravity = 3.5;
