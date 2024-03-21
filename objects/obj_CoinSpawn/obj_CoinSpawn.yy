@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Coinfall",
-    "path": "sprites/spr_Coinfall/spr_Coinfall.yy",
+    "name": "spr_redcube",
+    "path": "sprites/spr_redcube/spr_redcube.yy",
   },
   "spriteMaskId": null,
   "visible": true,

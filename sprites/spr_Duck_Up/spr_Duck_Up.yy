@@ -4,7 +4,7 @@
   "name": "spr_Duck_Up",
   "bbox_bottom": 968,
   "bbox_left": 47,
-  "bbox_right": 1073,
+  "bbox_right": 1069,
   "bbox_top": 47,
   "bboxMode": 0,
   "collisionKind": 1,

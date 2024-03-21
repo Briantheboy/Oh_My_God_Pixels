@@ -9,8 +9,8 @@ image_alpha = 0;
 /// @DnDHash : 21AFB537
 /// @DnDApplyTo : {obj_cube}
 /// @DnDArgument : "steps" "1"
-/// @DnDArgument : "alarm" "11"
+/// @DnDArgument : "alarm" "7"
 with(obj_cube) {
-alarm_set(11, 1);
+alarm_set(7, 1);
 
 }
