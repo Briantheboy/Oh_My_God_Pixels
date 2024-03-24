@@ -18,6 +18,6 @@
   "preload": false,
   "sampleRate": 44100,
   "soundFile": "voi_Bad4.wav",
-  "type": 0,
-  "volume": 0.0,
+  "type": 1,
+  "volume": 0.25,
 }

@@ -1,7 +1,8 @@
 /// @DnDAction : YoYo Games.Game.Load_Game
 /// @DnDVersion : 1
 /// @DnDHash : 38A98140
-game_load("save.dat");
+/// @DnDArgument : "filename" ""savebro.dat""
+game_load("savebro.dat");
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1

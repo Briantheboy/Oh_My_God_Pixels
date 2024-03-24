@@ -78,3 +78,19 @@ if(room == MARIO)
 	/// @DnDSaveInfo : "soundid" "sou_harp"
 	audio_play_sound(sou_harp, 0, 0, 1.0, undefined, 1.0);
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 78F6B98C
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "CASINO"
+if(room == CASINO)
+{
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 2B2D6A1A
+	/// @DnDParent : 78F6B98C
+	/// @DnDArgument : "soundid" "sou_slotjackpot"
+	/// @DnDSaveInfo : "soundid" "sou_slotjackpot"
+	audio_play_sound(sou_slotjackpot, 0, 0, 1.0, undefined, 1.0);
+}

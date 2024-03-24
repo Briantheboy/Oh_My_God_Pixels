@@ -91,3 +91,33 @@ if(room == COVER)
 	/// @DnDArgument : "code" "layer_set_visible("IllusionBackground_1", true);"
 	layer_set_visible("IllusionBackground_1", true);
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2A170BE9
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "CASINO"
+if(room == CASINO)
+{
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 629ADD5A
+	/// @DnDParent : 2A170BE9
+	/// @DnDArgument : "code" "layer_set_visible("Effect_1", true);"
+	layer_set_visible("Effect_1", true);
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 51D5FE5A
+	/// @DnDParent : 2A170BE9
+	/// @DnDArgument : "soundid" "sou_slotlose"
+	/// @DnDSaveInfo : "soundid" "sou_slotlose"
+	audio_play_sound(sou_slotlose, 0, 0, 1.0, undefined, 1.0);
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 70343403
+	/// @DnDParent : 2A170BE9
+	/// @DnDArgument : "steps" "145"
+	alarm_set(0, 145);
+}

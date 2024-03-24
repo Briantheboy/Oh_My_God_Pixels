@@ -48,5 +48,16 @@ if(l51A040E0_0)
 		/// @DnDArgument : "layer" ""Overlay""
 		/// @DnDSaveInfo : "objectid" "obj_triggeraction"
 		instance_create_layer(x + 5000, y + 0, "Overlay", obj_triggeraction);
+	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 356B35F1
+		/// @DnDParent : 37DF9EBD
+		/// @DnDArgument : "xpos" "1280"
+		/// @DnDArgument : "ypos" "1056"
+		/// @DnDArgument : "objectid" "obj_arr_down"
+		/// @DnDArgument : "layer" ""Command""
+		/// @DnDSaveInfo : "objectid" "obj_arr_down"
+		instance_create_layer(1280, 1056, "Command", obj_arr_down);
 	}
 }
