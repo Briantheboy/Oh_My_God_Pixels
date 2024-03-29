@@ -177,5 +177,25 @@ if(__dnd_score >= 1)
 		/// @DnDSaveInfo : "spriteind" "spr_teleporter_win"
 		sprite_index = spr_teleporter_win;
 		image_index = 0;
+	
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 523DFCDA
+		/// @DnDApplyTo : {obj_teleportershadow}
+		/// @DnDParent : 4F47204A
+		/// @DnDArgument : "spriteind" "spr_teleporter_win"
+		/// @DnDSaveInfo : "spriteind" "spr_teleporter_win"
+		with(obj_teleportershadow) {
+		sprite_index = spr_teleporter_win;
+		image_index = 0;
+		}
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 7B20957C
+		/// @DnDParent : 4F47204A
+		/// @DnDArgument : "soundid" "sou_suck"
+		/// @DnDSaveInfo : "soundid" "sou_suck"
+		audio_play_sound(sou_suck, 0, 0, 1.0, undefined, 1.0);
 	}
 }

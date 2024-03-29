@@ -4,9 +4,9 @@
 /// @DnDArgument : "xpos" "1024"
 /// @DnDArgument : "ypos" "768"
 /// @DnDArgument : "objectid" "obj_hotty"
-/// @DnDArgument : "layer" ""Overlay""
+/// @DnDArgument : "layer" ""Blocks""
 /// @DnDSaveInfo : "objectid" "obj_hotty"
-instance_create_layer(1024, 768, "Overlay", obj_hotty);
+instance_create_layer(1024, 768, "Blocks", obj_hotty);
 
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
@@ -15,3 +15,14 @@ instance_create_layer(1024, 768, "Overlay", obj_hotty);
 /// @DnDSaveInfo : "spriteind" "spr_teleporter_hold"
 sprite_index = spr_teleporter_hold;
 image_index = 0;
+
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 17C7C7F2
+/// @DnDApplyTo : {obj_teleportershadow}
+/// @DnDArgument : "spriteind" "spr_teleporter_hold"
+/// @DnDSaveInfo : "spriteind" "spr_teleporter_hold"
+with(obj_teleportershadow) {
+sprite_index = spr_teleporter_hold;
+image_index = 0;
+}

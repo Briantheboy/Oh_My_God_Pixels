@@ -25,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_teleporter_lose",
-    "path": "sprites/spr_teleporter_lose/spr_teleporter_lose.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

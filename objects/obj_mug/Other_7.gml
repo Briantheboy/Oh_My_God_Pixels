@@ -16,9 +16,8 @@ if(sprite_index == spr_mug_pour)
 	/// @DnDVersion : 1
 	/// @DnDHash : 48D55B06
 	/// @DnDParent : 4A7AF94A
-	/// @DnDArgument : "imageind" "2"
 	/// @DnDArgument : "spriteind" "spr_mug_pour"
 	/// @DnDSaveInfo : "spriteind" "spr_mug_pour"
 	sprite_index = spr_mug_pour;
-	image_index = 2;
+	image_index = 0;
 }

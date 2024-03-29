@@ -404,4 +404,28 @@ if(room == DoorTest)
 	/// @DnDArgument : "soundid" "sou_incorrect"
 	/// @DnDSaveInfo : "soundid" "sou_incorrect"
 	audio_stop_sound(sou_incorrect);
+
+	/// @DnDAction : YoYo Games.Audio.Stop_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 2A16EAFD
+	/// @DnDParent : 0CDD4EDE
+	/// @DnDArgument : "soundid" "sou_slyshock"
+	/// @DnDSaveInfo : "soundid" "sou_slyshock"
+	audio_stop_sound(sou_slyshock);
+
+	/// @DnDAction : YoYo Games.Audio.Stop_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 6ABC4748
+	/// @DnDParent : 0CDD4EDE
+	/// @DnDArgument : "soundid" "sou_electricshock"
+	/// @DnDSaveInfo : "soundid" "sou_electricshock"
+	audio_stop_sound(sou_electricshock);
+
+	/// @DnDAction : YoYo Games.Audio.Stop_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 7DE6B022
+	/// @DnDParent : 0CDD4EDE
+	/// @DnDArgument : "soundid" "sou_donkey"
+	/// @DnDSaveInfo : "soundid" "sou_donkey"
+	audio_stop_sound(sou_donkey);
 }
