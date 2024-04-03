@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_right_slot",
-  "bbox_bottom": 165,
+  "bbox_bottom": 185,
   "bbox_left": 11,
   "bbox_right": 292,
-  "bbox_top": 86,
+  "bbox_top": 66,
   "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0f7faace-da95-4ba0-8428-13984f5d9e78",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6f731a00-ad61-4e15-9cb7-4f68439ff969",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 252,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"66f6b20a-c0c0-45bd-9c07-ea5f8312ca06","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2dafd4de-dac8-4211-ad07-34bfc6453522","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0f7faace-da95-4ba0-8428-13984f5d9e78","path":"sprites/spr_right_slot/spr_right_slot.yy",},},},"Disabled":false,"id":"7905641d-9f08-4d66-b8ce-4ce630c031ca","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6f731a00-ad61-4e15-9cb7-4f68439ff969","path":"sprites/spr_right_slot/spr_right_slot.yy",},},},"Disabled":false,"id":"95ac586f-0a63-4d39-9af8-ed72e4dd0473","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

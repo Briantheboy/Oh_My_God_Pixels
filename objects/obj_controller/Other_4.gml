@@ -1532,11 +1532,11 @@ if(room == RIPPLE)
 	/// @DnDParent : 6CA2A36C
 	/// @DnDArgument : "x" "0"
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "-45"
+	/// @DnDArgument : "y" "10"
 	/// @DnDArgument : "y_relative" "1"
 	with(obj_cube) {
 	x += 0;
-	y += -45;
+	y += 10;
 	}
 
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
@@ -1546,11 +1546,11 @@ if(room == RIPPLE)
 	/// @DnDParent : 6CA2A36C
 	/// @DnDArgument : "x" "0"
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "-45"
+	/// @DnDArgument : "y" "10"
 	/// @DnDArgument : "y_relative" "1"
 	with(obj_BigBorder_back) {
 	x += 0;
-	y += -45;
+	y += 10;
 	}
 
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
@@ -1560,11 +1560,11 @@ if(room == RIPPLE)
 	/// @DnDParent : 6CA2A36C
 	/// @DnDArgument : "x" "0"
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "-45"
+	/// @DnDArgument : "y" "10"
 	/// @DnDArgument : "y_relative" "1"
 	with(obj_BigBorder_front) {
 	x += 0;
-	y += -45;
+	y += 10;
 	}
 
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
@@ -1574,11 +1574,11 @@ if(room == RIPPLE)
 	/// @DnDParent : 6CA2A36C
 	/// @DnDArgument : "x" "0"
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "-45"
+	/// @DnDArgument : "y" "10"
 	/// @DnDArgument : "y_relative" "1"
 	with(obj_BigBorder_left) {
 	x += 0;
-	y += -45;
+	y += 10;
 	}
 
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
@@ -1588,11 +1588,11 @@ if(room == RIPPLE)
 	/// @DnDParent : 6CA2A36C
 	/// @DnDArgument : "x" "0"
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "-45"
+	/// @DnDArgument : "y" "10"
 	/// @DnDArgument : "y_relative" "1"
 	with(obj_BigBorder_right) {
 	x += 0;
-	y += -45;
+	y += 10;
 	}
 }
 

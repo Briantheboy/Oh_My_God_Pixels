@@ -197,5 +197,12 @@ if(__dnd_score >= 1)
 		/// @DnDArgument : "soundid" "sou_suck"
 		/// @DnDSaveInfo : "soundid" "sou_suck"
 		audio_play_sound(sou_suck, 0, 0, 1.0, undefined, 1.0);
+	
+		/// @DnDAction : YoYo Games.Instances.Set_Alarm
+		/// @DnDVersion : 1
+		/// @DnDHash : 643F48CE
+		/// @DnDParent : 4F47204A
+		/// @DnDArgument : "steps" "40"
+		alarm_set(0, 40);
 	}
 }

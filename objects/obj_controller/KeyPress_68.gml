@@ -54,6 +54,14 @@ if(l3040D6F0_0)
 					/// @DnDArgument : "layer" ""Overlay""
 					/// @DnDSaveInfo : "objectid" "obj_wavemaker_R"
 					instance_create_layer(424, 392, "Overlay", obj_wavemaker_R);
+				
+					/// @DnDAction : YoYo Games.Audio.Play_Audio
+					/// @DnDVersion : 1.1
+					/// @DnDHash : 6C466D34
+					/// @DnDParent : 16CF581A
+					/// @DnDArgument : "soundid" "sou_waveright"
+					/// @DnDSaveInfo : "soundid" "sou_waveright"
+					audio_play_sound(sou_waveright, 0, 0, 1.0, undefined, 1.0);
 				}
 			}
 		}

@@ -41,5 +41,13 @@ if(l25405F9C_0)
 		/// @DnDArgument : "yscale" "0.75"
 		image_xscale = 0.75;
 		image_yscale = 0.75;
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 6B314D22
+		/// @DnDParent : 5C249AD7
+		/// @DnDArgument : "soundid" "sou_dpadpress"
+		/// @DnDSaveInfo : "soundid" "sou_dpadpress"
+		audio_play_sound(sou_dpadpress, 0, 0, 1.0, undefined, 1.0);
 	}
 }
