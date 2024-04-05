@@ -16,7 +16,6 @@
     {"name":"inst_1724D66","path":"rooms/FLIRT/FLIRT.yy",},
     {"name":"inst_5C507398","path":"rooms/FLIRT/FLIRT.yy",},
     {"name":"inst_7E8ECF38","path":"rooms/FLIRT/FLIRT.yy",},
-    {"name":"inst_5CBE0BCF","path":"rooms/FLIRT/FLIRT.yy",},
     {"name":"inst_1A6F200F","path":"rooms/FLIRT/FLIRT.yy",},
     {"name":"inst_8998692","path":"rooms/FLIRT/FLIRT.yy",},
     {"name":"inst_687AA34E","path":"rooms/FLIRT/FLIRT.yy",},
@@ -137,7 +136,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5C507398","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_badAnswer1","path":"objects/obj_badAnswer1/obj_badAnswer1.yy",},"properties":[],"rotation":0.0,"scaleX":0.8313103,"scaleY":0.8313102,"x":640.0,"y":405.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Overlay","depth":300,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5CBE0BCF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_skirtoverlay","path":"objects/obj_skirtoverlay/obj_skirtoverlay.yy",},"properties":[],"rotation":0.0,"scaleX":0.2280177,"scaleY":0.22801772,"x":1064.0,"y":928.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7DF6C8DB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_textboxforddlc","path":"objects/obj_textboxforddlc/obj_textboxforddlc.yy",},"properties":[],"rotation":0.0,"scaleX":1.2,"scaleY":1.2,"x":640.0,"y":576.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Blocks","depth":400,"effectEnabled":true,"effectType":"none","gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

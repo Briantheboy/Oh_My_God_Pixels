@@ -19,5 +19,6 @@ timeline_running = 1;
 /// @DnDVersion : 1.1
 /// @DnDHash : 4258E851
 /// @DnDArgument : "soundid" "sou_takepicture"
+/// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_takepicture"
-audio_play_sound(sou_takepicture, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(sou_takepicture, 0, 0, 1.0, undefined, global.SonofaPITCH);

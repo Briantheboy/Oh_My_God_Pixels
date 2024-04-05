@@ -93,5 +93,6 @@ with(obj_cube) gravity = 0.15;
 /// @DnDVersion : 1.1
 /// @DnDHash : 67C6FE07
 /// @DnDArgument : "soundid" "sou_fireworkboom"
+/// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_fireworkboom"
-audio_play_sound(sou_fireworkboom, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(sou_fireworkboom, 0, 0, 1.0, undefined, global.SonofaPITCH);

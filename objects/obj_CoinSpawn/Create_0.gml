@@ -9,5 +9,6 @@ RandomPositions = 1;
 /// @DnDVersion : 1.1
 /// @DnDHash : 0C28183B
 /// @DnDArgument : "soundid" "sou_slotmachine"
+/// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_slotmachine"
-audio_play_sound(sou_slotmachine, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(sou_slotmachine, 0, 0, 1.0, undefined, global.SonofaPITCH);

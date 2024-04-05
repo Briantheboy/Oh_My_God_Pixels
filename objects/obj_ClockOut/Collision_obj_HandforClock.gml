@@ -195,8 +195,9 @@ if(l5D977917_0)
 		/// @DnDHash : 7776DF12
 		/// @DnDParent : 67F1E8EB
 		/// @DnDArgument : "soundid" "sou_winclock"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_winclock"
-		audio_play_sound(sou_winclock, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(sou_winclock, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	
 		/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 		/// @DnDVersion : 1

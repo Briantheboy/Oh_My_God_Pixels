@@ -14,8 +14,9 @@ audio_stop_sound(sou_conga);
 /// @DnDVersion : 1.1
 /// @DnDHash : 2FE17CBE
 /// @DnDArgument : "soundid" "sou_recordscratch"
+/// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_recordscratch"
-audio_play_sound(sou_recordscratch, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(sou_recordscratch, 0, 0, 1.0, undefined, global.SonofaPITCH);
 
 /// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
 /// @DnDVersion : 1

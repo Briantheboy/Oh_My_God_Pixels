@@ -83,6 +83,24 @@ if(y >= 650)
 	/// @DnDArgument : "speed" "15"
 	/// @DnDSaveInfo : "path" "pth_hookmovein"
 	with(obj_vaudhook) path_start(pth_hookmovein, 15, path_action_stop, false);
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 08FC44EF
+	/// @DnDParent : 0144AC19
+	/// @DnDArgument : "soundid" "sou_electricmal"
+	/// @DnDArgument : "pitch" "global.SonofaPITCH"
+	/// @DnDSaveInfo : "soundid" "sou_electricmal"
+	audio_play_sound(sou_electricmal, 0, 0, 1.0, undefined, global.SonofaPITCH);
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 7B044DAF
+	/// @DnDParent : 0144AC19
+	/// @DnDArgument : "soundid" "sou_Rea_lose"
+	/// @DnDArgument : "pitch" "global.SonofaPITCH"
+	/// @DnDSaveInfo : "soundid" "sou_Rea_lose"
+	audio_play_sound(sou_Rea_lose, 0, 0, 1.0, undefined, global.SonofaPITCH);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

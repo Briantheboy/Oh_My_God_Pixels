@@ -8,5 +8,6 @@ image_alpha = 0;
 /// @DnDVersion : 1.1
 /// @DnDHash : 726F6CA3
 /// @DnDArgument : "soundid" "sou_shittybackground"
+/// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_shittybackground"
-audio_play_sound(sou_shittybackground, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(sou_shittybackground, 0, 0, 1.0, undefined, global.SonofaPITCH);

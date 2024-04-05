@@ -20,8 +20,9 @@ if(l0E0DB9B1_0)
 		/// @DnDHash : 520B0AE2
 		/// @DnDParent : 6E9FD73C
 		/// @DnDArgument : "soundid" "sou_flashon"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_flashon"
-		audio_play_sound(sou_flashon, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(sou_flashon, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	}
 
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite

@@ -17,5 +17,6 @@ path_start(pth_vibrator, 15, path_action_reverse, false);
 /// @DnDVersion : 1.1
 /// @DnDHash : 3724EF46
 /// @DnDArgument : "soundid" "sou_clockring"
+/// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_clockring"
-audio_play_sound(sou_clockring, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(sou_clockring, 0, 0, 1.0, undefined, global.SonofaPITCH);

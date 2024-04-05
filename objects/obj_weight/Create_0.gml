@@ -12,5 +12,6 @@ iholdplayerposition = 1;
 /// @DnDVersion : 1.1
 /// @DnDHash : 3C0C2DE7
 /// @DnDArgument : "soundid" "sou_conga"
+/// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_conga"
-audio_play_sound(sou_conga, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(sou_conga, 0, 0, 1.0, undefined, global.SonofaPITCH);

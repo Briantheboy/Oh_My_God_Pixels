@@ -3,7 +3,6 @@
   "resourceVersion": "1.0",
   "name": "obj_cube",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":7,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_teleporter","path":"objects/obj_teleporter/obj_teleporter.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_leftripper","path":"objects/obj_leftripper/obj_leftripper.yy",},"eventNum":0,"eventType":4,"isDnD":true,},

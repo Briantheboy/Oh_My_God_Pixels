@@ -59,6 +59,7 @@ if(image_xscale >= 2.2)
 	/// @DnDHash : 1E2EDF73
 	/// @DnDParent : 0F0CCC73
 	/// @DnDArgument : "soundid" "sou_glassbreak"
+	/// @DnDArgument : "pitch" "global.SonofaPITCH"
 	/// @DnDSaveInfo : "soundid" "sou_glassbreak"
-	audio_play_sound(sou_glassbreak, 0, 0, 1.0, undefined, 1.0);
+	audio_play_sound(sou_glassbreak, 0, 0, 1.0, undefined, global.SonofaPITCH);
 }

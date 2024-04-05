@@ -19,6 +19,7 @@ if(l10BA809F_0)
 	/// @DnDHash : 24BE48A2
 	/// @DnDParent : 10BA809F
 	/// @DnDArgument : "soundid" "sou_donkey"
+	/// @DnDArgument : "pitch" "global.SonofaPITCH"
 	/// @DnDSaveInfo : "soundid" "sou_donkey"
-	audio_play_sound(sou_donkey, 0, 0, 1.0, undefined, 1.0);
+	audio_play_sound(sou_donkey, 0, 0, 1.0, undefined, global.SonofaPITCH);
 }

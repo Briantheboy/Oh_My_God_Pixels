@@ -84,7 +84,8 @@ if(room == MARIO)
 		/// @DnDHash : 30E1A16F
 		/// @DnDParent : 1A3DB667
 		/// @DnDArgument : "soundid" "sou_boingjump"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_boingjump"
-		audio_play_sound(sou_boingjump, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(sou_boingjump, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	}
 }

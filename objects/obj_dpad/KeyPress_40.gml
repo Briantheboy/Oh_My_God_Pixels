@@ -47,7 +47,8 @@ if(l25405F9C_0)
 		/// @DnDHash : 7447BA21
 		/// @DnDParent : 5C249AD7
 		/// @DnDArgument : "soundid" "sou_dpadpress"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_dpadpress"
-		audio_play_sound(sou_dpadpress, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(sou_dpadpress, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	}
 }

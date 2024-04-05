@@ -7,8 +7,9 @@ instance_destroy();
 /// @DnDVersion : 1.1
 /// @DnDHash : 724BE58A
 /// @DnDArgument : "soundid" "sou_bloodsquirt"
+/// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_bloodsquirt"
-audio_play_sound(sou_bloodsquirt, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(sou_bloodsquirt, 0, 0, 1.0, undefined, global.SonofaPITCH);
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1

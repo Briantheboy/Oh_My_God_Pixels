@@ -52,6 +52,15 @@ if(!l1325546D_0)
 			/// @DnDApplyTo : {obj_left_slot}
 			/// @DnDParent : 7E0176EB
 			with(obj_left_slot) instance_destroy();
+		
+			/// @DnDAction : YoYo Games.Audio.Play_Audio
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 76125DC1
+			/// @DnDParent : 7E0176EB
+			/// @DnDArgument : "soundid" "sou_Rea_win"
+			/// @DnDArgument : "pitch" "global.SonofaPITCH"
+			/// @DnDSaveInfo : "soundid" "sou_Rea_win"
+			audio_play_sound(sou_Rea_win, 0, 0, 1.0, undefined, global.SonofaPITCH);
 		}
 	}
 }

@@ -110,8 +110,9 @@ if(l536F1564_0)
 						/// @DnDHash : 72C34CC3
 						/// @DnDParent : 40883EA5
 						/// @DnDArgument : "soundid" "sou_characterturn"
+						/// @DnDArgument : "pitch" "global.SonofaPITCH"
 						/// @DnDSaveInfo : "soundid" "sou_characterturn"
-						audio_play_sound(sou_characterturn, 0, 0, 1.0, undefined, 1.0);
+						audio_play_sound(sou_characterturn, 0, 0, 1.0, undefined, global.SonofaPITCH);
 					}
 				}
 			}

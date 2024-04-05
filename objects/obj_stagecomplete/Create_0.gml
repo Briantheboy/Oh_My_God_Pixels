@@ -18,5 +18,6 @@ path_start(pth_stage_to_center, 30, path_action_stop, false);
 /// @DnDVersion : 1.1
 /// @DnDHash : 3DE29B87
 /// @DnDArgument : "soundid" "sou_waytogo"
+/// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_waytogo"
-audio_play_sound(sou_waytogo, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(sou_waytogo, 0, 0, 1.0, undefined, global.SonofaPITCH);

@@ -26,8 +26,9 @@ if(sprite_index == spr_Talk_Lose)
 	/// @DnDHash : 7B9D8D2C
 	/// @DnDParent : 3B04820F
 	/// @DnDArgument : "soundid" "sou_robopopo"
+	/// @DnDArgument : "pitch" "global.SonofaPITCH"
 	/// @DnDSaveInfo : "soundid" "sou_robopopo"
-	audio_play_sound(sou_robopopo, 0, 0, 1.0, undefined, 1.0);
+	audio_play_sound(sou_robopopo, 0, 0, 1.0, undefined, global.SonofaPITCH);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1

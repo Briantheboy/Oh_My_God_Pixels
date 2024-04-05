@@ -51,16 +51,18 @@ if(!l5E799EA0_0)
 		/// @DnDHash : 6E1D2E03
 		/// @DnDParent : 6BB36150
 		/// @DnDArgument : "soundid" "sou_holychant"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_holychant"
-		audio_play_sound(sou_holychant, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(sou_holychant, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
 		/// @DnDVersion : 1.1
 		/// @DnDHash : 73287C41
 		/// @DnDParent : 6BB36150
 		/// @DnDArgument : "soundid" "sou_angels"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_angels"
-		audio_play_sound(sou_angels, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(sou_angels, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	}
 }
 

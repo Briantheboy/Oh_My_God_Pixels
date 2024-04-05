@@ -92,8 +92,9 @@ if(!(y < 1024))
 		/// @DnDHash : 7C396C49
 		/// @DnDParent : 769D9B0F
 		/// @DnDArgument : "soundid" "sou_rockcrush"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_rockcrush"
-		audio_play_sound(sou_rockcrush, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(sou_rockcrush, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	}
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance

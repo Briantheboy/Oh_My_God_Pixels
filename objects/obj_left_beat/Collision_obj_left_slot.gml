@@ -27,8 +27,9 @@ if(l17A69908_0)
 		/// @DnDHash : 0F549EBD
 		/// @DnDParent : 470F9C01
 		/// @DnDArgument : "soundid" "sou_dancestep"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_dancestep"
-		audio_play_sound(sou_dancestep, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(sou_dancestep, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	
 		/// @DnDAction : YoYo Games.Particles.Effect
 		/// @DnDVersion : 1
@@ -102,8 +103,9 @@ if(l361C3BCB_0)
 		/// @DnDHash : 3D407411
 		/// @DnDParent : 1054222C
 		/// @DnDArgument : "soundid" "sou_dancestep"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_dancestep"
-		audio_play_sound(sou_dancestep, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(sou_dancestep, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	
 		/// @DnDAction : YoYo Games.Particles.Effect
 		/// @DnDVersion : 1

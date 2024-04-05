@@ -96,8 +96,9 @@ if(!l6C71A414_0)
 		/// @DnDHash : 4145037B
 		/// @DnDParent : 29EAEA70
 		/// @DnDArgument : "soundid" "sou_slyshock"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_slyshock"
-		audio_play_sound(sou_slyshock, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(sou_slyshock, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Code
 		/// @DnDVersion : 1

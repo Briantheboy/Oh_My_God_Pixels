@@ -19,5 +19,6 @@ instance_create_layer(688, 696, "Overlay", obj_whooshaway);
 /// @DnDVersion : 1.1
 /// @DnDHash : 2D383CE6
 /// @DnDArgument : "soundid" "sou_whoosh"
+/// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_whoosh"
-audio_play_sound(sou_whoosh, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(sou_whoosh, 0, 0, 1.0, undefined, global.SonofaPITCH);

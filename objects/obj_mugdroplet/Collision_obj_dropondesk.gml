@@ -83,7 +83,8 @@ if(__dnd_score == 0)
 		/// @DnDHash : 275C07A4
 		/// @DnDParent : 1589EED0
 		/// @DnDArgument : "soundid" "sou_liquidsplash"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_liquidsplash"
-		audio_play_sound(sou_liquidsplash, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(sou_liquidsplash, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	}
 }

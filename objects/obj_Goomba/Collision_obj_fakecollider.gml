@@ -12,8 +12,9 @@ if(l36A9913A_0)
 	/// @DnDHash : 06F50C52
 	/// @DnDParent : 36A9913A
 	/// @DnDArgument : "soundid" "sou_goombadeath"
+	/// @DnDArgument : "pitch" "global.SonofaPITCH"
 	/// @DnDSaveInfo : "soundid" "sou_goombadeath"
-	audio_play_sound(sou_goombadeath, 0, 0, 1.0, undefined, 1.0);
+	audio_play_sound(sou_goombadeath, 0, 0, 1.0, undefined, global.SonofaPITCH);
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

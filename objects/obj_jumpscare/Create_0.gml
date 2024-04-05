@@ -10,5 +10,6 @@ image_yscale = 2.084821;
 /// @DnDVersion : 1.1
 /// @DnDHash : 0F452204
 /// @DnDArgument : "soundid" "sou_jumpscare"
+/// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_jumpscare"
-audio_play_sound(sou_jumpscare, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(sou_jumpscare, 0, 0, 1.0, undefined, global.SonofaPITCH);

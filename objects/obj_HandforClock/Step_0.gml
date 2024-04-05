@@ -1,29 +1,3 @@
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 2FE411A6
-/// @DnDDisabled : 1
-/// @DnDArgument : "expr" "16777215"
-/// @DnDArgument : "var" "image_blend"
-
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 1F9ABB3A
-/// @DnDDisabled : 1
-/// @DnDArgument : "expr" "5000447"
-/// @DnDArgument : "var" "image_blend"
-
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 3A9584F4
-/// @DnDInput : 3
-/// @DnDDisabled : 1
-/// @DnDArgument : "msg" ""SEX SEX SEX""
-/// @DnDArgument : "msg_1" "image_blend"
-/// @DnDArgument : "msg_2" "image_alpha"
-
-
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 035F3622

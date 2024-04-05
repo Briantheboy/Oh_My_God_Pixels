@@ -28,5 +28,6 @@ with(obj_BigBorder_front) path_start(pth_shakeinanger8, 1, path_action_reverse, 
 /// @DnDVersion : 1.1
 /// @DnDHash : 3B44A00D
 /// @DnDArgument : "soundid" "sou_projector"
+/// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_projector"
-audio_play_sound(sou_projector, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(sou_projector, 0, 0, 1.0, undefined, global.SonofaPITCH);

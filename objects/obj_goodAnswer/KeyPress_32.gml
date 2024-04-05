@@ -78,6 +78,7 @@ if(image_xscale > .89)
 	/// @DnDHash : 24A4760A
 	/// @DnDParent : 3289C35F
 	/// @DnDArgument : "soundid" "sou_animewow"
+	/// @DnDArgument : "pitch" "global.SonofaPITCH"
 	/// @DnDSaveInfo : "soundid" "sou_animewow"
-	audio_play_sound(sou_animewow, 0, 0, 1.0, undefined, 1.0);
+	audio_play_sound(sou_animewow, 0, 0, 1.0, undefined, global.SonofaPITCH);
 }

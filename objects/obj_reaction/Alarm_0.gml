@@ -72,8 +72,9 @@ if(!l470127A6_0)
 		/// @DnDHash : 5A4B0FCC
 		/// @DnDParent : 05BBC098
 		/// @DnDArgument : "soundid" "sou_taiko"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_taiko"
-		audio_play_sound(sou_taiko, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(sou_taiko, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1

@@ -8,5 +8,6 @@ image_alpha = 0.70;
 /// @DnDVersion : 1.1
 /// @DnDHash : 7DCABF14
 /// @DnDArgument : "soundid" "sou_spookyhouse"
+/// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_spookyhouse"
-audio_play_sound(sou_spookyhouse, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(sou_spookyhouse, 0, 0, 1.0, undefined, global.SonofaPITCH);

@@ -16,5 +16,6 @@ image_yscale = 0;
 /// @DnDVersion : 1.1
 /// @DnDHash : 028F2399
 /// @DnDArgument : "soundid" "sou_yeehaw"
+/// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_yeehaw"
-audio_play_sound(sou_yeehaw, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(sou_yeehaw, 0, 0, 1.0, undefined, global.SonofaPITCH);

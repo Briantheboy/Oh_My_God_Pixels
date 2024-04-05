@@ -283,8 +283,9 @@ if(l3D1020DF_0)
 				/// @DnDHash : 187BD6DC
 				/// @DnDParent : 1C017D71
 				/// @DnDArgument : "soundid" "sou_correct"
+				/// @DnDArgument : "pitch" "global.SonofaPITCH"
 				/// @DnDSaveInfo : "soundid" "sou_correct"
-				audio_play_sound(sou_correct, 0, 0, 1.0, undefined, 1.0);
+				audio_play_sound(sou_correct, 0, 0, 1.0, undefined, global.SonofaPITCH);
 			}
 		}
 	
@@ -339,8 +340,9 @@ if(l3D1020DF_0)
 			/// @DnDHash : 4D2D314B
 			/// @DnDParent : 7545CA66
 			/// @DnDArgument : "soundid" "sou_incorrect"
+			/// @DnDArgument : "pitch" "global.SonofaPITCH"
 			/// @DnDSaveInfo : "soundid" "sou_incorrect"
-			audio_play_sound(sou_incorrect, 0, 0, 1.0, undefined, 1.0);
+			audio_play_sound(sou_incorrect, 0, 0, 1.0, undefined, global.SonofaPITCH);
 		}
 	}
 }

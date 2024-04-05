@@ -12,5 +12,6 @@ effect_create_below(9, x + 0, y + 0, 1, $FFFFFFFF & $ffffff);
 /// @DnDVersion : 1.1
 /// @DnDHash : 10986AA2
 /// @DnDArgument : "soundid" "sou_ghostdefeat"
+/// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_ghostdefeat"
-audio_play_sound(sou_ghostdefeat, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(sou_ghostdefeat, 0, 0, 1.0, undefined, global.SonofaPITCH);

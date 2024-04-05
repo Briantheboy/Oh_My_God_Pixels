@@ -52,16 +52,18 @@ if(timeline_running == true)
 		/// @DnDHash : 1FCB5DCE
 		/// @DnDParent : 63E76126
 		/// @DnDArgument : "soundid" "sou_spank"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_spank"
-		audio_play_sound(sou_spank, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(sou_spank, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
 		/// @DnDVersion : 1.1
 		/// @DnDHash : 6991F036
 		/// @DnDParent : 63E76126
 		/// @DnDArgument : "soundid" "sou_biglaugh"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_biglaugh"
-		audio_play_sound(sou_biglaugh, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(sou_biglaugh, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -111,16 +113,18 @@ if(timeline_running == true)
 		/// @DnDHash : 4BDC8C95
 		/// @DnDParent : 08204294
 		/// @DnDArgument : "soundid" "sou_spank"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_spank"
-		audio_play_sound(sou_spank, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(sou_spank, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
 		/// @DnDVersion : 1.1
 		/// @DnDHash : 4F6A2C74
 		/// @DnDParent : 08204294
 		/// @DnDArgument : "soundid" "sou_biglaugh"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_biglaugh"
-		audio_play_sound(sou_biglaugh, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(sou_biglaugh, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -166,8 +170,9 @@ if(timeline_running == true)
 			/// @DnDHash : 1EFB6D12
 			/// @DnDParent : 6A15FAA3
 			/// @DnDArgument : "soundid" "sou_crowdboo"
+			/// @DnDArgument : "pitch" "global.SonofaPITCH"
 			/// @DnDSaveInfo : "soundid" "sou_crowdboo"
-			audio_play_sound(sou_crowdboo, 0, 0, 1.0, undefined, 1.0);
+			audio_play_sound(sou_crowdboo, 0, 0, 1.0, undefined, global.SonofaPITCH);
 		
 			/// @DnDAction : YoYo Games.Instances.Color_Sprite
 			/// @DnDVersion : 1

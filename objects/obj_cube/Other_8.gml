@@ -36,8 +36,9 @@ if(room == FLIRT)
 		/// @DnDHash : 1AA62C38
 		/// @DnDParent : 2A1F8794
 		/// @DnDArgument : "soundid" "sou_kiss"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_kiss"
-		audio_play_sound(sou_kiss, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(sou_kiss, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1

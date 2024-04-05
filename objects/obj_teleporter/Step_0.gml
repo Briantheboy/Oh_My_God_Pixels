@@ -195,8 +195,9 @@ if(__dnd_score >= 1)
 		/// @DnDHash : 7B20957C
 		/// @DnDParent : 4F47204A
 		/// @DnDArgument : "soundid" "sou_suck"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_suck"
-		audio_play_sound(sou_suck, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(sou_suck, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1

@@ -50,8 +50,9 @@ if(!l7E240108_0)
 		/// @DnDHash : 501231D9
 		/// @DnDParent : 54ACEC37
 		/// @DnDArgument : "soundid" "sou_fartreverb"
+		/// @DnDArgument : "pitch" "global.SonofaPITCH"
 		/// @DnDSaveInfo : "soundid" "sou_fartreverb"
-		audio_play_sound(sou_fartreverb, 0, 0, 1.0, undefined, 1.0);
+		audio_play_sound(sou_fartreverb, 0, 0, 1.0, undefined, global.SonofaPITCH);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable

@@ -101,6 +101,7 @@ if(image_xscale > .89)
 	/// @DnDHash : 2D981BD8
 	/// @DnDParent : 3289C35F
 	/// @DnDArgument : "soundid" "sou_shock"
+	/// @DnDArgument : "pitch" "global.SonofaPITCH"
 	/// @DnDSaveInfo : "soundid" "sou_shock"
-	audio_play_sound(sou_shock, 0, 0, 1.0, undefined, 1.0);
+	audio_play_sound(sou_shock, 0, 0, 1.0, undefined, global.SonofaPITCH);
 }

@@ -52,8 +52,9 @@ if (!audio_is_playing(l55F6BB0C_0))
 	/// @DnDHash : 594E01F1
 	/// @DnDParent : 55F6BB0C
 	/// @DnDArgument : "soundid" "sou_electricshock"
+	/// @DnDArgument : "pitch" "global.SonofaPITCH"
 	/// @DnDSaveInfo : "soundid" "sou_electricshock"
-	audio_play_sound(sou_electricshock, 0, 0, 1.0, undefined, 1.0);
+	audio_play_sound(sou_electricshock, 0, 0, 1.0, undefined, global.SonofaPITCH);
 }
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm

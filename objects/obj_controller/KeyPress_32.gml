@@ -97,8 +97,9 @@ if(MinigameGoing == "yes")
 					/// @DnDHash : 6847AD24
 					/// @DnDParent : 2690BE04
 					/// @DnDArgument : "soundid" "sou_slotstop"
+					/// @DnDArgument : "pitch" "global.SonofaPITCH"
 					/// @DnDSaveInfo : "soundid" "sou_slotstop"
-					audio_play_sound(sou_slotstop, 0, 0, 1.0, undefined, 1.0);
+					audio_play_sound(sou_slotstop, 0, 0, 1.0, undefined, global.SonofaPITCH);
 				}
 			
 				/// @DnDAction : YoYo Games.Common.Variable

@@ -19,5 +19,6 @@ effect_create_below(5, x + 0, y + 0, 2, $FF343434 & $ffffff);
 /// @DnDVersion : 1.1
 /// @DnDHash : 5BB0246A
 /// @DnDArgument : "soundid" "sou_ghostgrowl"
+/// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_ghostgrowl"
-audio_play_sound(sou_ghostgrowl, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(sou_ghostgrowl, 0, 0, 1.0, undefined, global.SonofaPITCH);
