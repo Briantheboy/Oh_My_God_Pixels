@@ -18,8 +18,9 @@ if (!audio_is_playing(l0D6BFC58_0))
 	/// @DnDHash : 536068EE
 	/// @DnDParent : 0D6BFC58
 	/// @DnDArgument : "soundid" "sou_win"
+	/// @DnDArgument : "pitch" "global.SonofaPITCH"
 	/// @DnDSaveInfo : "soundid" "sou_win"
-	audio_play_sound(sou_win, 0, 0, 1.0, undefined, 1.0);
+	audio_play_sound(sou_win, 0, 0, 1.0, undefined, global.SonofaPITCH);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -75,8 +76,9 @@ if(room == MARIO)
 	/// @DnDHash : 08EFE09A
 	/// @DnDParent : 18D81A94
 	/// @DnDArgument : "soundid" "sou_harp"
+	/// @DnDArgument : "pitch" "global.SonofaPITCH"
 	/// @DnDSaveInfo : "soundid" "sou_harp"
-	audio_play_sound(sou_harp, 0, 0, 1.0, undefined, 1.0);
+	audio_play_sound(sou_harp, 0, 0, 1.0, undefined, global.SonofaPITCH);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -91,6 +93,7 @@ if(room == CASINO)
 	/// @DnDHash : 2B2D6A1A
 	/// @DnDParent : 78F6B98C
 	/// @DnDArgument : "soundid" "sou_slotjackpot"
+	/// @DnDArgument : "pitch" "global.SonofaPITCH"
 	/// @DnDSaveInfo : "soundid" "sou_slotjackpot"
-	audio_play_sound(sou_slotjackpot, 0, 0, 1.0, undefined, 1.0);
+	audio_play_sound(sou_slotjackpot, 0, 0, 1.0, undefined, global.SonofaPITCH);
 }

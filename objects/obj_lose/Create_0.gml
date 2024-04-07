@@ -8,8 +8,9 @@ image_alpha = 0;
 /// @DnDVersion : 1.1
 /// @DnDHash : 57A358D4
 /// @DnDArgument : "soundid" "sou_lose"
+/// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_lose"
-audio_play_sound(sou_lose, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(sou_lose, 0, 0, 1.0, undefined, global.SonofaPITCH);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -111,8 +112,9 @@ if(room == CASINO)
 	/// @DnDHash : 51D5FE5A
 	/// @DnDParent : 2A170BE9
 	/// @DnDArgument : "soundid" "sou_slotlose"
+	/// @DnDArgument : "pitch" "global.SonofaPITCH"
 	/// @DnDSaveInfo : "soundid" "sou_slotlose"
-	audio_play_sound(sou_slotlose, 0, 0, 1.0, undefined, 1.0);
+	audio_play_sound(sou_slotlose, 0, 0, 1.0, undefined, global.SonofaPITCH);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1

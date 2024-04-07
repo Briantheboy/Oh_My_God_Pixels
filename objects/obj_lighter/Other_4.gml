@@ -11,3 +11,9 @@ image_alpha = 0.70;
 /// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_spookyhouse"
 audio_play_sound(sou_spookyhouse, 0, 0, 1.0, undefined, global.SonofaPITCH);
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 2579EB20
+/// @DnDArgument : "speed" "global.AnimIncrease"
+image_speed = global.AnimIncrease;

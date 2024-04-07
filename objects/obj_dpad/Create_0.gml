@@ -5,6 +5,12 @@
 /// @DnDArgument : "var" "Dpad_Point"
 Dpad_Point = 1;
 
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 79A7DB1E
+/// @DnDArgument : "speed" "global.AnimIncrease"
+image_speed = global.AnimIncrease;
+
 /// @DnDAction : YoYo Games.Random.Randomize
 /// @DnDVersion : 1
 /// @DnDHash : 68B78173

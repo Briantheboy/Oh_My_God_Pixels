@@ -4,6 +4,12 @@
 /// @DnDArgument : "alpha" "0.5"
 image_alpha = 0.5;
 
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 1F0BE7D3
+/// @DnDArgument : "speed" "global.AnimIncrease"
+image_speed = global.AnimIncrease;
+
 /// @DnDAction : YoYo Games.Paths.Start_Path
 /// @DnDVersion : 1.1
 /// @DnDHash : 1DD4AF81

@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 601F98FF
+/// @DnDArgument : "speed" "global.AnimIncrease"
+image_speed = global.AnimIncrease;
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 13D325FA

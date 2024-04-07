@@ -19,3 +19,9 @@ image_yscale = 0;
 /// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_yeehaw"
 audio_play_sound(sou_yeehaw, 0, 0, 1.0, undefined, global.SonofaPITCH);
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 498D49CD
+/// @DnDArgument : "speed" "global.AnimIncrease"
+image_speed = global.AnimIncrease;

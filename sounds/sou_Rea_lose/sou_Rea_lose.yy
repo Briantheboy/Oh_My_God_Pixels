@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.344083,
+  "duration": 0.410792,
   "parent": {
     "name": "MG_RIPPLE",
     "path": "folders/Sounds/MG_RIPPLE.yy",

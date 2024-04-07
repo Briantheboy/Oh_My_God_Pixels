@@ -12,3 +12,9 @@ image_alpha = ($FF3232FF >> 24) / $ff;
 /// @DnDArgument : "atend" "path_action_continue"
 /// @DnDSaveInfo : "path" "pth_swaygun"
 path_start(pth_swaygun, 1, path_action_continue, false);
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 73F6178E
+/// @DnDArgument : "speed" "global.AnimIncrease"
+image_speed = global.AnimIncrease;

@@ -7,9 +7,13 @@ game_load("savebro.dat");
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 08995B1A
+/// @DnDInput : 2
 /// @DnDArgument : "value" "1"
+/// @DnDArgument : "value_1" "1"
 /// @DnDArgument : "var" "SonofaPITCH"
+/// @DnDArgument : "var_1" "AnimIncrease"
 global.SonofaPITCH = 1;
+global.AnimIncrease = 1;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1

@@ -83,3 +83,9 @@ part_type_life(DaSprinkles, 120, 120);
 /// @DnDHash : 65127044
 /// @DnDArgument : "code" "layer_set_visible("Effect_1", true);"
 layer_set_visible("Effect_1", true);
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 153FA8DF
+/// @DnDArgument : "speed" "global.AnimIncrease"
+image_speed = global.AnimIncrease;

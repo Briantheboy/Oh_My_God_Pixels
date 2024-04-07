@@ -225,8 +225,24 @@ if(room == DoorTest)
 	/// @DnDAction : YoYo Games.Particles.Part_Syst_Destroy
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 7260C27A
+	/// @DnDDisabled : 1
 	/// @DnDParent : 0A96B31C
-	part_system_destroy(system);
+
+
+	/// @DnDAction : YoYo Games.Particles.Part_Type_Destroy
+	/// @DnDVersion : 1
+	/// @DnDHash : 57BF4C43
+	/// @DnDDisabled : 1
+	/// @DnDParent : 0A96B31C
+	/// @DnDArgument : "type" "DaSprinkles"
+
+
+	/// @DnDAction : YoYo Games.Particles.Part_Emit_Destroy
+	/// @DnDVersion : 1
+	/// @DnDHash : 2202E1EB
+	/// @DnDDisabled : 1
+	/// @DnDParent : 0A96B31C
+
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -388,6 +404,13 @@ if(room == VIBRATE)
 	timeline_index = tml_SetColorsForSprite;
 	timeline_loop = 0;
 	timeline_running = 1;
+
+	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 7C6868B4
+	/// @DnDParent : 31716566
+	/// @DnDArgument : "speed" "global.AnimIncrease"
+	image_speed = global.AnimIncrease;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

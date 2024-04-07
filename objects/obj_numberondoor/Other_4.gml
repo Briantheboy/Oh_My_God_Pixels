@@ -428,4 +428,12 @@ if(room == DoorTest)
 	/// @DnDArgument : "soundid" "sou_donkey"
 	/// @DnDSaveInfo : "soundid" "sou_donkey"
 	audio_stop_sound(sou_donkey);
+
+	/// @DnDAction : YoYo Games.Audio.Stop_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 0098D68E
+	/// @DnDParent : 0CDD4EDE
+	/// @DnDArgument : "soundid" "sou_Rea_lose"
+	/// @DnDSaveInfo : "soundid" "sou_Rea_lose"
+	audio_stop_sound(sou_Rea_lose);
 }

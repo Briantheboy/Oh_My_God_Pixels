@@ -23,8 +23,8 @@ whatSpeed = (random_range(12, 36));
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 7284B7DA
-/// @DnDArgument : "speed" "(whatSpeed/36)"
-image_speed = (whatSpeed/36);
+/// @DnDArgument : "speed" "(global.AnimIncrease*(whatSpeed/36))"
+image_speed = (global.AnimIncrease*(whatSpeed/36));
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

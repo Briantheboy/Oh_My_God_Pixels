@@ -21,3 +21,9 @@ path_start(pth_stage_to_center, 30, path_action_stop, false);
 /// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_waytogo"
 audio_play_sound(sou_waytogo, 0, 0, 1.0, undefined, global.SonofaPITCH);
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 16837F4F
+/// @DnDArgument : "speed" "global.AnimIncrease"
+image_speed = global.AnimIncrease;

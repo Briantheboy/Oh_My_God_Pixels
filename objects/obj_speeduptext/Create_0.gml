@@ -18,10 +18,14 @@ if(l6BB5CA00_0)
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
 	/// @DnDHash : 62EB800F
+	/// @DnDInput : 2
 	/// @DnDParent : 6BB5CA00
-	/// @DnDArgument : "value" "1.2"
+	/// @DnDArgument : "value" "1.1"
+	/// @DnDArgument : "value_1" "1.1"
 	/// @DnDArgument : "var" "global.SonofaPITCH"
-	global.SonofaPITCH = 1.2;
+	/// @DnDArgument : "var_1" "global.AnimIncrease"
+	global.SonofaPITCH = 1.1;
+	global.AnimIncrease = 1.1;
 
 	/// @DnDAction : YoYo Games.Audio.Audio_Set_Pitch
 	/// @DnDVersion : 1
@@ -53,10 +57,14 @@ if(l288C5939_0)
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
 	/// @DnDHash : 3FFE73F8
+	/// @DnDInput : 2
 	/// @DnDParent : 288C5939
-	/// @DnDArgument : "value" "1.5"
+	/// @DnDArgument : "value" "1.3"
+	/// @DnDArgument : "value_1" "1.3"
 	/// @DnDArgument : "var" "global.SonofaPITCH"
-	global.SonofaPITCH = 1.5;
+	/// @DnDArgument : "var_1" "global.AnimIncrease"
+	global.SonofaPITCH = 1.3;
+	global.AnimIncrease = 1.3;
 
 	/// @DnDAction : YoYo Games.Audio.Audio_Set_Pitch
 	/// @DnDVersion : 1
@@ -87,10 +95,14 @@ if(l4810566E_0)
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
 	/// @DnDHash : 12C7F02B
+	/// @DnDInput : 2
 	/// @DnDParent : 4810566E
-	/// @DnDArgument : "value" "1.7"
+	/// @DnDArgument : "value" "1.5"
+	/// @DnDArgument : "value_1" "1.5"
 	/// @DnDArgument : "var" "global.SonofaPITCH"
-	global.SonofaPITCH = 1.7;
+	/// @DnDArgument : "var_1" "global.AnimIncrease"
+	global.SonofaPITCH = 1.5;
+	global.AnimIncrease = 1.5;
 
 	/// @DnDAction : YoYo Games.Audio.Audio_Set_Pitch
 	/// @DnDVersion : 1
@@ -121,10 +133,14 @@ if(l72702A7F_0)
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
 	/// @DnDHash : 4172E6DC
+	/// @DnDInput : 2
 	/// @DnDParent : 72702A7F
-	/// @DnDArgument : "value" "2"
+	/// @DnDArgument : "value" "1.8"
+	/// @DnDArgument : "value_1" "1.8"
 	/// @DnDArgument : "var" "global.SonofaPITCH"
-	global.SonofaPITCH = 2;
+	/// @DnDArgument : "var_1" "global.AnimIncrease"
+	global.SonofaPITCH = 1.8;
+	global.AnimIncrease = 1.8;
 
 	/// @DnDAction : YoYo Games.Audio.Audio_Set_Pitch
 	/// @DnDVersion : 1

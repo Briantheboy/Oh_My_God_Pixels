@@ -14,3 +14,9 @@ image_yscale = 0.05;
 timeline_index = tml_BreadAppear;
 timeline_loop = 0;
 timeline_running = 1;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 6EC617D5
+/// @DnDArgument : "speed" "global.AnimIncrease"
+image_speed = global.AnimIncrease;

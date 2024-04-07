@@ -27,6 +27,13 @@ if(room == highscore)
 		l2AB5FF94_0 = instance_exists(obj_HighCursor);
 		if(!l2AB5FF94_0)
 		{
+			/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+			/// @DnDVersion : 1
+			/// @DnDHash : 4B2B0A43
+			/// @DnDApplyTo : {obj_FAKEborder_High}
+			/// @DnDParent : 2AB5FF94
+			with(obj_FAKEborder_High) instance_destroy();
+		
 			/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 			/// @DnDVersion : 1
 			/// @DnDHash : 4963649C

@@ -1,5 +1,11 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 5BE7797E
+/// @DnDArgument : "var" "OKyoucanpressnow"
+OKyoucanpressnow = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 57B32BB3
 /// @DnDApplyTo : {obj_numberondoor}
 /// @DnDArgument : "expr" "1"
@@ -16,6 +22,11 @@ MinigamePoints += 1;
 /// @DnDArgument : "expr" ""no""
 /// @DnDArgument : "var" "AmIbig"
 AmIbig = "no";
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 38A1C157
+alarm_set(0, 30);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

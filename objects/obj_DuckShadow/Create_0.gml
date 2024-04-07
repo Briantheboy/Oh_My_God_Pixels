@@ -3,3 +3,9 @@
 /// @DnDHash : 6E9C7BB5
 /// @DnDArgument : "alpha" "0.75"
 image_alpha = 0.75;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 1DC07BC3
+/// @DnDArgument : "speed" "global.AnimIncrease"
+image_speed = global.AnimIncrease;

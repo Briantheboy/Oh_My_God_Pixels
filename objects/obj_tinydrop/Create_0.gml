@@ -29,3 +29,9 @@ randomize();
 /// @DnDArgument : "expr" "irandom_range(45,130)"
 /// @DnDArgument : "var" "direction"
 direction = irandom_range(45,130);
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 7D3ED46C
+/// @DnDArgument : "speed" "global.AnimIncrease"
+image_speed = global.AnimIncrease;

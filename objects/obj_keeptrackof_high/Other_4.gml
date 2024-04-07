@@ -1,5 +1,25 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 5EB8FA00
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "gameover"
+if(room == gameover)
+{
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 37B3DAE8
+	/// @DnDInput : 2
+	/// @DnDParent : 5EB8FA00
+	/// @DnDArgument : "value" "1"
+	/// @DnDArgument : "value_1" "1"
+	/// @DnDArgument : "var" "global.SonofaPITCH"
+	/// @DnDArgument : "var_1" "global.AnimIncrease"
+	global.SonofaPITCH = 1;
+	global.AnimIncrease = 1;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 3D52B1CE
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "highscore"

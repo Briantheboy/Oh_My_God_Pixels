@@ -67,3 +67,9 @@ part_type_alpha3(DaSprinkles, 0.25, 0.35, 0.5);
 /// @DnDArgument : "minsize" "0.15"
 /// @DnDArgument : "maxsize" "0.5"
 part_type_size(DaSprinkles, 0.15, 0.5, 0, 0);
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 403B595F
+/// @DnDArgument : "speed" "global.AnimIncrease"
+image_speed = global.AnimIncrease;

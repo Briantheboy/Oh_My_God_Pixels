@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.508958,
+  "duration": 1.401723,
   "parent": {
     "name": "MG_RIPPLE",
     "path": "folders/Sounds/MG_RIPPLE.yy",
@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "sou_Rea_win.wav",
   "type": 1,
-  "volume": 1.0,
+  "volume": 0.54,
 }
