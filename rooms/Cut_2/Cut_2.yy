@@ -37,6 +37,7 @@
     {"name":"inst_439BBBE0","path":"rooms/Cut_2/Cut_2.yy",},
     {"name":"inst_ED032A","path":"rooms/Cut_2/Cut_2.yy",},
     {"name":"inst_7BA19DE9","path":"rooms/Cut_2/Cut_2.yy",},
+    {"name":"inst_429287BA","path":"rooms/Cut_2/Cut_2.yy",},
   ],
   "isDnd": true,
   "layers": [
@@ -46,8 +47,10 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1B7713DC_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_blackvoid","path":"objects/obj_blackvoid/obj_blackvoid.yy",},"properties":[],"rotation":0.0,"scaleX":128.59999,"scaleY":8.76,"x":1670.0,"y":108.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_160CCBB0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_CutTextTypeUp_Textbox","path":"objects/obj_CutTextTypeUp_Textbox/obj_CutTextTypeUp_Textbox.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1600.0,"y":108.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Command","depth":200,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Overlay","depth":300,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Command","depth":200,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_429287BA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_HandPrint","path":"objects/obj_HandPrint/obj_HandPrint.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-480.0,"y":416.0,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Overlay","depth":300,"effectEnabled":true,"effectType":"none","gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_369F85D6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Bullies_2","path":"objects/obj_Bullies_2/obj_Bullies_2.yy",},"properties":[],"rotation":0.0,"scaleX":1.9172255,"scaleY":1.9172254,"x":1600.0,"y":1080.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Blocks","depth":400,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
@@ -79,10 +82,10 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_ED032A","colour":4281611316,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_losegoop_black","path":"objects/obj_losegoop_black/obj_losegoop_black.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0536913,"x":872.0,"y":-279.4502,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7BA19DE9","colour":4281611316,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_losegoop_black","path":"objects/obj_losegoop_black/obj_losegoop_black.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0536913,"x":600.0,"y":-271.4502,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":12.0,"animationSpeedType":0,"colour":4281611316,"depth":600,"effectEnabled":true,"effectType":"_filter_vignette","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4284966759,"depth":600,"effectEnabled":true,"effectType":"_filter_vignette","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_VignetteEdges","type":0,"value":"0.75",},
         {"name":"g_VignetteEdges","type":0,"value":"1.2",},
-        {"name":"g_VignetteSharpness","type":0,"value":"0.86",},
+        {"name":"g_VignetteSharpness","type":0,"value":"0.9",},
         {"name":"g_VignetteTexture","type":2,"value":"_filter_vignette_texture",},
       ],"spriteId":null,"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

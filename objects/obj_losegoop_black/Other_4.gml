@@ -8,5 +8,6 @@ image_alpha = 0.75;
 /// @DnDVersion : 1.1
 /// @DnDHash : 3DB94722
 /// @DnDArgument : "path" "pth_goopdown"
+/// @DnDArgument : "speed" "random_range(0.75, 1)"
 /// @DnDSaveInfo : "path" "pth_goopdown"
-path_start(pth_goopdown, 1, path_action_stop, false);
+path_start(pth_goopdown, random_range(0.75, 1), path_action_stop, false);
