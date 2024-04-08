@@ -1,8 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Puy_3",
-  "eventList": [],
+  "name": "obj_Back_3",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":true,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Cut3_Puy",
-    "path": "sprites/spr_Cut3_Puy/spr_Cut3_Puy.yy",
+    "name": "spr_Cut3_Back",
+    "path": "sprites/spr_Cut3_Back/spr_Cut3_Back.yy",
   },
   "spriteMaskId": null,
   "visible": true,

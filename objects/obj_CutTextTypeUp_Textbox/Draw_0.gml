@@ -88,13 +88,42 @@ if(room == Cut_2)
 	}
 }
 
-/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 6EB5988F
-/// @DnDDisabled : 1
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "xscale" "0.75"
-/// @DnDArgument : "yscale" "0.75"
-/// @DnDArgument : "caption" ""
-/// @DnDArgument : "text" "string_copy("\"No wonder you don't have a date to prom. No guy would be caught dead with you!\"",1,TypeNum)"
+/// @DnDHash : 3D860ABF
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "Cut_3"
+if(room == Cut_3)
+{
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+	/// @DnDVersion : 1
+	/// @DnDHash : 4E2777E6
+	/// @DnDParent : 3D860ABF
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y_relative" "1"
+	/// @DnDArgument : "xscale" "0.75"
+	/// @DnDArgument : "yscale" "0.75"
+	/// @DnDArgument : "caption" ""
+	/// @DnDArgument : "text" "string_copy("\"*sniffle* What do they know? Dumb harlots...I’ll show them all...\"",1,TypeNum)"
+	draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"*sniffle* What do they know? Dumb harlots...I’ll show them all...\"",1,TypeNum)), 0.75, 0.75, 0);
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 76B0FB97
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "Cut_4"
+if(room == Cut_4)
+{
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+	/// @DnDVersion : 1
+	/// @DnDHash : 1C56969A
+	/// @DnDParent : 76B0FB97
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y_relative" "1"
+	/// @DnDArgument : "xscale" "0.75"
+	/// @DnDArgument : "yscale" "0.75"
+	/// @DnDArgument : "caption" ""
+	/// @DnDArgument : "text" "string_copy("\"...WITH SCIENCE!\"",1,TypeNum)"
+	draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"...WITH SCIENCE!\"",1,TypeNum)), 0.75, 0.75, 0);
+}

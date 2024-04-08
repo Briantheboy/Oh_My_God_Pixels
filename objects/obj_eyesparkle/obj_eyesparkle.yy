@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Puy_3",
-  "eventList": [],
+  "name": "obj_eyesparkle",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Cut3_Puy",
-    "path": "sprites/spr_Cut3_Puy/spr_Cut3_Puy.yy",
+    "name": "spr_eyesparkle",
+    "path": "sprites/spr_eyesparkle/spr_eyesparkle.yy",
   },
   "spriteMaskId": null,
   "visible": true,
