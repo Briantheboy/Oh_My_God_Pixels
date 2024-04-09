@@ -24,6 +24,12 @@ draw_set_alpha(l0AB475CF_0 / $ff);
 /// @DnDArgument : "steps" "3"
 alarm_set(0, 3);
 
+/// @DnDAction : YoYo Games.Drawing.Set_Alignment
+/// @DnDVersion : 1.1
+/// @DnDHash : 5D6F0701
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1
 /// @DnDHash : 5C32F855

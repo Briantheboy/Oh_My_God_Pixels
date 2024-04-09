@@ -14,8 +14,8 @@ if(room == Cut_1)
 	/// @DnDArgument : "xscale" "0.75"
 	/// @DnDArgument : "yscale" "0.75"
 	/// @DnDArgument : "caption" ""
-	/// @DnDArgument : "text" "string_copy("\"Look at her suffer! So damn pathetic!\"",1,TypeNum)"
-	draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"Look at her suffer! So damn pathetic!\"",1,TypeNum)), 0.75, 0.75, 0);
+	/// @DnDArgument : "text" "string_copy("\"Look at her suffer! So friggin' pathetic!\"",1,TypeNum)"
+	draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"Look at her suffer! So friggin' pathetic!\"",1,TypeNum)), 0.75, 0.75, 0);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -41,8 +41,8 @@ if(room == Cut_2)
 		/// @DnDArgument : "xscale" "0.75"
 		/// @DnDArgument : "yscale" "0.75"
 		/// @DnDArgument : "caption" ""
-		/// @DnDArgument : "text" "string_copy("\"You are disgusting trash! I feel sick just looking at you!\"",1,TypeNum)"
-		draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"You are disgusting trash! I feel sick just looking at you!\"",1,TypeNum)), 0.75, 0.75, 0);
+		/// @DnDArgument : "text" "string_copy("\"You are disgusting, sniveling trash! I feel sick just looking at you!\"",1,TypeNum)"
+		draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"You are disgusting, sniveling trash! I feel sick just looking at you!\"",1,TypeNum)), 0.75, 0.75, 0);
 	}
 
 	/// @DnDAction : YoYo Games.Instance Variables.If_Score
@@ -83,8 +83,8 @@ if(room == Cut_2)
 		/// @DnDArgument : "xscale" "0.75"
 		/// @DnDArgument : "yscale" "0.75"
 		/// @DnDArgument : "caption" ""
-		/// @DnDArgument : "text" "string_copy("\"Come on girls, let’s leave the sniveling insect to cry alone!\"",1,TypeNum)"
-		draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"Come on girls, let’s leave the sniveling insect to cry alone!\"",1,TypeNum)), 0.75, 0.75, 0);
+		/// @DnDArgument : "text" "string_copy("\"Come on girls, let’s leave ugly-ass Puyumi to cry alone!\"",1,TypeNum)"
+		draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"Come on girls, let’s leave ugly-ass Puyumi to cry alone!\"",1,TypeNum)), 0.75, 0.75, 0);
 	}
 }
 
@@ -104,8 +104,8 @@ if(room == Cut_3)
 	/// @DnDArgument : "xscale" "0.75"
 	/// @DnDArgument : "yscale" "0.75"
 	/// @DnDArgument : "caption" ""
-	/// @DnDArgument : "text" "string_copy("\"*sniffle* What do they know? Dumb harlots...I’ll show them all...\"",1,TypeNum)"
-	draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"*sniffle* What do they know? Dumb harlots...I’ll show them all...\"",1,TypeNum)), 0.75, 0.75, 0);
+	/// @DnDArgument : "text" "string_copy("\"*sniffle* What do they know? Dumb hussies...I’ll show them all...\"",1,TypeNum)"
+	draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"*sniffle* What do they know? Dumb hussies...I’ll show them all...\"",1,TypeNum)), 0.75, 0.75, 0);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -126,4 +126,56 @@ if(room == Cut_4)
 	/// @DnDArgument : "caption" ""
 	/// @DnDArgument : "text" "string_copy("\"...WITH SCIENCE!\"",1,TypeNum)"
 	draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"...WITH SCIENCE!\"",1,TypeNum)), 0.75, 0.75, 0);
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 46847DBA
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "Cut_5"
+if(room == Cut_5)
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 773AE661
+	/// @DnDApplyTo : {obj_House_5}
+	/// @DnDParent : 46847DBA
+	/// @DnDArgument : "var" "image_alpha"
+	/// @DnDArgument : "op" "3"
+	/// @DnDArgument : "value" "-0.5"
+	with(obj_House_5) var l773AE661_0 = image_alpha <= -0.5;
+	if(l773AE661_0)
+	{
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 39887600
+		/// @DnDParent : 773AE661
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y_relative" "1"
+		/// @DnDArgument : "xscale" "0.75"
+		/// @DnDArgument : "yscale" "0.75"
+		/// @DnDArgument : "caption" ""
+		/// @DnDArgument : "text" "string_copy("\"Eureka! This is my greatest invention yet!\"",1,TypeNum)"
+		draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"Eureka! This is my greatest invention yet!\"",1,TypeNum)), 0.75, 0.75, 0);
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2D4B377C
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "Cut_7"
+if(room == Cut_7)
+{
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+	/// @DnDVersion : 1
+	/// @DnDHash : 7800A797
+	/// @DnDParent : 2D4B377C
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y_relative" "1"
+	/// @DnDArgument : "xscale" "0.75"
+	/// @DnDArgument : "yscale" "0.75"
+	/// @DnDArgument : "caption" ""
+	/// @DnDArgument : "text" "string_copy("\"Sexy rock solid abs, strong jawline, manly stare...He’s the ultimate boyfriend & prom date!\"",1,TypeNum)"
+	draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"Sexy rock solid abs, strong jawline, manly stare...He’s the ultimate boyfriend & prom date!\"",1,TypeNum)), 0.75, 0.75, 0);
 }
