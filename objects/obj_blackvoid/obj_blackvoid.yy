@@ -11,6 +11,8 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":54,"eventType":9,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":55,"eventType":9,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":56,"eventType":9,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":57,"eventType":9,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":48,"eventType":9,"isDnD":true,},
   ],
   "managed": true,
   "overriddenProperties": [],

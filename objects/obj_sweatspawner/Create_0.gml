@@ -51,10 +51,10 @@ part_type_direction(DaSprinkles, 50, 50, 0, 0);
 /// @DnDVersion : 1
 /// @DnDHash : 7B79494D
 /// @DnDArgument : "type" "DaSprinkles"
-/// @DnDArgument : "start" "0.25"
-/// @DnDArgument : "middle" "0.35"
-/// @DnDArgument : "end" "0.45"
-part_type_alpha3(DaSprinkles, 0.25, 0.35, 0.45);
+/// @DnDArgument : "start" "0.15"
+/// @DnDArgument : "middle" "0.2"
+/// @DnDArgument : "end" "0.3"
+part_type_alpha3(DaSprinkles, 0.15, 0.2, 0.3);
 
 /// @DnDAction : YoYo Games.Particles.Part_Type_Size
 /// @DnDVersion : 1
@@ -64,8 +64,17 @@ part_type_alpha3(DaSprinkles, 0.25, 0.35, 0.45);
 /// @DnDArgument : "maxsize" "0.18"
 part_type_size(DaSprinkles, 0.18, 0.18, 0, 0);
 
-/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 22FA8993
-/// @DnDArgument : "speed" "global.AnimIncrease"
-image_speed = global.AnimIncrease;
+/// @DnDHash : 16DDC7F5
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "BOOM"
+if(room == BOOM)
+{
+	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 22FA8993
+	/// @DnDParent : 16DDC7F5
+	/// @DnDArgument : "speed" "global.AnimIncrease"
+	image_speed = global.AnimIncrease;
+}
