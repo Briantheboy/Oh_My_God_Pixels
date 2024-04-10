@@ -13,6 +13,7 @@
     {"name":"inst_185746D3_1","path":"rooms/Cut_1/Cut_1.yy",},
     {"name":"inst_23BBDC0_1","path":"rooms/Cut_1/Cut_1.yy",},
     {"name":"inst_3356F116_1","path":"rooms/Cut_1/Cut_1.yy",},
+    {"name":"inst_2FC3B9DC","path":"rooms/Cut_1/Cut_1.yy",},
   ],
   "isDnd": true,
   "layers": [
@@ -21,6 +22,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1177C6C6_2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_blackvoid","path":"objects/obj_blackvoid/obj_blackvoid.yy",},"properties":[],"rotation":0.0,"scaleX":128.59999,"scaleY":8.76,"x":1670.0,"y":1709.9448,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1B7713DC_2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_blackvoid","path":"objects/obj_blackvoid/obj_blackvoid.yy",},"properties":[],"rotation":0.0,"scaleX":128.59999,"scaleY":8.76,"x":1670.0,"y":108.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_160CCBB0_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_CutTextTypeUp_Textbox","path":"objects/obj_CutTextTypeUp_Textbox/obj_CutTextTypeUp_Textbox.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1600.0,"y":108.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2FC3B9DC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Cut_MasterTimer","path":"objects/obj_Cut_MasterTimer/obj_Cut_MasterTimer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3328.0,"y":1152.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Overlay","depth":200,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3356F116_1","colour":4278190080,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Bullies_Silhouette","path":"objects/obj_Bullies_Silhouette/obj_Bullies_Silhouette.yy",},"properties":[],"rotation":0.0,"scaleX":-2.7824194,"scaleY":1.6755556,"x":1599.1088,"y":1876.0,},

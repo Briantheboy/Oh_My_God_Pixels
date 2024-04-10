@@ -13,6 +13,7 @@
     {"name":"inst_49AC0A51","path":"rooms/Cut_8/Cut_8.yy",},
     {"name":"inst_17A7EC35","path":"rooms/Cut_8/Cut_8.yy",},
     {"name":"inst_7529B05B","path":"rooms/Cut_8/Cut_8.yy",},
+    {"name":"inst_21F35956","path":"rooms/Cut_8/Cut_8.yy",},
   ],
   "isDnd": true,
   "layers": [
@@ -21,6 +22,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1177C6C6_2_1_1_1_2_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_blackvoid","path":"objects/obj_blackvoid/obj_blackvoid.yy",},"properties":[],"rotation":0.0,"scaleX":128.59999,"scaleY":8.76,"x":1670.0,"y":1709.9448,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1B7713DC_2_1_1_1_2_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_blackvoid","path":"objects/obj_blackvoid/obj_blackvoid.yy",},"properties":[],"rotation":0.0,"scaleX":128.59999,"scaleY":8.76,"x":1670.0,"y":108.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_160CCBB0_1_1_1_2_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_CutTextTypeUp_Textbox","path":"objects/obj_CutTextTypeUp_Textbox/obj_CutTextTypeUp_Textbox.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1600.0,"y":108.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_21F35956","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Cut_MasterTimer","path":"objects/obj_Cut_MasterTimer/obj_Cut_MasterTimer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3264.0,"y":832.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Overlay","depth":200,"effectEnabled":true,"effectType":"none","gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_49AC0A51","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_animatedRaymond","path":"objects/obj_animatedRaymond/obj_animatedRaymond.yy",},"properties":[],"rotation":0.0,"scaleX":0.88148147,"scaleY":0.88148147,"x":2472.0,"y":808.0,},

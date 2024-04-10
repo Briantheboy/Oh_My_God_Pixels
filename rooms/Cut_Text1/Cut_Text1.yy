@@ -10,6 +10,7 @@
     {"name":"inst_10F833C7","path":"rooms/Cut_Text1/Cut_Text1.yy",},
     {"name":"inst_1177C6C6","path":"rooms/Cut_Text1/Cut_Text1.yy",},
     {"name":"inst_1B7713DC","path":"rooms/Cut_Text1/Cut_Text1.yy",},
+    {"name":"inst_391FD1A2","path":"rooms/Cut_Text1/Cut_Text1.yy",},
   ],
   "isDnd": true,
   "layers": [
@@ -18,6 +19,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_10F833C7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_CutTextTypeUp","path":"objects/obj_CutTextTypeUp/obj_CutTextTypeUp.yy",},"properties":[],"rotation":0.0,"scaleX":0.8475113,"scaleY":1.0193176,"x":900.0,"y":700.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1177C6C6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_blackvoid","path":"objects/obj_blackvoid/obj_blackvoid.yy",},"properties":[],"rotation":0.0,"scaleX":128.59999,"scaleY":8.76,"x":1670.0,"y":1709.9448,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1B7713DC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_blackvoid","path":"objects/obj_blackvoid/obj_blackvoid.yy",},"properties":[],"rotation":0.0,"scaleX":128.59999,"scaleY":8.76,"x":1670.0,"y":108.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_391FD1A2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Cut_MasterTimer","path":"objects/obj_Cut_MasterTimer/obj_Cut_MasterTimer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3328.0,"y":832.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Command","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Overlay","depth":300,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},

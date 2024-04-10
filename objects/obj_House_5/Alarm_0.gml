@@ -13,6 +13,13 @@ image_index = 0;
 /// @DnDArgument : "alarm" "1"
 alarm_set(1, irandom_range(5, 8));
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 644E93FC
+/// @DnDArgument : "soundid" "sou_welding"
+/// @DnDSaveInfo : "soundid" "sou_welding"
+audio_play_sound(sou_welding, 0, 0, 1.0, undefined, 1.0);
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 333F8348
@@ -31,8 +38,8 @@ if(image_alpha <= 0)
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "type" "3"
 	/// @DnDArgument : "size" "1"
-	/// @DnDArgument : "color" "$FF6DF7FF"
-	with(obj_Puy_Weld) effect_create_below(3, x + 250, y + -250, 1, $FF6DF7FF & $ffffff);
+	/// @DnDArgument : "color" "$FF35F3F0"
+	with(obj_Puy_Weld) effect_create_below(3, x + 250, y + -250, 1, $FF35F3F0 & $ffffff);
 
 	/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 	/// @DnDVersion : 1

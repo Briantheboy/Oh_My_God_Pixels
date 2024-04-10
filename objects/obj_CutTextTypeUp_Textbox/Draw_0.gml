@@ -69,23 +69,20 @@ if(room == Cut_2)
 	/// @DnDAction : YoYo Games.Instance Variables.If_Score
 	/// @DnDVersion : 1
 	/// @DnDHash : 4B913480
+	/// @DnDDisabled : 1
 	/// @DnDParent : 1454A15F
 	/// @DnDArgument : "value" "2"
-	if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-	if(__dnd_score == 2)
-	{
-		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
-		/// @DnDVersion : 1
-		/// @DnDHash : 0DD759A1
-		/// @DnDParent : 4B913480
-		/// @DnDArgument : "x_relative" "1"
-		/// @DnDArgument : "y_relative" "1"
-		/// @DnDArgument : "xscale" "0.75"
-		/// @DnDArgument : "yscale" "0.75"
-		/// @DnDArgument : "caption" ""
-		/// @DnDArgument : "text" "string_copy("\"Come on girls, let’s leave ugly-ass Puyumi to cry alone!\"",1,TypeNum)"
-		draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"Come on girls, let’s leave ugly-ass Puyumi to cry alone!\"",1,TypeNum)), 0.75, 0.75, 0);
-	}
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+	/// @DnDVersion : 1
+	/// @DnDHash : 0DD759A1
+	/// @DnDDisabled : 1
+	/// @DnDParent : 4B913480
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y_relative" "1"
+	/// @DnDArgument : "xscale" "0.75"
+	/// @DnDArgument : "yscale" "0.75"
+	/// @DnDArgument : "caption" ""
+	/// @DnDArgument : "text" "string_copy("\"Come on girls, let’s leave ugly-ass Puyumi to cry alone!\"",1,TypeNum)"
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -104,8 +101,8 @@ if(room == Cut_3)
 	/// @DnDArgument : "xscale" "0.75"
 	/// @DnDArgument : "yscale" "0.75"
 	/// @DnDArgument : "caption" ""
-	/// @DnDArgument : "text" "string_copy("\"*sniffle* What do they know? Dumb hussies...I’ll show them all...\"",1,TypeNum)"
-	draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"*sniffle* What do they know? Dumb hussies...I’ll show them all...\"",1,TypeNum)), 0.75, 0.75, 0);
+	/// @DnDArgument : "text" "string_copy("\"*sniffle* What do they know? Dumb hussies...I'll show them...I’ll show them ALL...\"",1,TypeNum)"
+	draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"*sniffle* What do they know? Dumb hussies...I'll show them...I’ll show them ALL...\"",1,TypeNum)), 0.75, 0.75, 0);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -157,6 +154,36 @@ if(room == Cut_5)
 		/// @DnDArgument : "caption" ""
 		/// @DnDArgument : "text" "string_copy("\"Eureka! This is my greatest invention yet!\"",1,TypeNum)"
 		draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"Eureka! This is my greatest invention yet!\"",1,TypeNum)), 0.75, 0.75, 0);
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 7BBB5B9E
+	/// @DnDApplyTo : {obj_House_5}
+	/// @DnDParent : 46847DBA
+	/// @DnDArgument : "var" "image_alpha"
+	/// @DnDArgument : "op" "3"
+	with(obj_House_5) var l7BBB5B9E_0 = image_alpha <= 0;
+	if(l7BBB5B9E_0)
+	{
+		/// @DnDAction : YoYo Games.Audio.If_Audio_Playing
+		/// @DnDVersion : 1
+		/// @DnDHash : 792AD17C
+		/// @DnDParent : 7BBB5B9E
+		/// @DnDArgument : "soundid" "sou_Puy_Laugh"
+		/// @DnDArgument : "not" "1"
+		/// @DnDSaveInfo : "soundid" "sou_Puy_Laugh"
+		var l792AD17C_0 = sou_Puy_Laugh;
+		if (!audio_is_playing(l792AD17C_0))
+		{
+			/// @DnDAction : YoYo Games.Audio.Play_Audio
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 237792B3
+			/// @DnDParent : 792AD17C
+			/// @DnDArgument : "soundid" "sou_Puy_Laugh"
+			/// @DnDSaveInfo : "soundid" "sou_Puy_Laugh"
+			audio_play_sound(sou_Puy_Laugh, 0, 0, 1.0, undefined, 1.0);
+		}
 	}
 }
 
@@ -226,6 +253,30 @@ if(room == Cut_8)
 		/// @DnDArgument : "caption" ""
 		/// @DnDArgument : "text" "string_copy("\"The only thing I’m missing is publicity. I need a juicy controversy to get eyes on me. Hmmm...\"",1,TypeNum)"
 		draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"The only thing I’m missing is publicity. I need a juicy controversy to get eyes on me. Hmmm...\"",1,TypeNum)), 0.75, 0.75, 0);
+	
+		/// @DnDAction : YoYo Games.Instance Variables.If_Health
+		/// @DnDVersion : 1
+		/// @DnDHash : 4051395D
+		/// @DnDParent : 2277D485
+		if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
+		if(__dnd_health == 0)
+		{
+			/// @DnDAction : YoYo Games.Audio.Play_Audio
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 48B77F5C
+			/// @DnDParent : 4051395D
+			/// @DnDArgument : "soundid" "sou_Puyumi_hmm"
+			/// @DnDSaveInfo : "soundid" "sou_Puyumi_hmm"
+			audio_play_sound(sou_Puyumi_hmm, 0, 0, 1.0, undefined, 1.0);
+		
+			/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+			/// @DnDVersion : 1
+			/// @DnDHash : 7088CC4F
+			/// @DnDParent : 4051395D
+			/// @DnDArgument : "health" "1"
+			
+			__dnd_health = real(1);
+		}
 	}
 
 	/// @DnDAction : YoYo Games.Instance Variables.If_Score
@@ -247,5 +298,30 @@ if(room == Cut_8)
 		/// @DnDArgument : "caption" ""
 		/// @DnDArgument : "text" "string_copy("\"Sweetie, brace yourself! It’s time for me to get you pregnant!\"",1,TypeNum)"
 		draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"Sweetie, brace yourself! It’s time for me to get you pregnant!\"",1,TypeNum)), 0.75, 0.75, 0);
+	
+		/// @DnDAction : YoYo Games.Instance Variables.If_Health
+		/// @DnDVersion : 1
+		/// @DnDHash : 113CF462
+		/// @DnDParent : 40185C8C
+		/// @DnDArgument : "value" "1"
+		if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
+		if(__dnd_health == 1)
+		{
+			/// @DnDAction : YoYo Games.Audio.Play_Audio
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 4EA6242D
+			/// @DnDParent : 113CF462
+			/// @DnDArgument : "soundid" "sou_Puyumi_realization"
+			/// @DnDSaveInfo : "soundid" "sou_Puyumi_realization"
+			audio_play_sound(sou_Puyumi_realization, 0, 0, 1.0, undefined, 1.0);
+		
+			/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+			/// @DnDVersion : 1
+			/// @DnDHash : 4B93D71A
+			/// @DnDParent : 113CF462
+			/// @DnDArgument : "health" "2"
+			
+			__dnd_health = real(2);
+		}
 	}
 }
