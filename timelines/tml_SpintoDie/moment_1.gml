@@ -35,5 +35,6 @@ IsayPosition = "Left";
 /// @DnDVersion : 1.1
 /// @DnDHash : 02AF5671
 /// @DnDArgument : "soundid" "sou_gameend"
+/// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_gameend"
-audio_play_sound(sou_gameend, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(sou_gameend, 0, 0, 1.0, undefined, global.SonofaPITCH);

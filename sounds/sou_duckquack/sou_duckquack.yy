@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.444082,
+  "duration": 0.370317,
   "parent": {
     "name": "CM_Cutscene",
     "path": "folders/Sounds/CM_Cutscene.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sou_duckquack.mp3",
+  "soundFile": "sou_duckquack.wav",
   "type": 1,
   "volume": 1.0,
 }

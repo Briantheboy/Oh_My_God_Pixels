@@ -7,5 +7,5 @@ image_alpha = ($FFFFFFFF >> 24) / $ff;
 /// @DnDAction : YoYo Games.Timelines.Speed_Timeline
 /// @DnDVersion : 1
 /// @DnDHash : 26CE67AD
-/// @DnDArgument : "speed" "0.2"
-timeline_speed = 0.2;
+/// @DnDArgument : "speed" "0.175"
+timeline_speed = 0.175;

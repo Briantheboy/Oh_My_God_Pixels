@@ -5,6 +5,15 @@
 /// @DnDArgument : "value" "Cut_1"
 if(room == Cut_1)
 {
+	/// @DnDAction : YoYo Games.Drawing.Set_Color
+	/// @DnDVersion : 1
+	/// @DnDHash : 05DE9E6C
+	/// @DnDParent : 42FBD35F
+	/// @DnDArgument : "color" "$FFF7A0FF"
+	draw_set_colour($FFF7A0FF & $ffffff);
+	var l05DE9E6C_0=($FFF7A0FF >> 24);
+	draw_set_alpha(l05DE9E6C_0 / $ff);
+
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 	/// @DnDVersion : 1
 	/// @DnDHash : 6B8BCEDA
@@ -32,6 +41,15 @@ if(room == Cut_2)
 	if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 	if(__dnd_score == 0)
 	{
+		/// @DnDAction : YoYo Games.Drawing.Set_Color
+		/// @DnDVersion : 1
+		/// @DnDHash : 6FADEAA2
+		/// @DnDParent : 6A2D52AA
+		/// @DnDArgument : "color" "$FFF7A0FF"
+		draw_set_colour($FFF7A0FF & $ffffff);
+		var l6FADEAA2_0=($FFF7A0FF >> 24);
+		draw_set_alpha(l6FADEAA2_0 / $ff);
+	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
 		/// @DnDHash : 45BF81E5
@@ -53,6 +71,15 @@ if(room == Cut_2)
 	if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 	if(__dnd_score == 1)
 	{
+		/// @DnDAction : YoYo Games.Drawing.Set_Color
+		/// @DnDVersion : 1
+		/// @DnDHash : 005237B1
+		/// @DnDParent : 1C3EE510
+		/// @DnDArgument : "color" "$FFF7A0FF"
+		draw_set_colour($FFF7A0FF & $ffffff);
+		var l005237B1_0=($FFF7A0FF >> 24);
+		draw_set_alpha(l005237B1_0 / $ff);
+	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
 		/// @DnDHash : 09AF03F8
@@ -92,6 +119,14 @@ if(room == Cut_2)
 /// @DnDArgument : "value" "Cut_3"
 if(room == Cut_3)
 {
+	/// @DnDAction : YoYo Games.Drawing.Set_Color
+	/// @DnDVersion : 1
+	/// @DnDHash : 526EF997
+	/// @DnDParent : 3D860ABF
+	draw_set_colour($FFFFFFFF & $ffffff);
+	var l526EF997_0=($FFFFFFFF >> 24);
+	draw_set_alpha(l526EF997_0 / $ff);
+
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 	/// @DnDVersion : 1
 	/// @DnDHash : 4E2777E6
@@ -203,8 +238,8 @@ if(room == Cut_7)
 	/// @DnDArgument : "xscale" "0.75"
 	/// @DnDArgument : "yscale" "0.75"
 	/// @DnDArgument : "caption" ""
-	/// @DnDArgument : "text" "string_copy("\"Sexy rock solid abs, strong jawline, manly stare...He’s the ultimate boyfriend & prom date!\"",1,TypeNum)"
-	draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"Sexy rock solid abs, strong jawline, manly stare...He’s the ultimate boyfriend & prom date!\"",1,TypeNum)), 0.75, 0.75, 0);
+	/// @DnDArgument : "text" "string_copy("\"Sexy rock hard abs, strong jawline, manly stare...He’s the ultimate boyfriend & prom date!\"",1,TypeNum)"
+	draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"Sexy rock hard abs, strong jawline, manly stare...He’s the ultimate boyfriend & prom date!\"",1,TypeNum)), 0.75, 0.75, 0);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -296,8 +331,8 @@ if(room == Cut_8)
 		/// @DnDArgument : "xscale" "0.75"
 		/// @DnDArgument : "yscale" "0.75"
 		/// @DnDArgument : "caption" ""
-		/// @DnDArgument : "text" "string_copy("\"Sweetie, brace yourself! It’s time for me to get you pregnant!\"",1,TypeNum)"
-		draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"Sweetie, brace yourself! It’s time for me to get you pregnant!\"",1,TypeNum)), 0.75, 0.75, 0);
+		/// @DnDArgument : "text" "string_copy("\"Raymond, I think YOU should get pregnant.\"",1,TypeNum)"
+		draw_text_transformed(x + 0, y + 0, "" + string(string_copy("\"Raymond, I think YOU should get pregnant.\"",1,TypeNum)), 0.75, 0.75, 0);
 	
 		/// @DnDAction : YoYo Games.Instance Variables.If_Health
 		/// @DnDVersion : 1

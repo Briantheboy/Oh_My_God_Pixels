@@ -123,6 +123,12 @@ Y_offsetting = 0;
 SHITTERx = 920;
 SHITTERy = 360;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4DC46A6C
+/// @DnDArgument : "var" "CollBugPatch"
+CollBugPatch = 0;
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 /// @DnDVersion : 1
 /// @DnDHash : 6A72D43C

@@ -334,28 +334,51 @@ if(room == COLLECT)
 	l25EB3F7D_0 = instance_exists(obj_FALLcollision);
 	if(l25EB3F7D_0)
 	{
-		/// @DnDAction : YoYo Games.Collisions.If_Object_At
-		/// @DnDVersion : 1.1
-		/// @DnDHash : 3BBA96C1
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 5769E024
 		/// @DnDParent : 25EB3F7D
-		/// @DnDArgument : "x_relative" "1"
-		/// @DnDArgument : "y" "15"
-		/// @DnDArgument : "y_relative" "1"
-		/// @DnDArgument : "object" "obj_FALLcollision"
-		/// @DnDArgument : "not" "1"
-		/// @DnDSaveInfo : "object" "obj_FALLcollision"
-		var l3BBA96C1_0 = instance_place(x + 0, y + 15, obj_FALLcollision);
-		if (!(l3BBA96C1_0 > 0))
+		/// @DnDArgument : "var" "CollBugPatch"
+		if(CollBugPatch == 0)
 		{
-			/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 5A92A76F
-			/// @DnDParent : 3BBA96C1
+			/// @DnDHash : 39D2D6A0
+			/// @DnDParent : 5769E024
+			/// @DnDArgument : "var" "CollBugPatch"
+			if(CollBugPatch == 0)
+			{
+				/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+				/// @DnDVersion : 1
+				/// @DnDHash : 5A92A76F
+				/// @DnDParent : 39D2D6A0
+				/// @DnDArgument : "x_relative" "1"
+				/// @DnDArgument : "y" "15"
+				/// @DnDArgument : "y_relative" "1"
+				
+				y += 15;
+			}
+		
+			/// @DnDAction : YoYo Games.Collisions.If_Object_At
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 3BBA96C1
+			/// @DnDParent : 5769E024
 			/// @DnDArgument : "x_relative" "1"
 			/// @DnDArgument : "y" "15"
 			/// @DnDArgument : "y_relative" "1"
-			
-			y += 15;
+			/// @DnDArgument : "object" "obj_FALLcollision"
+			/// @DnDSaveInfo : "object" "obj_FALLcollision"
+			var l3BBA96C1_0 = instance_place(x + 0, y + 15, obj_FALLcollision);
+			if ((l3BBA96C1_0 > 0))
+			{
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 37DD38DD
+				/// @DnDParent : 3BBA96C1
+				/// @DnDArgument : "expr" "1"
+				/// @DnDArgument : "var" "CollBugPatch"
+				CollBugPatch = 1;
+			}
 		}
 	}
 }

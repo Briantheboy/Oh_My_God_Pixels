@@ -127,6 +127,13 @@ if(room == COLLECT)
 	/// @DnDArgument : "yscale" "2"
 	image_xscale = 2;
 	image_yscale = 2;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 1CD351C8
+	/// @DnDParent : 18AB63BC
+	/// @DnDArgument : "var" "CollBugPatch"
+	CollBugPatch = 0;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

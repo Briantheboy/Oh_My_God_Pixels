@@ -47,36 +47,59 @@ if(room == COLLECT)
 {
 	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 	/// @DnDVersion : 1
-	/// @DnDHash : 307909E9
+	/// @DnDHash : 406FA340
 	/// @DnDParent : 5702F957
 	/// @DnDArgument : "obj" "obj_FALLcollision"
 	/// @DnDSaveInfo : "obj" "obj_FALLcollision"
-	var l307909E9_0 = false;
-	l307909E9_0 = instance_exists(obj_FALLcollision);
-	if(l307909E9_0)
+	var l406FA340_0 = false;
+	l406FA340_0 = instance_exists(obj_FALLcollision);
+	if(l406FA340_0)
 	{
-		/// @DnDAction : YoYo Games.Collisions.If_Object_At
-		/// @DnDVersion : 1.1
-		/// @DnDHash : 4252BF52
-		/// @DnDParent : 307909E9
-		/// @DnDArgument : "x_relative" "1"
-		/// @DnDArgument : "y" "15"
-		/// @DnDArgument : "y_relative" "1"
-		/// @DnDArgument : "object" "obj_FALLcollision"
-		/// @DnDArgument : "not" "1"
-		/// @DnDSaveInfo : "object" "obj_FALLcollision"
-		var l4252BF52_0 = instance_place(x + 0, y + 15, obj_FALLcollision);
-		if (!(l4252BF52_0 > 0))
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 159ED5FF
+		/// @DnDParent : 406FA340
+		/// @DnDArgument : "var" "CollBugPatch"
+		if(CollBugPatch == 0)
 		{
-			/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 60EB0101
-			/// @DnDParent : 4252BF52
+			/// @DnDHash : 3143EBB0
+			/// @DnDParent : 159ED5FF
+			/// @DnDArgument : "var" "CollBugPatch"
+			if(CollBugPatch == 0)
+			{
+				/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+				/// @DnDVersion : 1
+				/// @DnDHash : 249F5AB2
+				/// @DnDParent : 3143EBB0
+				/// @DnDArgument : "x_relative" "1"
+				/// @DnDArgument : "y" "15"
+				/// @DnDArgument : "y_relative" "1"
+				
+				y += 15;
+			}
+		
+			/// @DnDAction : YoYo Games.Collisions.If_Object_At
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 6A640DC2
+			/// @DnDParent : 159ED5FF
 			/// @DnDArgument : "x_relative" "1"
 			/// @DnDArgument : "y" "15"
 			/// @DnDArgument : "y_relative" "1"
-			
-			y += 15;
+			/// @DnDArgument : "object" "obj_FALLcollision"
+			/// @DnDSaveInfo : "object" "obj_FALLcollision"
+			var l6A640DC2_0 = instance_place(x + 0, y + 15, obj_FALLcollision);
+			if ((l6A640DC2_0 > 0))
+			{
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 0776151B
+				/// @DnDParent : 6A640DC2
+				/// @DnDArgument : "expr" "1"
+				/// @DnDArgument : "var" "CollBugPatch"
+				CollBugPatch = 1;
+			}
 		}
 	}
 }

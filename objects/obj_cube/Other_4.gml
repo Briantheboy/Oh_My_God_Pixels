@@ -1,5 +1,20 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 358DFF5E
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "COLLECT"
+if(room == COLLECT)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 1A552D6F
+	/// @DnDParent : 358DFF5E
+	/// @DnDArgument : "var" "CollBugPatch"
+	CollBugPatch = 0;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 4E1912D5
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "FIREWORK"

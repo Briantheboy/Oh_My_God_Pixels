@@ -59,6 +59,12 @@ image_index = 0;
 StartPosx = x;
 StartPosy = y;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 52AF2E87
+/// @DnDArgument : "var" "CollBugPatch"
+CollBugPatch = 0;
+
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
 /// @DnDHash : 12DD6962
