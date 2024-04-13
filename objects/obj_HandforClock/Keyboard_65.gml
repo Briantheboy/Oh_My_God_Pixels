@@ -31,18 +31,18 @@ if(l7F1FC864_0)
 			/// @DnDVersion : 1
 			/// @DnDHash : 615485F4
 			/// @DnDParent : 72467580
-			/// @DnDArgument : "angle" ".2"
+			/// @DnDArgument : "angle" ".5"
 			/// @DnDArgument : "angle_relative" "1"
-			image_angle += .2;
+			image_angle += .5;
 		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 69AA8D74
 			/// @DnDParent : 72467580
-			/// @DnDArgument : "expr" "15664.7"
+			/// @DnDArgument : "expr" "1000"
 			/// @DnDArgument : "expr_relative" "1"
 			/// @DnDArgument : "var" "image_blend"
-			image_blend += 15664.7;
+			image_blend += 1000;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable

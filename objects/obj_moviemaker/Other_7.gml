@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Audio.Stop_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 160843D0
+/// @DnDArgument : "soundid" "sou_robopopo"
+/// @DnDSaveInfo : "soundid" "sou_robopopo"
+audio_stop_sound(sou_robopopo);
+
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 59F7762F

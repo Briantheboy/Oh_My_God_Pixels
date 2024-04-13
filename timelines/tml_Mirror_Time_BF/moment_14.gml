@@ -1,14 +1,14 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 260D9FA3
+/// @DnDHash : 6DA721CD
 /// @DnDArgument : "var" "backCOLOR"
 /// @DnDArgument : "value" "spr_darkgreycube"
 if(backCOLOR == spr_darkgreycube)
 {
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 3A20F600
-	/// @DnDParent : 260D9FA3
+	/// @DnDHash : 748854BB
+	/// @DnDParent : 6DA721CD
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "obj_Sample_Front"
@@ -18,9 +18,9 @@ if(backCOLOR == spr_darkgreycube)
 
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 	/// @DnDVersion : 1
-	/// @DnDHash : 73290E0C
+	/// @DnDHash : 3D7168DB
 	/// @DnDApplyTo : {obj_Sample_Front}
-	/// @DnDParent : 260D9FA3
+	/// @DnDParent : 6DA721CD
 	/// @DnDArgument : "xscale" "0.5"
 	/// @DnDArgument : "yscale" "0.5"
 	with(obj_Sample_Front) {
@@ -30,9 +30,9 @@ if(backCOLOR == spr_darkgreycube)
 
 	/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 	/// @DnDVersion : 1
-	/// @DnDHash : 4A782D89
+	/// @DnDHash : 44AB07DA
 	/// @DnDApplyTo : {obj_Sample_Front}
-	/// @DnDParent : 260D9FA3
+	/// @DnDParent : 6DA721CD
 	/// @DnDArgument : "angle" "308"
 	with(obj_Sample_Front) image_angle = 308;
 }

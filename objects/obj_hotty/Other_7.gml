@@ -70,6 +70,48 @@ if(__dnd_score >= 3)
 		/// @DnDSaveInfo : "objectid" "obj_whatmeme"
 		instance_create_layer(640, 366, "WhatgoHere", obj_whatmeme);
 	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 1D4C58DA
+		/// @DnDParent : 5F60DBFA
+		/// @DnDArgument : "var" "whichJoke"
+		/// @DnDArgument : "value" "2"
+		if(whichJoke == 2)
+		{
+			/// @DnDAction : YoYo Games.Instances.Set_Sprite
+			/// @DnDVersion : 1
+			/// @DnDHash : 56B6137A
+			/// @DnDApplyTo : {obj_pictureframe}
+			/// @DnDParent : 1D4C58DA
+			/// @DnDArgument : "spriteind" "spr_pictureframe2"
+			/// @DnDSaveInfo : "spriteind" "spr_pictureframe2"
+			with(obj_pictureframe) {
+			sprite_index = spr_pictureframe2;
+			image_index = 0;
+			}
+		}
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 76327C51
+		/// @DnDParent : 5F60DBFA
+		/// @DnDArgument : "var" "whichJoke"
+		/// @DnDArgument : "value" "3"
+		if(whichJoke == 3)
+		{
+			/// @DnDAction : YoYo Games.Instances.Set_Sprite
+			/// @DnDVersion : 1
+			/// @DnDHash : 6AFCF6ED
+			/// @DnDApplyTo : {obj_pictureframe}
+			/// @DnDParent : 76327C51
+			/// @DnDArgument : "spriteind" "spr_pictureframe3"
+			/// @DnDSaveInfo : "spriteind" "spr_pictureframe3"
+			with(obj_pictureframe) {
+			sprite_index = spr_pictureframe3;
+			image_index = 0;
+			}
+		}
+	
 		/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 		/// @DnDVersion : 1
 		/// @DnDHash : 5A0EE218

@@ -15,3 +15,9 @@ MirrorDirection = "None";
 /// @DnDArgument : "state" "3"
 timeline_running = false;
 timeline_position = 0;
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 55B065F7
+/// @DnDApplyTo : {obj_screen_dimmer}
+with(obj_screen_dimmer) instance_destroy();

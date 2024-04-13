@@ -40,3 +40,26 @@ with(obj_BigBorder_front) path_start(pth_shakeinanger, 1, path_action_reverse, f
 /// @DnDArgument : "pitch" "global.SonofaPITCH"
 /// @DnDSaveInfo : "soundid" "sou_projector"
 audio_play_sound(sou_projector, 0, 0, 1.0, undefined, global.SonofaPITCH);
+
+/// @DnDAction : YoYo Games.Timelines.Set_Timeline
+/// @DnDVersion : 1
+/// @DnDHash : 139003C3
+/// @DnDArgument : "timeline" "tml_Left_Turning"
+/// @DnDArgument : "loop" "1"
+/// @DnDSaveInfo : "timeline" "tml_Left_Turning"
+timeline_index = tml_Left_Turning;
+timeline_loop = 1;
+timeline_running = 1;
+
+/// @DnDAction : YoYo Games.Timelines.Set_Timeline
+/// @DnDVersion : 1
+/// @DnDHash : 50177F58
+/// @DnDApplyTo : {obj_rightfist}
+/// @DnDArgument : "timeline" "tml_Right_Turning"
+/// @DnDArgument : "loop" "1"
+/// @DnDSaveInfo : "timeline" "tml_Right_Turning"
+with(obj_rightfist) {
+timeline_index = tml_Right_Turning;
+timeline_loop = 1;
+timeline_running = 1;
+}

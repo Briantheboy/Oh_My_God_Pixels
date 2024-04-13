@@ -1,3 +1,14 @@
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 68250E10
+/// @DnDArgument : "xpos" "10000"
+/// @DnDArgument : "xpos_relative" "1"
+/// @DnDArgument : "ypos_relative" "1"
+/// @DnDArgument : "objectid" "obj_screen_dimmer"
+/// @DnDArgument : "layer" ""Border""
+/// @DnDSaveInfo : "objectid" "obj_screen_dimmer"
+instance_create_layer(x + 10000, y + 0, "Border", obj_screen_dimmer);
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 260D9FA3

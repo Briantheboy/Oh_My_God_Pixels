@@ -33,6 +33,25 @@ if(l2A7A080D_0)
 	/// @DnDParent : 2A7A080D
 	with(obj_BigBorder_front) path_end();
 
+	/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+	/// @DnDVersion : 1
+	/// @DnDHash : 74B86897
+	/// @DnDParent : 2A7A080D
+	/// @DnDArgument : "state" "3"
+	timeline_running = false;
+	timeline_position = 0;
+
+	/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+	/// @DnDVersion : 1
+	/// @DnDHash : 511BCD91
+	/// @DnDApplyTo : {obj_rightfist}
+	/// @DnDParent : 2A7A080D
+	/// @DnDArgument : "state" "3"
+	with(obj_rightfist) {
+	timeline_running = false;
+	timeline_position = 0;
+	}
+
 	/// @DnDAction : YoYo Games.Timelines.Set_Timeline
 	/// @DnDVersion : 1
 	/// @DnDHash : 5192E469

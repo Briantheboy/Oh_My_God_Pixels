@@ -21,6 +21,34 @@ if(DimmingTime == "On")
 		/// @DnDArgument : "alpha" "0.02"
 		/// @DnDArgument : "alpha_relative" "1"
 		image_alpha += 0.02;
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 6F1A636C
+		/// @DnDParent : 5A86CDA6
+		/// @DnDArgument : "var" "room"
+		/// @DnDArgument : "value" "Make"
+		if(room == Make)
+		{
+			/// @DnDAction : YoYo Games.Instances.Set_Sprite
+			/// @DnDVersion : 1
+			/// @DnDHash : 7DDE890A
+			/// @DnDApplyTo : {obj_cube}
+			/// @DnDParent : 6F1A636C
+			/// @DnDArgument : "spriteind" "frontCOLOR"
+			with(obj_cube) {
+			sprite_index = frontCOLOR;
+			image_index = 0;
+			}
+		
+			/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
+			/// @DnDVersion : 1
+			/// @DnDHash : 63299AA1
+			/// @DnDApplyTo : {obj_cube}
+			/// @DnDParent : 6F1A636C
+			/// @DnDArgument : "alpha" "frontALPHA"
+			with(obj_cube) image_alpha = frontALPHA;
+		}
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
