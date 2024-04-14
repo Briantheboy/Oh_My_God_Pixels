@@ -92,8 +92,8 @@
       ],"spriteId":null,"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
-    "name": "Animatic",
-    "path": "folders/Rooms/Animatic.yy",
+    "name": "Intro",
+    "path": "folders/Rooms/Cutscene/Intro.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

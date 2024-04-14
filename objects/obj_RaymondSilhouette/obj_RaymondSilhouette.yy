@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "CM_Cutscenes",
-    "path": "folders/Objects/CM_Cutscenes.yy",
+    "name": "Intro",
+    "path": "folders/Objects/CM_Cutscenes/Intro.yy",
   },
   "parentObjectId": null,
   "persistent": false,

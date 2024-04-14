@@ -30,8 +30,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "CM_Cutscene",
-    "path": "folders/Sprites/CM_Cutscene.yy",
+    "name": "Intro",
+    "path": "folders/Sprites/CM_Cutscene/Intro.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

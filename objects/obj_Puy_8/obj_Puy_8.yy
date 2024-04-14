@@ -4,12 +4,13 @@
   "name": "obj_Puy_8",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":8,"eventType":7,"isDnD":true,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "CM_Cutscenes",
-    "path": "folders/Objects/CM_Cutscenes.yy",
+    "name": "Intro",
+    "path": "folders/Objects/CM_Cutscenes/Intro.yy",
   },
   "parentObjectId": null,
   "persistent": false,

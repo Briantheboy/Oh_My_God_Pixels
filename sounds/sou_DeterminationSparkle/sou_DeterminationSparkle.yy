@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 0.922766,
   "parent": {
-    "name": "CM_Cutscene",
-    "path": "folders/Sounds/CM_Cutscene.yy",
+    "name": "Intro",
+    "path": "folders/Sounds/CM_Cutscene/Intro.yy",
   },
   "preload": false,
   "sampleRate": 44100,
