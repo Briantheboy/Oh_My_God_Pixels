@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.264535,
+  "duration": 0.395782,
   "parent": {
     "name": "Other",
     "path": "folders/Sounds/CM_Cutscene/Other.yy",
