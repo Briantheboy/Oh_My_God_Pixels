@@ -39,8 +39,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Ray_tummyshrink",
-    "path": "sprites/spr_Ray_tummyshrink/spr_Ray_tummyshrink.yy",
+    "name": "spr_Ray_tummyrub",
+    "path": "sprites/spr_Ray_tummyrub/spr_Ray_tummyrub.yy",
   },
   "spriteMaskId": null,
   "visible": true,

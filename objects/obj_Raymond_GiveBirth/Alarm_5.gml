@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Audio.Stop_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 5F636130
+/// @DnDArgument : "soundid" "sou_poostruggle"
+/// @DnDSaveInfo : "soundid" "sou_poostruggle"
+audio_stop_sound(sou_poostruggle);
+
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1
 /// @DnDHash : 77B88667

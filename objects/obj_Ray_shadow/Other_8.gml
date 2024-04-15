@@ -30,8 +30,8 @@ layer_set_visible("Effect_1",true);
 /// @DnDVersion : 1
 /// @DnDHash : 63B3D995
 /// @DnDApplyTo : {obj_laxatives}
-/// @DnDArgument : "steps" "60"
+/// @DnDArgument : "steps" "90"
 with(obj_laxatives) {
-alarm_set(0, 60);
+alarm_set(0, 90);
 
 }

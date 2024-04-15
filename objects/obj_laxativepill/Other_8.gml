@@ -10,6 +10,13 @@ instance_destroy();
 /// @DnDSaveInfo : "soundid" "sou_Gulp"
 audio_play_sound(sou_Gulp, 0, 0, 1.0, undefined, 1.0);
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 51396305
+/// @DnDArgument : "soundid" "sou_poostruggle"
+/// @DnDSaveInfo : "soundid" "sou_poostruggle"
+audio_play_sound(sou_poostruggle, 0, 0, 1.0, undefined, 1.0);
+
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 03166350
