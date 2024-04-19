@@ -1,5 +1,85 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 4682BC2E
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "Cut_GiveBirth_Act3"
+if(room == Cut_GiveBirth_Act3)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 3222F7A2
+	/// @DnDParent : 4682BC2E
+	/// @DnDArgument : "expr" ""Stuck""
+	/// @DnDArgument : "var" "ControlAccess"
+	ControlAccess = "Stuck";
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 0B743F6A
+	/// @DnDParent : 4682BC2E
+	/// @DnDArgument : "expr" ""Front""
+	/// @DnDArgument : "var" "IsayPosition"
+	IsayPosition = "Front";
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 5309A216
+	/// @DnDApplyTo : {obj_BigBorder_front}
+	/// @DnDParent : 4682BC2E
+	/// @DnDArgument : "x" "161"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "4"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_BigBorder_front) {
+	x += 161;
+	y += 4;
+	}
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 5950540E
+	/// @DnDApplyTo : {obj_BigBorder_back}
+	/// @DnDParent : 4682BC2E
+	/// @DnDArgument : "x" "161"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "4"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_BigBorder_back) {
+	x += 161;
+	y += 4;
+	}
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 2B9C1A64
+	/// @DnDApplyTo : {obj_BigBorder_left}
+	/// @DnDParent : 4682BC2E
+	/// @DnDArgument : "x" "161"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "4"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_BigBorder_left) {
+	x += 161;
+	y += 4;
+	}
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 5071D816
+	/// @DnDApplyTo : {obj_BigBorder_right}
+	/// @DnDParent : 4682BC2E
+	/// @DnDArgument : "x" "161"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "4"
+	/// @DnDArgument : "y_relative" "1"
+	with(obj_BigBorder_right) {
+	x += 161;
+	y += 4;
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 65380F11
 /// @DnDArgument : "var" "room"
 /// @DnDArgument : "value" "MARIO"

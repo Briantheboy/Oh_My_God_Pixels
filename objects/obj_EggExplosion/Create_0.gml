@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 5DC21DEE
-/// @DnDArgument : "steps" "25"
-alarm_set(0, 25);
+/// @DnDArgument : "steps" "85"
+alarm_set(0, 85);
 
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1

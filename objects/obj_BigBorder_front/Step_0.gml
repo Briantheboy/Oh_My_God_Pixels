@@ -1,3 +1,14 @@
+/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+/// @DnDVersion : 1
+/// @DnDHash : 236FF118
+/// @DnDInput : 3
+/// @DnDArgument : "msg" ""BORDER""
+/// @DnDArgument : "msg_1" "x"
+/// @DnDArgument : "msg_2" "y"
+show_debug_message(string("BORDER") + @"
+" + string(x) + @"
+" + string(y));
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 713E8475

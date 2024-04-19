@@ -14,9 +14,10 @@ if(__dnd_score == 1)
 	/// @DnDArgument : "y" "image_yscale*(random_range(-400,-100))"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "type" "2"
+	/// @DnDArgument : "where" "1"
 	/// @DnDArgument : "size" "2"
 	/// @DnDArgument : "color" "$FF41416D"
-	effect_create_below(2, x + image_xscale*(random_range(-250,150)), y + image_yscale*(random_range(-400,-100)), 2, $FF41416D & $ffffff);
+	effect_create_above(2, x + image_xscale*(random_range(-250,150)), y + image_yscale*(random_range(-400,-100)), 2, $FF41416D & $ffffff);
 
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1.1
@@ -53,9 +54,10 @@ if(__dnd_score == 2)
 	/// @DnDArgument : "y" "image_yscale*(random_range(-800,-100))"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "type" "2"
+	/// @DnDArgument : "where" "1"
 	/// @DnDArgument : "size" "2"
 	/// @DnDArgument : "color" "$FF41416D"
-	effect_create_below(2, x + image_xscale*(random_range(-150,150)), y + image_yscale*(random_range(-800,-100)), 2, $FF41416D & $ffffff);
+	effect_create_above(2, x + image_xscale*(random_range(-150,150)), y + image_yscale*(random_range(-800,-100)), 2, $FF41416D & $ffffff);
 
 	/// @DnDAction : YoYo Games.Particles.Effect
 	/// @DnDVersion : 1
@@ -65,9 +67,10 @@ if(__dnd_score == 2)
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "image_yscale*(random_range(-800,-100))"
 	/// @DnDArgument : "y_relative" "1"
+	/// @DnDArgument : "where" "1"
 	/// @DnDArgument : "size" "2"
 	/// @DnDArgument : "color" "$FF41416D"
-	effect_create_below(0, x + image_xscale*(random_range(-150,150)), y + image_yscale*(random_range(-800,-100)), 2, $FF41416D & $ffffff);
+	effect_create_above(0, x + image_xscale*(random_range(-150,150)), y + image_yscale*(random_range(-800,-100)), 2, $FF41416D & $ffffff);
 
 	/// @DnDAction : YoYo Games.Particles.Effect
 	/// @DnDVersion : 1
@@ -78,9 +81,10 @@ if(__dnd_score == 2)
 	/// @DnDArgument : "y" "image_yscale*(random_range(-800,-100))"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "type" "3"
+	/// @DnDArgument : "where" "1"
 	/// @DnDArgument : "size" "2"
 	/// @DnDArgument : "color" "$FF41416D"
-	effect_create_below(3, x + image_xscale*(random_range(-150,150)), y + image_yscale*(random_range(-800,-100)), 2, $FF41416D & $ffffff);
+	effect_create_above(3, x + image_xscale*(random_range(-150,150)), y + image_yscale*(random_range(-800,-100)), 2, $FF41416D & $ffffff);
 
 	/// @DnDAction : YoYo Games.Particles.Effect
 	/// @DnDVersion : 1
@@ -91,9 +95,10 @@ if(__dnd_score == 2)
 	/// @DnDArgument : "y" "image_yscale*(random_range(-800,-100))"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "type" "8"
+	/// @DnDArgument : "where" "1"
 	/// @DnDArgument : "size" "2"
 	/// @DnDArgument : "color" "$FF41416D"
-	effect_create_below(8, x + image_xscale*(random_range(-150,150)), y + image_yscale*(random_range(-800,-100)), 2, $FF41416D & $ffffff);
+	effect_create_above(8, x + image_xscale*(random_range(-150,150)), y + image_yscale*(random_range(-800,-100)), 2, $FF41416D & $ffffff);
 
 	/// @DnDAction : YoYo Games.Particles.Effect
 	/// @DnDVersion : 1
@@ -104,9 +109,10 @@ if(__dnd_score == 2)
 	/// @DnDArgument : "y" "image_yscale*(random_range(-800,-100))"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "type" "7"
+	/// @DnDArgument : "where" "1"
 	/// @DnDArgument : "size" "2"
 	/// @DnDArgument : "color" "$FF000000"
-	effect_create_below(7, x + image_xscale*(random_range(-150,150)), y + image_yscale*(random_range(-800,-100)), 2, $FF000000 & $ffffff);
+	effect_create_above(7, x + image_xscale*(random_range(-150,150)), y + image_yscale*(random_range(-800,-100)), 2, $FF000000 & $ffffff);
 
 	/// @DnDAction : YoYo Games.Particles.Effect
 	/// @DnDVersion : 1
@@ -117,7 +123,8 @@ if(__dnd_score == 2)
 	/// @DnDArgument : "y" "image_yscale*(random_range(-800,-100))"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "type" "5"
+	/// @DnDArgument : "where" "1"
 	/// @DnDArgument : "size" "2"
 	/// @DnDArgument : "color" "$FF000000"
-	effect_create_below(5, x + image_xscale*(random_range(-150,150)), y + image_yscale*(random_range(-800,-100)), 2, $FF000000 & $ffffff);
+	effect_create_above(5, x + image_xscale*(random_range(-150,150)), y + image_yscale*(random_range(-800,-100)), 2, $FF000000 & $ffffff);
 }
