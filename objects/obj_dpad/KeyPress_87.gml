@@ -1,16 +1,16 @@
-/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
-/// @DnDHash : 7BF016DD
-/// @DnDApplyTo : {obj_WasdorArrow}
-/// @DnDArgument : "var" "ControlChoice"
-/// @DnDArgument : "value" ""WASD""
-with(obj_WasdorArrow) var l7BF016DD_0 = ControlChoice == "WASD";
-if(l7BF016DD_0)
+/// @DnDHash : 718E1D49
+/// @DnDArgument : "key" "vk_up"
+/// @DnDArgument : "not" "1"
+var l718E1D49_0;
+l718E1D49_0 = keyboard_check(vk_up);
+if (!l718E1D49_0)
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 5C249AD7
-	/// @DnDParent : 7BF016DD
+	/// @DnDParent : 718E1D49
 	/// @DnDArgument : "var" "sprite_index"
 	/// @DnDArgument : "value" "spr_dpad_up"
 	if(sprite_index == spr_dpad_up)

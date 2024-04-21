@@ -1,17 +1,17 @@
-/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 /// @DnDVersion : 1
-/// @DnDHash : 6A61A8F1
-/// @DnDApplyTo : {obj_WasdorArrow}
-/// @DnDArgument : "var" "ControlChoice"
-/// @DnDArgument : "value" ""WASD""
-with(obj_WasdorArrow) var l6A61A8F1_0 = ControlChoice == "WASD";
-if(l6A61A8F1_0)
+/// @DnDHash : 68505937
+/// @DnDArgument : "key" "vk_left"
+/// @DnDArgument : "not" "1"
+var l68505937_0;
+l68505937_0 = keyboard_check_pressed(vk_left);
+if (!l68505937_0)
 {
 	/// @DnDAction : YoYo Games.Instance Variables.If_Health
 	/// @DnDVersion : 1
 	/// @DnDHash : 64781EB2
 	/// @DnDApplyTo : {obj_controller}
-	/// @DnDParent : 6A61A8F1
+	/// @DnDParent : 68505937
 	/// @DnDArgument : "value" "8"
 	with(obj_controller) {
 	if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
@@ -132,7 +132,7 @@ if(l6A61A8F1_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 50E4BAAD
 	/// @DnDApplyTo : {obj_controller}
-	/// @DnDParent : 6A61A8F1
+	/// @DnDParent : 68505937
 	/// @DnDArgument : "value" "1"
 	with(obj_controller) {
 	if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
@@ -219,7 +219,7 @@ if(l6A61A8F1_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 0CB19132
 	/// @DnDApplyTo : {obj_controller}
-	/// @DnDParent : 6A61A8F1
+	/// @DnDParent : 68505937
 	/// @DnDArgument : "value" "2"
 	with(obj_controller) {
 	if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
@@ -306,7 +306,7 @@ if(l6A61A8F1_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 50433343
 	/// @DnDApplyTo : {obj_controller}
-	/// @DnDParent : 6A61A8F1
+	/// @DnDParent : 68505937
 	/// @DnDArgument : "value" "3"
 	with(obj_controller) {
 	if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
@@ -393,7 +393,7 @@ if(l6A61A8F1_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 2210ABF8
 	/// @DnDApplyTo : {obj_controller}
-	/// @DnDParent : 6A61A8F1
+	/// @DnDParent : 68505937
 	/// @DnDArgument : "value" "4"
 	with(obj_controller) {
 	if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
@@ -480,7 +480,7 @@ if(l6A61A8F1_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 433CC68B
 	/// @DnDApplyTo : {obj_controller}
-	/// @DnDParent : 6A61A8F1
+	/// @DnDParent : 68505937
 	/// @DnDArgument : "value" "5"
 	with(obj_controller) {
 	if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
@@ -567,7 +567,7 @@ if(l6A61A8F1_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 6E701986
 	/// @DnDApplyTo : {obj_controller}
-	/// @DnDParent : 6A61A8F1
+	/// @DnDParent : 68505937
 	/// @DnDArgument : "value" "6"
 	with(obj_controller) {
 	if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
@@ -654,7 +654,7 @@ if(l6A61A8F1_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 592F6CC5
 	/// @DnDApplyTo : {obj_controller}
-	/// @DnDParent : 6A61A8F1
+	/// @DnDParent : 68505937
 	/// @DnDArgument : "value" "7"
 	with(obj_controller) {
 	if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
@@ -741,7 +741,7 @@ if(l6A61A8F1_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 30E87D8D
 	/// @DnDApplyTo : {obj_controller}
-	/// @DnDParent : 6A61A8F1
+	/// @DnDParent : 68505937
 	/// @DnDArgument : "value" "8"
 	with(obj_controller) {
 	if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;

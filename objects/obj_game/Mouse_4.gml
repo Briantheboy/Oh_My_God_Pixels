@@ -76,9 +76,9 @@ if(!l17ADF860_0)
 				/// @DnDVersion : 1
 				/// @DnDHash : 58873884
 				/// @DnDParent : 77D45C30
-				/// @DnDArgument : "room" "Cut_GiveBirth"
-				/// @DnDSaveInfo : "room" "Cut_GiveBirth"
-				room_goto(Cut_GiveBirth);
+				/// @DnDArgument : "room" "warningspace"
+				/// @DnDSaveInfo : "room" "warningspace"
+				room_goto(warningspace);
 			}
 		
 			/// @DnDAction : YoYo Games.Instances.If_Instance_Exists

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "spr_draw_color",
   "bbox_bottom": 193,
-  "bbox_left": 63,
-  "bbox_right": 944,
+  "bbox_left": 301,
+  "bbox_right": 664,
   "bbox_top": 7,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cd2d2941-7cc0-4515-9441-d4a1422f5e77",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c18aa745-6f90-4e2d-8d61-b3cf7ef27d6f",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 194,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"83f58baf-d770-4316-afdf-fbbb20893429","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"15c1bf61-18ec-49c9-a6de-27811b9fe40f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cd2d2941-7cc0-4515-9441-d4a1422f5e77","path":"sprites/spr_draw_color/spr_draw_color.yy",},},},"Disabled":false,"id":"85ce62ef-df07-4352-b4cf-896333b10763","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c18aa745-6f90-4e2d-8d61-b3cf7ef27d6f","path":"sprites/spr_draw_color/spr_draw_color.yy",},},},"Disabled":false,"id":"a3e0ad40-8ed8-4518-93d4-809803ba30ac","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

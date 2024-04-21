@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "spr_draw_erase",
   "bbox_bottom": 193,
-  "bbox_left": 63,
-  "bbox_right": 951,
-  "bbox_top": 7,
+  "bbox_left": 248,
+  "bbox_right": 720,
+  "bbox_top": 12,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1acb8c99-768a-4dfb-bc0e-80e0584e155c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dd63e576-912b-4c70-8143-857b7d10d97a",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 194,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"08bf45a5-9dcb-4ba1-be45-56163dcdba61","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"418152e5-e462-406c-967a-bc801a66df3b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1acb8c99-768a-4dfb-bc0e-80e0584e155c","path":"sprites/spr_draw_erase/spr_draw_erase.yy",},},},"Disabled":false,"id":"2acbf0a7-fe6b-4616-bf20-23639a6824d5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"dd63e576-912b-4c70-8143-857b7d10d97a","path":"sprites/spr_draw_erase/spr_draw_erase.yy",},},},"Disabled":false,"id":"6bec2143-2f80-4879-9138-7a04de0bb2f3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

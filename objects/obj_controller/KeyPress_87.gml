@@ -1,16 +1,16 @@
-/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
-/// @DnDHash : 536F1564
-/// @DnDApplyTo : {obj_WasdorArrow}
-/// @DnDArgument : "var" "ControlChoice"
-/// @DnDArgument : "value" ""WASD""
-with(obj_WasdorArrow) var l536F1564_0 = ControlChoice == "WASD";
-if(l536F1564_0)
+/// @DnDHash : 31EB6654
+/// @DnDArgument : "key" "vk_up"
+/// @DnDArgument : "not" "1"
+var l31EB6654_0;
+l31EB6654_0 = keyboard_check(vk_up);
+if (!l31EB6654_0)
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 34FD89E4
-	/// @DnDParent : 536F1564
+	/// @DnDParent : 31EB6654
 	/// @DnDArgument : "var" "MinigameGoing"
 	/// @DnDArgument : "value" ""yes""
 	if(MinigameGoing == "yes")
@@ -122,7 +122,7 @@ if(l536F1564_0)
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 272DDB95
-	/// @DnDParent : 536F1564
+	/// @DnDParent : 31EB6654
 	/// @DnDArgument : "var" "room"
 	/// @DnDArgument : "value" "RIPHALF"
 	if(room == RIPHALF)

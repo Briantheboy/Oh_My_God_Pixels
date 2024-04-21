@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_spotlight_back",
-    "path": "sprites/spr_spotlight_back/spr_spotlight_back.yy",
+    "name": "spr_spotlight_back_Hole",
+    "path": "sprites/spr_spotlight_back_Hole/spr_spotlight_back_Hole.yy",
   },
   "spriteMaskId": null,
   "visible": true,

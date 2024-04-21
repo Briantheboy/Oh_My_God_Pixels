@@ -1,16 +1,16 @@
-/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
-/// @DnDHash : 40F3BF7F
-/// @DnDApplyTo : {obj_WasdorArrow}
-/// @DnDArgument : "var" "ControlChoice"
-/// @DnDArgument : "value" ""WASD""
-with(obj_WasdorArrow) var l40F3BF7F_0 = ControlChoice == "WASD";
-if(l40F3BF7F_0)
+/// @DnDHash : 2D3B3559
+/// @DnDArgument : "key" "vk_left"
+/// @DnDArgument : "not" "1"
+var l2D3B3559_0;
+l2D3B3559_0 = keyboard_check(vk_left);
+if (!l2D3B3559_0)
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 618A0519
-	/// @DnDParent : 40F3BF7F
+	/// @DnDParent : 2D3B3559
 	/// @DnDArgument : "var" "image_angle"
 	/// @DnDArgument : "op" "4"
 	/// @DnDArgument : "value" "50"
@@ -41,7 +41,7 @@ if(l40F3BF7F_0)
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 70D7BFAB
-	/// @DnDParent : 40F3BF7F
+	/// @DnDParent : 2D3B3559
 	/// @DnDArgument : "var" "image_angle"
 	/// @DnDArgument : "op" "4"
 	/// @DnDArgument : "value" "35"
